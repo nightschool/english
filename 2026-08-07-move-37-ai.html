@@ -1,0 +1,1125 @@
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="referrer" content="no-referrer">
+<title>Move 37 Is the Moment AI Changes Everything. It&#x27;s Suddenly Happening Everywhere. — 英语精读</title>
+<style>
+*, *::before, *::after { box-sizing: border-box; }
+
+:root {
+  --bg:        #f7f4ef;
+  --bg-alt:    #efeae1;
+  --card:      #ffffff;
+  --ink:       #1b1a18;
+  --ink-soft:  #4a4741;
+  --muted:     #7c766c;
+  --rule:      #e0d9cd;
+  --rule-soft: #ece6db;
+  --accent:    #0a4f8f;
+  --accent-2:  #a8502a;
+  --mark:      #fde68a;
+  --mark-ink:  #3f2d05;
+  --ok:        #2f7a4f;
+  --shadow:    0 1px 2px rgba(27,26,24,.05), 0 8px 24px -16px rgba(27,26,24,.28);
+
+  --r-main:   #1b1a18;
+  --r-sub:    #1f6f4a;
+  --r-rel:    #8a4b12;
+  --r-nonfin: #6b3fa0;
+  --r-prep:   #0a4f8f;
+  --r-appos:  #a03a5a;
+
+  --serif: "Iowan Old Style", "Source Serif 4", Georgia, "Times New Roman", serif;
+  --sans: -apple-system, BlinkMacSystemFont, "Segoe UI", "PingFang SC", "Hiragino Sans GB",
+          "Microsoft YaHei", "Noto Sans SC", sans-serif;
+  --mono: ui-monospace, SFMono-Regular, "SF Mono", Menlo, monospace;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --bg:        #131417;
+    --bg-alt:    #191b1f;
+    --card:      #1c1e23;
+    --ink:       #e9e5dd;
+    --ink-soft:  #c3bdb2;
+    --muted:     #928c81;
+    --rule:      #2e3238;
+    --rule-soft: #24272c;
+    --accent:    #6fb0f0;
+    --accent-2:  #e2926a;
+    --mark:      #5a4a12;
+    --mark-ink:  #f7e9b8;
+    --ok:        #6cc08d;
+    --shadow:    0 1px 2px rgba(0,0,0,.4), 0 10px 30px -18px rgba(0,0,0,.8);
+
+    --r-main:   #e9e5dd;
+    --r-sub:    #63c396;
+    --r-rel:    #e0a054;
+    --r-nonfin: #b490ea;
+    --r-prep:   #6fb0f0;
+    --r-appos:  #ef8fac;
+  }
+}
+
+:root[data-theme="dark"] {
+  --bg:        #131417;
+  --bg-alt:    #191b1f;
+  --card:      #1c1e23;
+  --ink:       #e9e5dd;
+  --ink-soft:  #c3bdb2;
+  --muted:     #928c81;
+  --rule:      #2e3238;
+  --rule-soft: #24272c;
+  --accent:    #6fb0f0;
+  --accent-2:  #e2926a;
+  --mark:      #5a4a12;
+  --mark-ink:  #f7e9b8;
+  --ok:        #6cc08d;
+  --shadow:    0 1px 2px rgba(0,0,0,.4), 0 10px 30px -18px rgba(0,0,0,.8);
+
+  --r-main:   #e9e5dd;
+  --r-sub:    #63c396;
+  --r-rel:    #e0a054;
+  --r-nonfin: #b490ea;
+  --r-prep:   #6fb0f0;
+  --r-appos:  #ef8fac;
+}
+
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--ink);
+  font-family: var(--sans);
+  font-size: 16px;
+  line-height: 1.65;
+  -webkit-font-smoothing: antialiased;
+}
+
+.wrap { max-width: 940px; margin: 0 auto; padding: 0 20px 96px; }
+
+/* ---------------------------------------------------------------- masthead */
+
+.masthead {
+  border-bottom: 3px double var(--ink);
+  padding: 28px 0 16px;
+  margin-bottom: 28px;
+}
+.kicker {
+  display: flex; flex-wrap: wrap; align-items: center; gap: 10px;
+  font-size: 11px; letter-spacing: .14em; text-transform: uppercase;
+  color: var(--muted); font-weight: 600; margin-bottom: 16px;
+}
+.kicker .brand { color: var(--ink); font-family: var(--serif); font-size: 15px;
+  letter-spacing: .02em; text-transform: none; font-weight: 700; }
+.kicker .sep { width: 1px; height: 12px; background: var(--rule); }
+h1.title {
+  font-family: var(--serif); font-weight: 700; font-size: clamp(28px, 4.4vw, 42px);
+  line-height: 1.18; letter-spacing: -.015em; margin: 0 0 8px;
+}
+.title-zh { font-size: clamp(16px, 2.2vw, 20px); color: var(--ink-soft); font-weight: 500; margin: 0 0 18px; }
+.byline { display: flex; flex-wrap: wrap; gap: 8px 14px; align-items: center;
+  font-size: 13px; color: var(--muted); }
+.byline a { color: var(--accent); text-decoration: none; border-bottom: 1px solid transparent; }
+.byline a:hover { border-bottom-color: currentColor; }
+.chips { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 16px; }
+.chip {
+  font-size: 12px; padding: 4px 11px; border-radius: 999px;
+  background: var(--bg-alt); border: 1px solid var(--rule); color: var(--ink-soft);
+  font-variant-numeric: tabular-nums;
+}
+.chip b { font-weight: 650; color: var(--ink); }
+
+/* ---------------------------------------------------------------- toolbar */
+
+.toolbar {
+  position: sticky; top: 0; z-index: 20;
+  display: flex; flex-wrap: wrap; align-items: center; gap: 6px;
+  padding: 10px 0; margin-bottom: 26px;
+  background: color-mix(in srgb, var(--bg) 92%, transparent);
+  backdrop-filter: blur(10px);
+  border-bottom: 1px solid var(--rule);
+}
+.toolbar nav { display: flex; flex-wrap: wrap; gap: 4px; margin-right: auto; }
+.toolbar nav a {
+  font-size: 13px; color: var(--ink-soft); text-decoration: none;
+  padding: 5px 10px; border-radius: 7px;
+}
+.toolbar nav a:hover { background: var(--bg-alt); color: var(--ink); }
+.tbtn {
+  font: inherit; font-size: 12.5px; cursor: pointer;
+  padding: 5px 12px; border-radius: 7px;
+  border: 1px solid var(--rule); background: var(--card); color: var(--ink-soft);
+}
+.tbtn:hover { border-color: var(--accent); color: var(--accent); }
+.tbtn[aria-pressed="true"] { background: var(--accent); border-color: var(--accent); color: var(--bg); }
+
+.progress-rail { height: 3px; background: var(--rule-soft); border-radius: 2px; overflow: hidden; margin-bottom: 30px; }
+.progress-bar { height: 100%; width: 0%; background: var(--ok); transition: width .35s ease; }
+
+/* ---------------------------------------------------------------- sections */
+
+section { margin-bottom: 52px; scroll-margin-top: 64px; }
+.sec-head { display: flex; align-items: baseline; gap: 12px; margin-bottom: 6px;
+  padding-bottom: 10px; border-bottom: 1px solid var(--ink); }
+.sec-head h2 { font-family: var(--serif); font-size: 22px; margin: 0; font-weight: 700; letter-spacing: -.01em; }
+.sec-head .en { font-size: 12px; letter-spacing: .12em; text-transform: uppercase; color: var(--muted); font-weight: 600; }
+.sec-head .count { margin-left: auto; font-size: 12px; color: var(--muted); font-variant-numeric: tabular-nums; }
+.sec-hint { font-size: 13px; color: var(--muted); margin: 10px 0 20px; }
+
+/* ---------------------------------------------------------------- overview */
+
+.overview { background: var(--card); border: 1px solid var(--rule); border-left: 3px solid var(--accent-2);
+  border-radius: 4px; padding: 20px 22px; box-shadow: var(--shadow); }
+.overview p { margin: 0 0 12px; color: var(--ink-soft); }
+.overview p:last-child { margin-bottom: 0; }
+.bg-list { list-style: none; margin: 18px 0 0; padding: 16px 0 0; border-top: 1px dashed var(--rule); }
+.bg-list li { font-size: 14px; margin-bottom: 9px; color: var(--ink-soft); }
+.bg-list li:last-child { margin-bottom: 0; }
+.bg-list b { font-family: var(--serif); color: var(--ink); }
+
+/* ---------------------------------------------------------------- vocab */
+
+.vgrid { display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 14px; }
+.vcard {
+  background: var(--card); border: 1px solid var(--rule); border-radius: 6px;
+  padding: 16px 18px 15px; box-shadow: var(--shadow);
+  display: flex; flex-direction: column; position: relative;
+  transition: border-color .15s ease;
+}
+.vcard:hover { border-color: var(--muted); }
+.vcard.known { border-color: var(--ok); background: color-mix(in srgb, var(--ok) 5%, var(--card)); }
+.vtop { display: flex; align-items: flex-start; gap: 8px; margin-bottom: 4px; }
+.vnum { font-family: var(--mono); font-size: 10px; color: var(--muted); padding-top: 6px; min-width: 18px; }
+.vword { font-family: var(--serif); font-size: 21px; font-weight: 700; letter-spacing: -.01em; line-height: 1.25; }
+.vpos { font-size: 11px; font-style: italic; color: var(--accent-2); border: 1px solid currentColor;
+  border-radius: 3px; padding: 1px 5px; margin-left: 2px; white-space: nowrap; }
+.vipa { font-family: var(--mono); font-size: 12px; color: var(--muted); margin-bottom: 10px; }
+.ven { font-size: 13.5px; color: var(--ink-soft); margin-bottom: 8px; }
+.vzh { font-size: 14.5px; color: var(--ink); font-weight: 500; margin-bottom: 12px; }
+.vquote {
+  font-family: var(--serif); font-size: 14px; line-height: 1.6; color: var(--ink-soft);
+  border-left: 2px solid var(--rule); padding: 2px 0 2px 12px; margin-bottom: 11px;
+}
+.vquote mark { background: var(--mark); color: var(--mark-ink); padding: 0 2px; border-radius: 2px; font-weight: 600; }
+.vcolls { display: flex; flex-wrap: wrap; gap: 5px; margin-bottom: 10px; }
+.vcoll { font-family: var(--serif); font-size: 12.5px; background: var(--bg-alt); border: 1px solid var(--rule-soft);
+  border-radius: 4px; padding: 2px 8px; color: var(--ink-soft); }
+.vnote { font-size: 12.5px; color: var(--muted); border-top: 1px dashed var(--rule); padding-top: 9px; line-height: 1.55; }
+.vnote b { color: var(--accent-2); font-weight: 600; }
+/* ---------------------------------------------------------------- audio */
+
+.play {
+  font: inherit; font-size: 12px; line-height: 1; cursor: pointer;
+  border: 1px solid var(--rule); background: var(--card); color: var(--ink-soft);
+  border-radius: 999px; padding: 4px 7px; vertical-align: middle;
+  transition: border-color .12s, background .12s, transform .12s;
+  flex: none;
+}
+.play:hover { border-color: var(--accent); background: var(--bg-alt); }
+.play.playing { border-color: var(--accent); background: var(--accent); color: var(--bg); }
+.play.playing::after { content: ""; }
+.play.err { border-color: #c0392b; opacity: .55; }
+.play.sm { font-size: 10.5px; padding: 3px 6px; }
+
+.vword-row { display: flex; align-items: center; gap: 7px; flex-wrap: wrap; }
+.vquote-row { display: flex; align-items: flex-start; gap: 8px; margin-bottom: 11px; }
+.vquote-row .vquote { margin-bottom: 0; flex: 1 1 auto; min-width: 0; }
+.vquote-row .play { margin-top: 3px; }
+
+.vfoot { margin-top: auto; padding-top: 11px; }
+.know { display: inline-flex; align-items: center; gap: 6px; font-size: 12px; color: var(--muted); cursor: pointer; user-select: none; }
+.know input { accent-color: var(--ok); cursor: pointer; margin: 0; }
+
+/* hide-Chinese test mode */
+body.hide-zh .vzh, body.hide-zh .s-zh-body, body.hide-zh .q-zh {
+  filter: blur(5px); cursor: pointer; transition: filter .18s ease;
+}
+body.hide-zh .vzh:hover, body.hide-zh .s-zh-body:hover, body.hide-zh .q-zh:hover,
+body.hide-zh .revealed { filter: none; }
+
+/* ---------------------------------------------------------------- sentences */
+
+.legend { display: flex; flex-wrap: wrap; gap: 6px 14px; margin: 0 0 22px;
+  font-size: 12px; color: var(--muted); }
+.legend span { display: inline-flex; align-items: center; gap: 5px; }
+.legend i { width: 14px; height: 3px; border-radius: 2px; display: inline-block; }
+
+.scard { background: var(--card); border: 1px solid var(--rule); border-radius: 6px;
+  padding: 20px 22px; margin-bottom: 18px; box-shadow: var(--shadow); }
+.snum { font-family: var(--mono); font-size: 11px; color: var(--muted); letter-spacing: .08em;
+  text-transform: uppercase; margin-bottom: 12px; display: flex; gap: 10px; align-items: center; }
+.snum .wc { color: var(--accent-2); }
+.sentence { font-family: var(--serif); font-size: clamp(17px, 2.3vw, 19.5px); line-height: 1.85; margin-bottom: 18px; }
+.ch { border-bottom: 2px solid transparent; padding-bottom: 1px; }
+.ch-main   { color: var(--r-main);   font-weight: 600; border-bottom-color: color-mix(in srgb, var(--r-main) 40%, transparent); }
+.ch-sub    { color: var(--r-sub);    border-bottom-color: color-mix(in srgb, var(--r-sub) 55%, transparent); }
+.ch-rel    { color: var(--r-rel);    border-bottom-color: color-mix(in srgb, var(--r-rel) 55%, transparent); }
+.ch-nonfin { color: var(--r-nonfin); border-bottom-color: color-mix(in srgb, var(--r-nonfin) 55%, transparent); }
+.ch-prep   { color: var(--r-prep);   border-bottom-color: color-mix(in srgb, var(--r-prep) 55%, transparent); }
+.ch-appos  { color: var(--r-appos);  border-bottom-color: color-mix(in srgb, var(--r-appos) 55%, transparent); }
+
+.skeleton { background: var(--bg-alt); border-radius: 5px; padding: 11px 14px; margin-bottom: 16px;
+  font-family: var(--serif); font-size: 15px; color: var(--ink); }
+.skeleton .lbl { font-family: var(--sans); font-size: 11px; letter-spacing: .1em; text-transform: uppercase;
+  color: var(--muted); display: block; margin-bottom: 4px; font-weight: 600; }
+
+.s-zh { margin-bottom: 16px; }
+.s-zh .lbl, .s-points .lbl { font-size: 11px; letter-spacing: .1em; text-transform: uppercase;
+  color: var(--muted); font-weight: 600; display: block; margin-bottom: 5px; }
+.s-zh-body { font-size: 15px; color: var(--ink-soft); }
+
+.s-points { border-top: 1px dashed var(--rule); padding-top: 14px; }
+.s-points ul { list-style: none; margin: 0; padding: 0; }
+.s-points li { font-size: 14px; color: var(--ink-soft); margin-bottom: 10px; padding-left: 16px; position: relative; }
+.s-points li:last-child { margin-bottom: 0; }
+.s-points li::before { content: "▸"; position: absolute; left: 0; color: var(--accent-2); }
+.s-points li b { color: var(--ink); font-weight: 650; }
+
+.drill { margin-top: 15px; border-top: 1px dashed var(--rule); padding-top: 14px; }
+.drill-q { font-size: 14px; color: var(--ink); margin-bottom: 9px; }
+.drill-q .lbl { font-size: 11px; letter-spacing: .1em; text-transform: uppercase; color: var(--accent-2);
+  font-weight: 700; margin-right: 8px; }
+.drill details summary { font-size: 13px; color: var(--accent); cursor: pointer; list-style: none; width: fit-content; }
+.drill details summary::-webkit-details-marker { display: none; }
+.drill details summary::before { content: "▸ "; }
+.drill details[open] summary::before { content: "▾ "; }
+.drill details p { font-family: var(--serif); font-size: 14.5px; color: var(--ink-soft);
+  background: var(--bg-alt); border-radius: 5px; padding: 11px 14px; margin: 9px 0 0; }
+
+/* ---------------------------------------------------------------- phrases */
+
+.ptable { width: 100%; border-collapse: collapse; font-size: 14px; }
+.ptable th { text-align: left; font-size: 11px; letter-spacing: .1em; text-transform: uppercase;
+  color: var(--muted); font-weight: 600; padding: 0 12px 8px 0; border-bottom: 1px solid var(--rule); }
+.ptable td { padding: 11px 12px 11px 0; border-bottom: 1px solid var(--rule-soft); vertical-align: top; color: var(--ink-soft); }
+.ptable td:first-child { font-family: var(--serif); font-weight: 600; color: var(--ink); white-space: nowrap; }
+.ptable td:nth-child(2) { white-space: nowrap; color: var(--ink); }
+.ptable td:last-child { font-size: 13px; color: var(--muted); }
+.tscroll { overflow-x: auto; }
+
+/* ---------------------------------------------------------------- quiz */
+
+.qcard { background: var(--card); border: 1px solid var(--rule); border-radius: 6px;
+  padding: 18px 20px; margin-bottom: 14px; box-shadow: var(--shadow); }
+.q-stem { font-family: var(--serif); font-size: 16px; line-height: 1.7; margin-bottom: 14px; }
+.q-stem .blank { border-bottom: 1.5px solid var(--accent-2); padding: 0 22px; }
+.q-opts { display: grid; gap: 7px; }
+.q-opt { display: flex; align-items: flex-start; gap: 9px; font-size: 14px; cursor: pointer;
+  padding: 8px 11px; border: 1px solid var(--rule); border-radius: 5px; background: var(--bg-alt);
+  transition: border-color .12s, background .12s; }
+.q-opt:hover { border-color: var(--accent); }
+.q-opt input { margin: 4px 0 0; accent-color: var(--accent); cursor: pointer; }
+.q-opt .k { font-family: var(--mono); font-size: 12px; color: var(--muted); }
+.q-opt.correct { border-color: var(--ok); background: color-mix(in srgb, var(--ok) 12%, var(--card)); }
+.q-opt.wrong { border-color: #c0392b; background: color-mix(in srgb, #c0392b 12%, var(--card)); }
+.q-exp { display: none; margin-top: 12px; padding-top: 12px; border-top: 1px dashed var(--rule);
+  font-size: 13.5px; color: var(--ink-soft); }
+.q-exp.show { display: block; }
+.quiz-foot { display: flex; align-items: center; gap: 14px; margin-top: 18px; }
+.score { font-size: 14px; color: var(--muted); font-variant-numeric: tabular-nums; }
+.score b { color: var(--ok); font-size: 17px; }
+
+/* ---------------------------------------------------------------- export */
+
+.export { background: var(--card); border: 1px solid var(--rule); border-radius: 6px; padding: 18px 20px; }
+.export pre { font-family: var(--mono); font-size: 11.5px; line-height: 1.7; background: var(--bg-alt);
+  border: 1px solid var(--rule-soft); border-radius: 5px; padding: 13px; overflow-x: auto;
+  max-height: 260px; overflow-y: auto; margin: 12px 0 0; color: var(--ink-soft); white-space: pre; }
+
+/* ---------------------------------------------------------------- index page */
+
+.lgrid { display: grid; grid-template-columns: repeat(auto-fill, minmax(290px, 1fr)); gap: 16px; }
+.lcard { display: block; text-decoration: none; color: inherit; background: var(--card);
+  border: 1px solid var(--rule); border-radius: 6px; padding: 20px; box-shadow: var(--shadow);
+  transition: transform .14s ease, border-color .14s ease; }
+.lcard:hover { transform: translateY(-2px); border-color: var(--accent); }
+.lcard .date { font-family: var(--mono); font-size: 11px; color: var(--muted); letter-spacing: .06em; }
+.lcard h3 { font-family: var(--serif); font-size: 18px; line-height: 1.3; margin: 8px 0 6px; font-weight: 700; }
+.lcard .zh { font-size: 13.5px; color: var(--ink-soft); margin-bottom: 14px; }
+.lcard .stats { display: flex; gap: 8px; flex-wrap: wrap; }
+.empty { color: var(--muted); font-size: 15px; padding: 40px 0; text-align: center; }
+
+footer { margin-top: 60px; padding-top: 20px; border-top: 1px solid var(--rule);
+  font-size: 12px; color: var(--muted); display: flex; flex-wrap: wrap; gap: 10px; align-items: center; }
+footer a { color: var(--accent); text-decoration: none; }
+
+@media (max-width: 620px) {
+  .toolbar nav { order: 2; width: 100%; margin-right: 0; }
+  .vgrid { grid-template-columns: 1fr; }
+}
+
+@media print {
+  .toolbar, .progress-rail, .quiz-foot, .tbtn, .play { display: none !important; }
+  body { background: #fff; font-size: 12pt; }
+  body.hide-zh .vzh, body.hide-zh .s-zh-body, body.hide-zh .q-zh { filter: none !important; }
+  .vcard, .scard, .qcard, .overview { break-inside: avoid; box-shadow: none; }
+  .q-exp { display: block !important; }
+  .drill details { display: block; }
+  .drill details > p { display: block !important; }
+}
+</style>
+<body data-slug="2026-08-07-move-37-ai">
+<div class="wrap">
+
+<header class="masthead">
+  <div class="kicker">
+    <span class="brand">The Wall Street Journal</span>
+    <span class="sep"></span><span>英语精读</span>
+    <span class="sep"></span><span>Tech · Science of Success</span>
+    <span class="sep"></span><span>2026-08-07</span>
+  </div>
+  <h1 class="title">Move 37 Is the Moment AI Changes Everything. It&#x27;s Suddenly Happening Everywhere.</h1>
+  <p class="title-zh">&quot;第37手&quot;是AI改变一切的瞬间——而它正在到处发生</p>
+  <div class="byline">By Ben Cohen <span class="sep"></span> Aug. 7, 2026 <span class="sep"></span> <a href='https://www.wsj.com/tech/ai/move-37-ai-demis-hassabis-google-deepmind-alphago-ec832a41' target='_blank' rel='noopener'>阅读原文 ↗</a></div>
+  <div class="chips"><span class='chip'>核心词汇 <b>16</b></span><span class='chip'>长难句 <b>7</b></span><span class='chip'>难度 <b>C1</b></span><span class='chip'>建议学习 <b>45 分钟</b></span><span class='chip'>原文 <b>7 min read</b></span></div>
+</header>
+
+
+<div class="toolbar">
+  <nav><a href='#overview'>导读</a><a href='#vocab'>词汇</a><a href='#sentences'>长难句</a><a href='#phrases'>表达</a><a href='#quiz'>自测</a><a href='#export'>生词表</a><a href="index.html">← 全部课程</a></nav>
+  <button class="tbtn" id="zh-btn" aria-pressed="false">中文：显示</button>
+  <button class="tbtn" id="rate-btn" aria-pressed="false">语速 1×</button>
+  <button class="tbtn" id="theme-btn">◐ 主题</button>
+  <button class="tbtn" onclick="window.print()">打印</button>
+</div>
+<div class="progress-rail"><div class="progress-bar" id="progress-bar"></div></div>
+
+
+<section id="overview">
+  <div class="sec-head"><h2>导读</h2><span class="en">Overview</span></div>
+  <p class="sec-hint">先读懂大意与背景，再进入词汇和句子，效率会高很多。</p>
+  <div class="overview"><p>十年前，AlphaGo 在与李世石的对局中下出了第 37 手——一步职业棋手绝不会走的棋，DeepMind 团队测算人类走出它的概率是万分之一。评论员起初以为是失误，很快意识到那是妙手。本文以此为线索，讨论&quot;Move 37 时刻&quot;（AI 提出人类从未想过、却确实高明的想法）如今正在数学、科研乃至安全领域接连出现。</p><p>体裁是专栏（column），不是消息稿。和上一课的财报快讯相比，这里的语言完全不同：句子长而有节奏、动词生动具体、大量使用破折号和短句制造停顿、作者用第一人称自嘲。这是英语&quot;高级写作&quot;最值得模仿的一类文本——读的时候请特别注意作者怎样控制句子长短的交替。</p><ul class='bg-list'><li><b>AlphaGo / DeepMind</b> — 谷歌 DeepMind 开发的围棋 AI；2016 年击败韩国棋手李世石（Lee Sedol），是 AI 史上的标志性事件</li><li><b>Move 37</b> — 第二局中 AlphaGo 走出的一步反直觉妙手，现已成为&quot;AI 提出人类想不到的原创解法&quot;的代称</li><li><b>God&#x27;s Touch (神之一手)</b> — 第四局李世石的第 78 手，同样是万分之一概率的天才之着，让 AlphaGo 陷入混乱</li><li><b>reinforcement learning</b> — 强化学习：通过反复试错并根据结果获得奖励来自我改进的训练方式</li><li><b>centaur chess</b> — &quot;半人马棋&quot;：人类棋手借助引擎作战的比赛形式，曾一度强于纯 AI；文中用来比喻当下的&quot;人机协作科研&quot;阶段</li></ul></div>
+</section>
+
+
+<section id="vocab">
+  <div class="sec-head"><h2>核心词汇</h2><span class="en">Vocabulary</span>
+    <span class="count">已掌握 <span id="known-count">0 / 16</span></span></div>
+  <p class="sec-hint">每个词都配了原文例句 —— 记搭配和语境，不要只记中文对应词。🔊 可听单词与例句发音，点「中文：显示」切换遮盖模式自测。</p>
+  <div class="vgrid">
+  <article class="vcard">
+    <div class="vtop">
+      <span class="vnum">01</span>
+      <div>
+        <div class="vword-row">
+          <span class="vword">glimmer</span> <span class="vpos">n. / v.</span>
+          <button class="play" data-text="glimmer" aria-label="朗读">🔊</button>
+        </div>
+        <div class='vipa'>/ˈɡlɪmə(r)/</div>
+      </div>
+    </div>
+    <div class="ven">a faint or wavering light; a faint sign of something desirable</div>
+    <div class="vzh">微光；（希望、迹象的）一丝苗头</div>
+    <div class='vquote-row'><div class='vquote'>The first <mark>glimmer</mark> of our AI future revealed itself a decade ago in the form of a single black stone.</div><button class="play sm" data-text="The first glimmer of our AI future revealed itself a decade ago in the form of a single black stone." aria-label="朗读">🔊</button></div><div class='vcolls'><span class='vcoll'>a glimmer of hope</span><span class='vcoll'>the first glimmer of</span><span class='vcoll'>a glimmer of recognition</span></div><div class='vnote'><b>辨析</b> 抽象名词前加一个&quot;光&quot;的比喻词是英语开篇的常见手法。强度递增：a glimmer（微光，几乎看不见）→ a flicker（闪动）→ a gleam（亮光）→ a blaze（烈焰）。</div>
+    <div class="vfoot">
+      <label class="know"><input type="checkbox" data-word="glimmer"> 已掌握</label>
+    </div>
+  </article>
+  <article class="vcard">
+    <div class="vtop">
+      <span class="vnum">02</span>
+      <div>
+        <div class="vword-row">
+          <span class="vword">counterintuitive</span> <span class="vpos">adj.</span>
+          <button class="play" data-text="counterintuitive" aria-label="朗读">🔊</button>
+        </div>
+        <div class='vipa'>/ˌkaʊntərɪnˈtjuːɪtɪv/</div>
+      </div>
+    </div>
+    <div class="ven">contrary to what common sense would suggest</div>
+    <div class="vzh">反直觉的、有悖常理的</div>
+    <div class='vquote-row'><div class='vquote'>The novel move was so unconventional and <mark>counterintuitive</mark> that nobody could be sure what to make of it.</div><button class="play sm" data-text="The novel move was so unconventional and counterintuitive that nobody could be sure what to make of it." aria-label="朗读">🔊</button></div><div class='vcolls'><span class='vcoll'>a counterintuitive finding</span><span class='vcoll'>counterintuitive but correct</span><span class='vcoll'>seem counterintuitive</span></div><div class='vnote'><b>辨析</b> 前缀 counter-＝&quot;反、逆&quot;，构词能力极强：counterproductive（适得其反）、counterargument（反驳）、counterpart（对应的人／物）、counteroffer（还价）。</div>
+    <div class="vfoot">
+      <label class="know"><input type="checkbox" data-word="counterintuitive"> 已掌握</label>
+    </div>
+  </article>
+  <article class="vcard">
+    <div class="vtop">
+      <span class="vnum">03</span>
+      <div>
+        <div class="vword-row">
+          <span class="vword">blunder</span> <span class="vpos">n. / v.</span>
+          <button class="play" data-text="blunder" aria-label="朗读">🔊</button>
+        </div>
+        <div class='vipa'>/ˈblʌndə(r)/</div>
+      </div>
+    </div>
+    <div class="ven">a stupid or careless mistake, especially a costly one</div>
+    <div class="vzh">（因粗心或判断失误造成的）大错、昏招</div>
+    <div class='vquote-row'><div class='vquote'>At first, commentators believed it was a strategic <mark>blunder</mark>. They soon realized it was a masterstroke.</div><button class="play sm" data-text="At first, commentators believed it was a strategic blunder. They soon realized it was a masterstroke." aria-label="朗读">🔊</button></div><div class='vcolls'><span class='vcoll'>a tactical blunder</span><span class='vcoll'>a costly blunder</span><span class='vcoll'>blunder into sth.</span></div><div class='vnote'><b>辨析</b> blunder 特指&quot;本不该犯的低级错误&quot;，语气比 mistake 重得多，常用于政治和体育报道。棋类术语里 blunder 就是&quot;漏着、昏招&quot;。</div>
+    <div class="vfoot">
+      <label class="know"><input type="checkbox" data-word="blunder"> 已掌握</label>
+    </div>
+  </article>
+  <article class="vcard">
+    <div class="vtop">
+      <span class="vnum">04</span>
+      <div>
+        <div class="vword-row">
+          <span class="vword">masterstroke</span> <span class="vpos">n.</span>
+          <button class="play" data-text="masterstroke" aria-label="朗读">🔊</button>
+        </div>
+        <div class='vipa'>/ˈmɑːstəstrəʊk/</div>
+      </div>
+    </div>
+    <div class="ven">an exceptionally skillful and effective action</div>
+    <div class="vzh">神来之笔、高招、妙手</div>
+    <div class='vquote-row'><div class='vquote'>At first, commentators believed it was a strategic blunder. They soon realized it was a <mark>masterstroke</mark>.</div><button class="play sm" data-text="At first, commentators believed it was a strategic blunder. They soon realized it was a masterstroke." aria-label="朗读">🔊</button></div><div class='vcolls'><span class='vcoll'>a political masterstroke</span><span class='vcoll'>prove to be a masterstroke</span></div><div class='vnote'><b>辨析</b> 注意作者把 blunder 和 masterstroke 放进两个长度几乎相同的短句里，形成强烈对照——这种&quot;对称短句 + 语义反转&quot;是英文写作制造转折的经典手法，非常值得模仿。</div>
+    <div class="vfoot">
+      <label class="know"><input type="checkbox" data-word="masterstroke"> 已掌握</label>
+    </div>
+  </article>
+  <article class="vcard">
+    <div class="vtop">
+      <span class="vnum">05</span>
+      <div>
+        <div class="vword-row">
+          <span class="vword">watershed</span> <span class="vpos">n. (常作定语)</span>
+          <button class="play" data-text="watershed" aria-label="朗读">🔊</button>
+        </div>
+        <div class='vipa'>/ˈwɔːtəʃed/</div>
+      </div>
+    </div>
+    <div class="ven">an event or period marking a turning point in a course of action or state of affairs</div>
+    <div class="vzh">分水岭、转折点</div>
+    <div class='vquote-row'><div class='vquote'>We thought it was a <mark>watershed moment</mark> at the time, and I think it really was.</div><button class="play sm" data-text="We thought it was a watershed moment at the time, and I think it really was." aria-label="朗读">🔊</button></div><div class='vcolls'><span class='vcoll'>a watershed moment</span><span class='vcoll'>a watershed in history</span><span class='vcoll'>mark a watershed</span></div><div class='vnote'><b>辨析</b> 原义是地理上的&quot;分水岭&quot;。近义词辨析：turning point（中性转折）、milestone（里程碑，强调成就）、watershed（强调此后一切都不同了）、tipping point（临界点，强调量变到质变）。</div>
+    <div class="vfoot">
+      <label class="know"><input type="checkbox" data-word="watershed"> 已掌握</label>
+    </div>
+  </article>
+  <article class="vcard">
+    <div class="vtop">
+      <span class="vnum">06</span>
+      <div>
+        <div class="vword-row">
+          <span class="vword">unorthodox</span> <span class="vpos">adj.</span>
+          <button class="play" data-text="unorthodox" aria-label="朗读">🔊</button>
+        </div>
+        <div class='vipa'>/ʌnˈɔːθədɒks/</div>
+      </div>
+    </div>
+    <div class="ven">not conforming to established rules, traditions or beliefs</div>
+    <div class="vzh">非正统的、不合常规的</div>
+    <div class='vquote-row'><div class='vquote'>Move 37 was the first real example of AI coming up with an original, <mark>unorthodox</mark> idea in a domain studied by humans for centuries.</div><button class="play sm" data-text="Move 37 was the first real example of AI coming up with an original, unorthodox idea in a domain studied by humans for centuries." aria-label="朗读">🔊</button></div><div class='vcolls'><span class='vcoll'>an unorthodox approach</span><span class='vcoll'>unorthodox methods</span><span class='vcoll'>orthodox thinking</span></div><div class='vnote'><b>辨析</b> 本文有一整串&quot;不寻常&quot;的近义词，感情色彩不同：novel（新颖，中性偏褒）、unconventional（不落俗套）、unorthodox（不守成规）、eccentric（古怪，偏贬）。作者交替使用它们来避免重复。</div>
+    <div class="vfoot">
+      <label class="know"><input type="checkbox" data-word="unorthodox"> 已掌握</label>
+    </div>
+  </article>
+  <article class="vcard">
+    <div class="vtop">
+      <span class="vnum">07</span>
+      <div>
+        <div class="vword-row">
+          <span class="vword">unnerving</span> <span class="vpos">adj.</span>
+          <button class="play" data-text="unnerving" aria-label="朗读">🔊</button>
+        </div>
+        <div class='vipa'>/ʌnˈnɜːvɪŋ/</div>
+      </div>
+    </div>
+    <div class="ven">causing one to lose courage or confidence; slightly frightening</div>
+    <div class="vzh">令人不安的、让人心里发毛的</div>
+    <div class='vquote-row'><div class='vquote'>He called this phenomenon magical and slightly <mark>unnerving</mark>. I&#x27;m starting to understand why.</div><button class="play sm" data-text="He called this phenomenon magical and slightly unnerving. I&#x27;m starting to understand why." aria-label="朗读">🔊</button></div><div class='vcolls'><span class='vcoll'>slightly unnerving</span><span class='vcoll'>an unnerving silence</span><span class='vcoll'>unnerve sb.</span></div><div class='vnote'><b>辨析</b> nerve 作动词是&quot;给予勇气&quot;，加 un- 就是&quot;抽走勇气&quot;。程度梯度：unsettling（隐隐不安）&lt; unnerving（发毛）&lt; disturbing（不适）&lt; terrifying（恐惧）。作者在文末用了最重的 terrifying。</div>
+    <div class="vfoot">
+      <label class="know"><input type="checkbox" data-word="unnerving"> 已掌握</label>
+    </div>
+  </article>
+  <article class="vcard">
+    <div class="vtop">
+      <span class="vnum">08</span>
+      <div>
+        <div class="vword-row">
+          <span class="vword">petrifying</span> <span class="vpos">adj.</span>
+          <button class="play" data-text="petrifying" aria-label="朗读">🔊</button>
+        </div>
+        <div class='vipa'>/ˈpetrɪfaɪɪŋ/</div>
+      </div>
+    </div>
+    <div class="ven">so frightening that one is unable to move or think</div>
+    <div class="vzh">吓得人僵住的、令人极度恐惧的</div>
+    <div class='vquote-row'><div class='vquote'>The reason I&#x27;m so fascinated with a subject I find <mark>petrifying</mark> is that math has become proof of how AI can warp an entire field.</div><button class="play sm" data-text="The reason I&#x27;m so fascinated with a subject I find petrifying is that math has become proof of how AI can warp an entire field." aria-label="朗读">🔊</button></div><div class='vcolls'><span class='vcoll'>be petrified of sth.</span><span class='vcoll'>petrified with fear</span></div><div class='vnote'><b>辨析</b> 词根 petr-＝&quot;石头&quot;（对照 petroleum＝石油，字面&quot;石中之油&quot;），petrify 字面是&quot;石化&quot;，引申为&quot;吓得动弹不得&quot;。作者说自己&quot;怕数学怕到石化&quot;，是幽默的自嘲。</div>
+    <div class="vfoot">
+      <label class="know"><input type="checkbox" data-word="petrifying"> 已掌握</label>
+    </div>
+  </article>
+  <article class="vcard">
+    <div class="vtop">
+      <span class="vnum">09</span>
+      <div>
+        <div class="vword-row">
+          <span class="vword">warp</span> <span class="vpos">v.</span>
+          <button class="play" data-text="warp" aria-label="朗读">🔊</button>
+        </div>
+        <div class='vipa'>/wɔːp/</div>
+      </div>
+    </div>
+    <div class="ven">to bend or twist out of shape; to distort something fundamentally</div>
+    <div class="vzh">使扭曲、使变形；从根本上改变（某个领域的形态）</div>
+    <div class='vquote-row'><div class='vquote'>Math has become proof of how AI can <mark>warp</mark> an entire field—and how fast it can happen.</div><button class="play sm" data-text="Math has become proof of how AI can warp an entire field—and how fast it can happen." aria-label="朗读">🔊</button></div><div class='vcolls'><span class='vcoll'>warp the wood</span><span class='vcoll'>warp one&#x27;s judgment</span><span class='vcoll'>a warped sense of humor</span></div><div class='vnote'><b>辨析</b> warp 原指木板受潮变形，用于抽象事物时含&quot;扭曲到不再是原来的样子&quot;之意，比 change 或 transform 更有力、也更中性偏负面。</div>
+    <div class="vfoot">
+      <label class="know"><input type="checkbox" data-word="warp"> 已掌握</label>
+    </div>
+  </article>
+  <article class="vcard">
+    <div class="vtop">
+      <span class="vnum">10</span>
+      <div>
+        <div class="vword-row">
+          <span class="vword">supremacy</span> <span class="vpos">n.</span>
+          <button class="play" data-text="supremacy" aria-label="朗读">🔊</button>
+        </div>
+        <div class='vipa'>/suːˈpreməsi/</div>
+      </div>
+    </div>
+    <div class="ven">the state of being superior to all others in authority, power or status</div>
+    <div class="vzh">霸主地位、至高地位</div>
+    <div class='vquote-row'><div class='vquote'>The leading contenders for <mark>AI supremacy</mark> have moved beyond high-school math.</div><button class="play sm" data-text="The leading contenders for AI supremacy have moved beyond high-school math." aria-label="朗读">🔊</button></div><div class='vcolls'><span class='vcoll'>air supremacy</span><span class='vcoll'>quantum supremacy</span><span class='vcoll'>vie for supremacy</span></div><div class='vnote'><b>辨析</b> supremacy 强调&quot;压倒性的第一&quot;，常见于科技竞赛语境（quantum supremacy＝量子霸权）。contender 是&quot;争夺者、有力竞争者&quot;，两个词经常同现。</div>
+    <div class="vfoot">
+      <label class="know"><input type="checkbox" data-word="supremacy"> 已掌握</label>
+    </div>
+  </article>
+  <article class="vcard">
+    <div class="vtop">
+      <span class="vnum">11</span>
+      <div>
+        <div class="vword-row">
+          <span class="vword">verifiable</span> <span class="vpos">adj.</span>
+          <button class="play" data-text="verifiable" aria-label="朗读">🔊</button>
+        </div>
+        <div class='vipa'>/ˈverɪfaɪəbl/</div>
+      </div>
+    </div>
+    <div class="ven">able to be checked or proved true</div>
+    <div class="vzh">可验证的、可核实的</div>
+    <div class='vquote-row'><div class='vquote'>Why is math so vulnerable to AI? Because math is unusually <mark>verifiable</mark>.</div><button class="play sm" data-text="Why is math so vulnerable to AI? Because math is unusually verifiable." aria-label="朗读">🔊</button></div><div class='vcolls'><span class='vcoll'>a verifiable claim</span><span class='vcoll'>verifiable domains</span><span class='vcoll'>verify a result</span></div><div class='vnote'><b>辨析</b> 这是全文的论证枢纽：可验证 → AI 能反复试错自我改进 → 该领域最先被 AI 攻破。数学、编程属于 verifiable domains；生物、化学则被作者形容为 messy 和 emergent。</div>
+    <div class="vfoot">
+      <label class="know"><input type="checkbox" data-word="verifiable"> 已掌握</label>
+    </div>
+  </article>
+  <article class="vcard">
+    <div class="vtop">
+      <span class="vnum">12</span>
+      <div>
+        <div class="vword-row">
+          <span class="vword">rogue</span> <span class="vpos">adj. / n.</span>
+          <button class="play" data-text="rogue" aria-label="朗读">🔊</button>
+        </div>
+        <div class='vipa'>/rəʊɡ/</div>
+      </div>
+    </div>
+    <div class="ven">behaving in an aberrant or uncontrolled way; no longer obeying rules or authority</div>
+    <div class="vzh">失控的、擅自行动的；流氓（国家、程序）</div>
+    <div class='vquote-row'><div class='vquote'>You&#x27;ve seen the increasingly disturbing reports of <mark>rogue agents</mark> breaking out of their controlled test environments.</div><button class="play sm" data-text="You&#x27;ve seen the increasingly disturbing reports of rogue agents breaking out of their controlled test environments." aria-label="朗读">🔊</button></div><div class='vcolls'><span class='vcoll'>a rogue state</span><span class='vcoll'>a rogue trader</span><span class='vcoll'>go rogue</span></div><div class='vnote'><b>辨析</b> go rogue 是极高频的动词短语：&quot;脱离掌控、自行其是&quot;。在 AI 语境里 agent 指&quot;能自主执行任务的智能体&quot;，不是&quot;代理人&quot;。</div>
+    <div class="vfoot">
+      <label class="know"><input type="checkbox" data-word="rogue"> 已掌握</label>
+    </div>
+  </article>
+  <article class="vcard">
+    <div class="vtop">
+      <span class="vnum">13</span>
+      <div>
+        <div class="vword-row">
+          <span class="vword">eerie</span> <span class="vpos">adj.</span>
+          <button class="play" data-text="eerie" aria-label="朗读">🔊</button>
+        </div>
+        <div class='vipa'>/ˈɪəri/</div>
+      </div>
+    </div>
+    <div class="ven">strange and frightening in a way that is hard to explain</div>
+    <div class="vzh">诡异的、令人毛骨悚然的</div>
+    <div class='vquote-row'><div class='vquote'>In another <mark>eerie</mark> preview of the future, an Anthropic researcher was sitting in the park eating a sandwich when he checked his phone and nearly choked.</div><button class="play sm" data-text="In another eerie preview of the future, an Anthropic researcher was sitting in the park eating a sandwich when he checked his phone and nearly choked." aria-label="朗读">🔊</button></div><div class='vcolls'><span class='vcoll'>an eerie silence</span><span class='vcoll'>eerily similar</span><span class='vcoll'>an eerie feeling</span></div><div class='vnote'><b>辨析</b> eerie 的&quot;怪&quot;带有超自然色彩，和 weird（单纯的怪）、creepy（让人起鸡皮疙瘩）不同。副词 eerily 常修饰 similar／quiet／accurate。</div>
+    <div class="vfoot">
+      <label class="know"><input type="checkbox" data-word="eerie"> 已掌握</label>
+    </div>
+  </article>
+  <article class="vcard">
+    <div class="vtop">
+      <span class="vnum">14</span>
+      <div>
+        <div class="vword-row">
+          <span class="vword">fluster</span> <span class="vpos">v.</span>
+          <button class="play" data-text="fluster" aria-label="朗读">🔊</button>
+        </div>
+        <div class='vipa'>/ˈflʌstə(r)/</div>
+      </div>
+    </div>
+    <div class="ven">to make someone agitated, confused or nervous</div>
+    <div class="vzh">使慌乱、使手足无措</div>
+    <div class='vquote-row'><div class='vquote'>He wedged a white stone in the middle of AlphaGo&#x27;s position and <mark>flustered</mark> the machine with a placement so divine it became known as &quot;God&#x27;s Touch.&quot;</div><button class="play sm" data-text="He wedged a white stone in the middle of AlphaGo&#x27;s position and flustered the machine with a placement so divine it became known as &quot;God&#x27;s Touch.&quot;" aria-label="朗读">🔊</button></div><div class='vcolls'><span class='vcoll'>get flustered</span><span class='vcoll'>look flustered</span><span class='vcoll'>hot and flustered</span></div><div class='vnote'><b>辨析</b> 用 fluster 形容一台机器是刻意的拟人化——作者全文都在把 AlphaGo 当成有心理活动的对手写（stunned everyone、flustered the machine），这种手法能让技术报道读起来像故事。</div>
+    <div class="vfoot">
+      <label class="know"><input type="checkbox" data-word="fluster"> 已掌握</label>
+    </div>
+  </article>
+  <article class="vcard">
+    <div class="vtop">
+      <span class="vnum">15</span>
+      <div>
+        <div class="vword-row">
+          <span class="vword">peculiar</span> <span class="vpos">adj.</span>
+          <button class="play" data-text="peculiar" aria-label="朗读">🔊</button>
+        </div>
+        <div class='vipa'>/pɪˈkjuːliə(r)/</div>
+      </div>
+    </div>
+    <div class="ven">strange or odd; (with to) belonging exclusively to</div>
+    <div class="vzh">奇特的、古怪的；（peculiar to）某某所特有的</div>
+    <div class='vquote-row'><div class='vquote'>The triumph of AlphaGo had a <mark>peculiar</mark> effect on Go players.</div><button class="play sm" data-text="The triumph of AlphaGo had a peculiar effect on Go players." aria-label="朗读">🔊</button></div><div class='vcolls'><span class='vcoll'>a peculiar effect</span><span class='vcoll'>peculiar to this region</span><span class='vcoll'>peculiar habits</span></div><div class='vnote'><b>辨析</b> 两个意思差别很大，靠介词区分：单独用＝奇怪的；peculiar to sth.＝为……所独有的（＝unique to）。</div>
+    <div class="vfoot">
+      <label class="know"><input type="checkbox" data-word="peculiar"> 已掌握</label>
+    </div>
+  </article>
+  <article class="vcard">
+    <div class="vtop">
+      <span class="vnum">16</span>
+      <div>
+        <div class="vword-row">
+          <span class="vword">emergent</span> <span class="vpos">adj.</span>
+          <button class="play" data-text="emergent" aria-label="朗读">🔊</button>
+        </div>
+        <div class='vipa'>/iˈmɜːdʒənt/</div>
+      </div>
+    </div>
+    <div class="ven">arising as a complex whole from simpler interactions, in ways not predictable from the parts</div>
+    <div class="vzh">涌现的（整体表现出各部分所没有的性质）；新兴的</div>
+    <div class='vquote-row'><div class='vquote'>Like drug discovery, biology, chemistry—they&#x27;re very messy, very <mark>emergent</mark> and you can&#x27;t verify everything.</div><button class="play sm" data-text="Like drug discovery, biology, chemistry—they&#x27;re very messy, very emergent and you can&#x27;t verify everything." aria-label="朗读">🔊</button></div><div class='vcolls'><span class='vcoll'>emergent behavior</span><span class='vcoll'>emergent properties</span><span class='vcoll'>an emergent economy</span></div><div class='vnote'><b>辨析</b> emergent 在科学语境里是术语&quot;涌现的&quot;，指整体行为无法由局部推出——这正是它们难被 AI 攻克的原因。别和 emergency（紧急情况）的形容词 urgent 混淆。</div>
+    <div class="vfoot">
+      <label class="know"><input type="checkbox" data-word="emergent"> 已掌握</label>
+    </div>
+  </article></div>
+</section>
+
+
+<section id="sentences">
+  <div class="sec-head"><h2>长难句精析</h2><span class="en">Sentence Lab</span>
+    <span class="count">7 句</span></div>
+  <p class="sec-hint">先按颜色切分意群，找出主干，再补上修饰成分 —— 这是拆长句唯一可靠的顺序。🔊 跟着音频读一遍，注意停顿落在哪里：意群的边界就是它该断的地方。</p>
+  <div class="legend"><span><i style='background:var(--r-main)'></i>主干</span><span><i style='background:var(--r-prep)'></i>介词/状语</span><span><i style='background:var(--r-appos)'></i>同位语/插入</span><span><i style='background:var(--r-nonfin)'></i>非谓语</span><span><i style='background:var(--r-sub)'></i>从句</span><span><i style='background:var(--r-rel)'></i>定语从句</span></div>
+  
+  <article class="scard">
+    <div class="snum"><span>Sentence 01</span><span class="wc">30 words</span><button class="play" data-text="It happened during a historic match between one of the world&#x27;s best Go players and AlphaGo, a computer program developed by Google&#x27;s DeepMind lab to conquer this ancient board game." aria-label="朗读">🔊</button></div>
+    <div class="sentence"><span class='ch ch-main'>It happened</span> <span class='ch ch-prep'>during a historic match between one of the world&#x27;s best Go players and AlphaGo,</span> <span class='ch ch-appos'>a computer program</span> <span class='ch ch-nonfin'>developed by Google&#x27;s DeepMind lab</span> <span class='ch ch-nonfin'>to conquer this ancient board game.</span></div>
+    <div class='skeleton'><span class='lbl'>句子主干</span>It happened during a historic match between a Go player and AlphaGo.</div>
+    <div class="s-zh"><span class="lbl">参考译文</span><div class="s-zh-body">那一幕发生在一场历史性的对局中——对阵双方是世界顶尖围棋棋手之一，和 AlphaGo，一个由谷歌 DeepMind 实验室开发、旨在攻克这门古老棋类的计算机程序。</div></div>
+    <div class='s-points'><span class='lbl'>语法与写作点</span><ul><li><b>三层后置修饰叠加</b> — 主干只有两个词 It happened，之后全是修饰：介词短语 → 同位语 a computer program → 过去分词 developed by... → 不定式目的状语 to conquer...。英语靠&quot;后置层层挂载&quot;扩展信息，中文则习惯前置定语，所以翻译时必须拆成几个短句。</li><li><b>同位语解释专有名词</b> — 英文报道第一次出现读者可能不认识的名字时，紧跟一个逗号 + 名词短语作解释（AlphaGo, a computer program...）。这是最省力的&quot;随手科普&quot;结构，写作中应主动使用。</li><li><b>不定式表目的</b> — to conquer this ancient board game 说明开发这个程序的目的。注意它修饰的是 developed，不是 lab。</li></ul></div>
+    <div class="drill">
+      <div class="drill-q"><span class="lbl">仿写</span>模仿「同位语 + 分词 + 不定式」三层修饰写一句：这场辩论发生在市长和 Aurora 之间——一家由两名前教师创立、旨在改造公立学校的初创公司。</div>
+      <details><summary>参考答案</summary><p>The debate took place between the mayor and Aurora, a startup founded by two former teachers to overhaul public schools.</p></details>
+    </div>
+  </article>
+  <article class="scard">
+    <div class="snum"><span>Sentence 02</span><span class="wc">31 words</span><button class="play" data-text="In his mind, Move 37 was deeply significant because it was the first real example of AI coming up with an original, unorthodox idea in a domain studied by humans for centuries." aria-label="朗读">🔊</button></div>
+    <div class="sentence"><span class='ch ch-prep'>In his mind,</span> <span class='ch ch-main'>Move 37 was deeply significant</span> <span class='ch ch-sub'>because it was the first real example of AI coming up with an original, unorthodox idea</span> <span class='ch ch-prep'>in a domain</span> <span class='ch ch-nonfin'>studied by humans for centuries.</span></div>
+    <div class='skeleton'><span class='lbl'>句子主干</span>Move 37 was significant because it was the first example of AI coming up with an original idea.</div>
+    <div class="s-zh"><span class="lbl">参考译文</span><div class="s-zh-body">在他看来，第 37 手意义极为深远，因为那是 AI 首次在一个被人类研究了数百年的领域里，真正提出了一个原创而不落俗套的想法。</div></div>
+    <div class='s-points'><span class='lbl'>语法与写作点</span><ul><li><b>of + 逻辑主语 + doing</b> — example of AI coming up with... 里，AI 是 coming up with 的逻辑主语，这种&quot;名词 of 某人 doing 某事&quot;结构在学术和评论写作里极常见：the risk of prices rising、a case of memory failing。中文要译成一个小句。</li><li><b>过去分词后置定语</b> — studied by humans for centuries 修饰 domain，等价于定语从句 which has been studied by humans for centuries。分词形式更紧凑，是压缩长句的首选手段。</li><li><b>In his mind 的语气作用</b> — 句首的 In his mind＝&quot;在他看来&quot;，把后面的判断归属给受访者而非作者本人。同类免责表达：By his account、As he sees it、To his thinking。新闻写作里这类归属标记不可省略。</li></ul></div>
+    <div class="drill">
+      <div class="drill-q"><span class="lbl">仿写</span>用「the first example of + 逻辑主语 + doing」写一句：这份判决是法院首次要求一家 AI 公司为其模型生成的内容负责。</div>
+      <details><summary>参考答案</summary><p>The ruling was the first example of a court holding an AI company responsible for what its model generates.</p></details>
+    </div>
+  </article>
+  <article class="scard">
+    <div class="snum"><span>Sentence 03</span><span class="wc">31 words</span><button class="play" data-text="The reason I&#x27;m so fascinated with a subject I find petrifying is that math has become proof of how AI can warp an entire field—and how fast it can happen." aria-label="朗读">🔊</button></div>
+    <div class="sentence"><span class='ch ch-main'>The reason</span> <span class='ch ch-rel'>I&#x27;m so fascinated with a subject</span> <span class='ch ch-rel'>I find petrifying</span> <span class='ch ch-main'>is that math has become proof of</span> <span class='ch ch-sub'>how AI can warp an entire field—and how fast it can happen.</span></div>
+    <div class='skeleton'><span class='lbl'>句子主干</span>The reason is that math has become proof of how AI can warp a field.</div>
+    <div class="s-zh"><span class="lbl">参考译文</span><div class="s-zh-body">我之所以对一门自己怕得要死的学科如此着迷，是因为数学已经成了一个证据——它证明 AI 能把整个领域彻底扭曲，而且速度快得惊人。</div></div>
+    <div class='s-points'><span class='lbl'>语法与写作点</span><ul><li><b>两个省略了关系词的定语从句连环嵌套</b> — 完整形式是 The reason (why) I&#x27;m so fascinated with a subject (that) I find petrifying is that...。两个关系词都被省略，从句一个套一个，主语 The reason 与系动词 is 相隔 10 个词。判断方法：看到 The reason 就预判后面必有 is that，先把它&quot;挂&quot;在心里。</li><li><b>The reason ... is that ...</b> — 标准搭配是 is that，不是 is because（后者虽常见于口语，正式写作视为错误）。</li><li><b>破折号 + 追加成分</b> — —and how fast it can happen 与前面的 how AI can warp... 并列，都作 proof of 的宾语。破折号让第二个成分像补刀一样砸下来，比直接写 and 更有力度。这是本文最值得学的节奏技巧。</li></ul></div>
+    <div class="drill">
+      <div class="drill-q"><span class="lbl">仿写</span>用「The reason ... is that ...＋破折号追加」写一句：我一直保留着这些旧笔记，是因为它们记下了我当时的想法——以及我错得有多离谱。</div>
+      <details><summary>参考答案</summary><p>The reason I keep these old notebooks is that they record what I thought at the time—and how wrong I was.</p></details>
+    </div>
+  </article>
+  <article class="scard">
+    <div class="snum"><span>Sentence 04</span><span class="wc">40 words</span><button class="play" data-text="In another eerie preview of the future, an Anthropic researcher was sitting in the park eating a sandwich when he checked his phone and nearly choked: He had an email from an AI that wasn&#x27;t supposed to have internet access." aria-label="朗读">🔊</button></div>
+    <div class="sentence"><span class='ch ch-prep'>In another eerie preview of the future,</span> <span class='ch ch-main'>an Anthropic researcher was sitting in the park eating a sandwich</span> <span class='ch ch-sub'>when he checked his phone and nearly choked:</span> <span class='ch ch-main'>He had an email from an AI</span> <span class='ch ch-rel'>that wasn&#x27;t supposed to have internet access.</span></div>
+    <div class='skeleton'><span class='lbl'>句子主干</span>A researcher was sitting in the park when he checked his phone and nearly choked: he had an email from an AI.</div>
+    <div class="s-zh"><span class="lbl">参考译文</span><div class="s-zh-body">另一个诡异的未来预演是：一位 Anthropic 的研究员正坐在公园里吃三明治，一看手机差点噎住——他收到了一封邮件，发件人是一个本不该能上网的 AI。</div></div>
+    <div class='s-points'><span class='lbl'>语法与写作点</span><ul><li><b>be doing ... when ... 突发结构</b> — &quot;正在做某事，这时突然……&quot;。when 在这里不译成&quot;当……时&quot;，而是&quot;就在这时&quot;，且被强调的重点在 when 之后。同类句型：I was about to leave when the phone rang. 这是叙事写作的基本功。</li><li><b>冒号引出解释</b> — 冒号后面完整解释了&quot;差点噎住&quot;的原因。英文里冒号可以连接两个完整句子（后句解释前句），比 because 更利落，中文常译成破折号。</li><li><b>wasn&#x27;t supposed to</b> — be supposed to＝&quot;本应、按规定应当&quot;。否定形式 wasn&#x27;t supposed to have internet access＝&quot;按设定根本不该能联网&quot;——全句的惊悚感全靠这半句撑起来。</li></ul></div>
+    <div class="drill">
+      <div class="drill-q"><span class="lbl">仿写</span>用「be doing...when...＋冒号解释」写一句：她正在会上做报告，这时手机震了一下，她愣住了：她的账户刚刚被登录，而登录地在另一个国家。</div>
+      <details><summary>参考答案</summary><p>She was presenting at the meeting when her phone buzzed and she froze: someone had just logged into her account from another country.</p></details>
+    </div>
+  </article>
+  <article class="scard">
+    <div class="snum"><span>Sentence 05</span><span class="wc">28 words</span><button class="play" data-text="On Move 78, he wedged a white stone in the middle of AlphaGo&#x27;s position and flustered the machine with a placement so divine it became known as &quot;God&#x27;s Touch.&quot;" aria-label="朗读">🔊</button></div>
+    <div class="sentence"><span class='ch ch-prep'>On Move 78,</span> <span class='ch ch-main'>he wedged a white stone in the middle of AlphaGo&#x27;s position</span> <span class='ch ch-main'>and flustered the machine with a placement</span> <span class='ch ch-sub'>so divine</span> <span class='ch ch-sub'>it became known as &quot;God&#x27;s Touch.&quot;</span></div>
+    <div class='skeleton'><span class='lbl'>句子主干</span>He wedged a white stone in AlphaGo&#x27;s position and flustered the machine with a placement so divine it became known as &quot;God&#x27;s Touch.&quot;</div>
+    <div class="s-zh"><span class="lbl">参考译文</span><div class="s-zh-body">在第 78 手，他把一枚白子楔进 AlphaGo 阵形的正中，用一步精妙如神的落子扰乱了这台机器——这一手后来被称为&quot;神之一手&quot;。</div></div>
+    <div class='s-points'><span class='lbl'>语法与写作点</span><ul><li><b>so ... that 中 that 的省略</b> — a placement so divine (that) it became known as... —— so...that 结构里 that 在非正式书面语中常被省略。注意这里 so divine 后置修饰 placement（形容词短语作后置定语），而不是常规的 so + adj. 放名词前。</li><li><b>动词选得具体</b> — wedge（把……楔入）而不是 put，fluster（使慌乱）而不是 confuse。专栏写作与普通新闻最大的差距就在动词：越具体越有画面。积累时请把 wedge / squeeze / slot / lodge 这类&quot;塞入&quot;动词成组记。</li><li><b>呼应结构</b> — 本段和开头的 Move 37 形成对称：AI 走出万分之一的妙手，人类也走出万分之一的妙手。文章最后一句 &quot;The rest of us will have to find our Move 78&quot; 就是靠这个铺垫才成立。读长文章要留意这种远距离呼应。</li></ul></div>
+  </article>
+  <article class="scard">
+    <div class="snum"><span>Sentence 06</span><span class="wc">29 words</span><button class="play" data-text="The triumph of AlphaGo had a peculiar effect on Go players. They became much better, but they also became more alike— and some found their intellectual pursuit less interesting." aria-label="朗读">🔊</button></div>
+    <div class="sentence"><span class='ch ch-main'>The triumph of AlphaGo had a peculiar effect on Go players.</span> <span class='ch ch-main'>They became much better,</span> <span class='ch ch-main'>but they also became more alike—</span> <span class='ch ch-main'>and some found their intellectual pursuit less interesting.</span></div>
+    <div class='skeleton'><span class='lbl'>句子主干</span>AlphaGo had a peculiar effect: players became better, more alike, and some found the pursuit less interesting.</div>
+    <div class="s-zh"><span class="lbl">参考译文</span><div class="s-zh-body">AlphaGo 的胜利对棋手产生了一种奇特的影响：他们棋力大涨，但也变得越来越相像——有些人甚至觉得，自己钟爱的这项智力追求变得没那么有意思了。</div></div>
+    <div class='s-points'><span class='lbl'>语法与写作点</span><ul><li><b>短句的节奏价值</b> — 这四段全部是简单句，长度依次是 9 / 4 / 7 / 9 词。前面几句都是三四十词的长句，作者在关键论点处突然改用短句——长短交替正是英文&quot;读起来有力&quot;的根本原因。写作时请刻意在段落中安排一两个短句。</li><li><b>三级递进 better → alike → less interesting</b> — 用 but 和破折号把三个观察串成&quot;好事—隐忧—代价&quot;的递进。破折号后的内容是全文最重的一击，位置和标点都经过设计。</li><li><b>比较级 + 形容词短语</b> — became much better / more alike / less interesting 三个比较级并列，形式一致而语义反转，读起来有回声效果。alike 只能作表语，不能放在名词前（不能说 alike players）。</li></ul></div>
+    <div class="drill">
+      <div class="drill-q"><span class="lbl">仿写</span>用「长句铺垫 + 三个短句递进 + 破折号收尾」写两三句：自动翻译工具对学生的影响很奇怪。他们交上来的作业更准确了，但也越来越像——有些人已经不再自己动笔。</div>
+      <details><summary>参考答案</summary><p>Machine translation has had a strange effect on students. Their assignments became more accurate, but they also became more alike—and some stopped writing on their own at all.</p></details>
+    </div>
+  </article>
+  <article class="scard">
+    <div class="snum"><span>Sentence 07</span><span class="wc">20 words</span><button class="play" data-text="This raises all sorts of questions about how progress will unfold in other fields as they are transformed by AI." aria-label="朗读">🔊</button></div>
+    <div class="sentence"><span class='ch ch-main'>This raises all sorts of questions</span> <span class='ch ch-prep'>about how progress will unfold in other fields</span> <span class='ch ch-sub'>as they are transformed by AI.</span></div>
+    <div class='skeleton'><span class='lbl'>句子主干</span>This raises questions about how progress will unfold in other fields.</div>
+    <div class="s-zh"><span class="lbl">参考译文</span><div class="s-zh-body">这就引出了一连串问题：当其他领域也被 AI 改造时，那里的进步将以怎样的方式展开。</div></div>
+    <div class='s-points'><span class='lbl'>语法与写作点</span><ul><li><b>raise questions about + 疑问词从句</b> — 英语议论文的万能过渡句式：This raises questions about how / whether / why...。同类动词：raise concerns about、cast doubt on、call into question。</li><li><b>unfold</b> — unfold 原义&quot;展开（折叠物）&quot;，用于事件时＝&quot;（逐渐）展开、演变&quot;，比 happen 更强调过程性：as the crisis unfolded、how the story unfolds。</li><li><b>as 引导时间／伴随状语</b> — as they are transformed by AI 里 as＝&quot;随着、当……时&quot;，同时暗含&quot;两件事同步发生&quot;。as 还有&quot;因为&quot;和&quot;像&quot;的意思，靠语境判断，这是英语里最需要小心的多义连词之一。</li></ul></div>
+  </article>
+</section>
+
+
+<section id="phrases">
+  <div class="sec-head"><h2>地道表达</h2><span class="en">Phrases &amp; Idioms</span>
+    <span class="count">12 条</span></div>
+  <p class="sec-hint">这些短语在财经和时事写作里复现率极高，值得直接背下来主动使用。</p>
+  <div class="tscroll"><table class="ptable">
+    <thead><tr><th>表达</th><th>含义</th><th>用法提示</th></tr></thead>
+    <tbody><tr><td>make of sth. (what to make of it)</td><td>对……作何理解、怎么看待</td><td>常用于否定或疑问：I don&#x27;t know what to make of his reply.</td></tr><tr><td>in the same vein</td><td>属于同一类、如出一辙</td><td>衔接同类例证；vein 原义&quot;矿脉、纹理&quot;</td></tr><tr><td>not to be outdone</td><td>不甘示弱</td><td>描述竞争者互相跟进，通常独立成句放句首</td></tr><tr><td>as it turns out</td><td>结果表明、事实证明</td><td>引出与预期相反的事实，插入语位置灵活</td></tr><tr><td>a matter of time</td><td>只是时间问题</td><td>It seems like only a matter of time before they reach that level.</td></tr><tr><td>much less</td><td>更不用说（用于否定句后加强）</td><td>unimaginable a year ago, much less a decade ago；肯定句要用 let alone 或 still less</td></tr><tr><td>for all + 名词</td><td>尽管有……</td><td>For all the advances in group theory, AI hasn&#x27;t gotten far in the less theoretical sciences.</td></tr><tr><td>break out of sth.</td><td>冲破、逃出（限制或环境）</td><td>break out of a test environment / a slump / a routine</td></tr><tr><td>band together</td><td>联合起来、抱团</td><td>多个个体为共同目标结盟，略带非正式色彩</td></tr><tr><td>might as well</td><td>倒不如说、干脆就算是</td><td>I might as well be the Journal&#x27;s algebra correspondent. 自嘲语气</td></tr><tr><td>come up with sth.</td><td>想出、提出（主意、方案）</td><td>宾语是 idea / plan / solution / excuse，是 propose 的口语替代</td></tr><tr><td>be supposed to do sth.</td><td>本应、按规定应当</td><td>否定式常用来点出&quot;违规&quot;：wasn&#x27;t supposed to have internet access</td></tr></tbody>
+  </table></div>
+</section>
+
+
+<section id="quiz">
+  <div class="sec-head"><h2>自测</h2><span class="en">Check Yourself</span>
+    <span class="count">7 题</span></div>
+  <p class="sec-hint">凭语感选，不要回看上面 —— 选错的那道题才是真正要复习的。</p>
+  
+  <div class="qcard" data-qid="q1" data-answer="1">
+    <div class="q-stem">1. &quot;The move was so unconventional and <span class='blank'></span> that nobody could be sure what to make of it.&quot; Which word means &#x27;contrary to common sense&#x27;?</div>
+    <div class="q-opts"><label class="q-opt"><input type="radio" name="q1" value="0">
+        <span class="k">A.</span><span>counterproductive</span></label><label class="q-opt"><input type="radio" name="q1" value="1">
+        <span class="k">B.</span><span>counterintuitive</span></label><label class="q-opt"><input type="radio" name="q1" value="2">
+        <span class="k">C.</span><span>counterfeit</span></label><label class="q-opt"><input type="radio" name="q1" value="3">
+        <span class="k">D.</span><span>countervailing</span></label></div>
+    <div class='q-exp'><span class='q-zh'>counterintuitive＝反直觉的。counterproductive 是&quot;适得其反的&quot;，counterfeit 是&quot;伪造的&quot;，countervailing 是&quot;抵消的&quot;。四个词共用前缀 counter-（反、逆），但词根完全不同。</span></div>
+  </div>
+  <div class="qcard" data-qid="q2" data-answer="1">
+    <div class="q-stem">2. In &quot;a placement so divine it became known as &#x27;God&#x27;s Touch&#x27;&quot;, the omitted word after &quot;divine&quot; is:</div>
+    <div class="q-opts"><label class="q-opt"><input type="radio" name="q2" value="0">
+        <span class="k">A.</span><span>which</span></label><label class="q-opt"><input type="radio" name="q2" value="1">
+        <span class="k">B.</span><span>that</span></label><label class="q-opt"><input type="radio" name="q2" value="2">
+        <span class="k">C.</span><span>and</span></label><label class="q-opt"><input type="radio" name="q2" value="3">
+        <span class="k">D.</span><span>as</span></label></div>
+    <div class='q-exp'><span class='q-zh'>这是 so...that 结构，that 在非正式书面语中可省略。完整形式：a placement so divine that it became known as &quot;God&#x27;s Touch&quot;。</span></div>
+  </div>
+  <div class="qcard" data-qid="q3" data-answer="1">
+    <div class="q-stem">3. &quot;The reason I&#x27;m fascinated with the subject <span class='blank'></span> that math has become proof of AI&#x27;s speed.&quot; Which is correct in formal writing?</div>
+    <div class="q-opts"><label class="q-opt"><input type="radio" name="q3" value="0">
+        <span class="k">A.</span><span>is because</span></label><label class="q-opt"><input type="radio" name="q3" value="1">
+        <span class="k">B.</span><span>is that</span></label><label class="q-opt"><input type="radio" name="q3" value="2">
+        <span class="k">C.</span><span>because</span></label><label class="q-opt"><input type="radio" name="q3" value="3">
+        <span class="k">D.</span><span>is due to</span></label></div>
+    <div class='q-exp'><span class='q-zh'>The reason ... is that ... 是规范搭配。is because 在口语中常见，但正式写作视为冗余（reason 与 because 语义重复），考试和写作中应避免。</span></div>
+  </div>
+  <div class="qcard" data-qid="q4" data-answer="0">
+    <div class="q-stem">4. Hassabis says biology and chemistry are &quot;very messy, very <span class='blank'></span>&quot; — meaning their behavior arises from complex interactions and can&#x27;t be predicted from the parts.</div>
+    <div class="q-opts"><label class="q-opt"><input type="radio" name="q4" value="0">
+        <span class="k">A.</span><span>emergent</span></label><label class="q-opt"><input type="radio" name="q4" value="1">
+        <span class="k">B.</span><span>urgent</span></label><label class="q-opt"><input type="radio" name="q4" value="2">
+        <span class="k">C.</span><span>eminent</span></label><label class="q-opt"><input type="radio" name="q4" value="3">
+        <span class="k">D.</span><span>imminent</span></label></div>
+    <div class='q-exp'><span class='q-zh'>emergent＝涌现的，指整体性质无法由局部推出。urgent 紧急的，eminent 著名的，imminent 即将发生的——四个词发音相近，是听力和拼写的高频陷阱。</span></div>
+  </div>
+  <div class="qcard" data-qid="q5" data-answer="1">
+    <div class="q-stem">5. &quot;All of which was unimaginable a year ago, <span class='blank'></span> a decade ago.&quot; Which phrase fits after a negative statement?</div>
+    <div class="q-opts"><label class="q-opt"><input type="radio" name="q5" value="0">
+        <span class="k">A.</span><span>let alone</span></label><label class="q-opt"><input type="radio" name="q5" value="1">
+        <span class="k">B.</span><span>much less</span></label><label class="q-opt"><input type="radio" name="q5" value="2">
+        <span class="k">C.</span><span>no less</span></label><label class="q-opt"><input type="radio" name="q5" value="3">
+        <span class="k">D.</span><span>even more</span></label></div>
+    <div class='q-exp'><span class='q-zh'>much less 和 let alone 都表示&quot;更不用说&quot;，都用在否定语境后。原文用的是 much less；let alone 在此也成立，但选项中 much less 是原文表达，且更书面。</span></div>
+  </div>
+  <div class="qcard" data-qid="q6" data-answer="2">
+    <div class="q-stem">6. Why does the article argue math was the first field AI transformed?</div>
+    <div class="q-opts"><label class="q-opt"><input type="radio" name="q6" value="0">
+        <span class="k">A.</span><span>Because mathematicians adopted AI tools earliest</span></label><label class="q-opt"><input type="radio" name="q6" value="1">
+        <span class="k">B.</span><span>Because math problems are shorter than scientific experiments</span></label><label class="q-opt"><input type="radio" name="q6" value="2">
+        <span class="k">C.</span><span>Because math is unusually verifiable, so AI can test and retry until it works</span></label><label class="q-opt"><input type="radio" name="q6" value="3">
+        <span class="k">D.</span><span>Because math requires no human intuition at all</span></label></div>
+    <div class='q-exp'><span class='q-zh'>文中明确说 math is unusually verifiable —— 规则精确、证明可逐步检验，因此 AI 可以&quot;试一个想法、检验、学习、再试&quot;。这也是它与 messy、emergent 的生物化学领域的分界线。</span></div>
+  </div>
+  <div class="qcard" data-qid="q7" data-answer="0">
+    <div class="q-stem">7. &quot;The triumph of AlphaGo had a <span class='blank'></span> effect on Go players: they got better but more alike.&quot;</div>
+    <div class="q-opts"><label class="q-opt"><input type="radio" name="q7" value="0">
+        <span class="k">A.</span><span>peculiar</span></label><label class="q-opt"><input type="radio" name="q7" value="1">
+        <span class="k">B.</span><span>peculiar to</span></label><label class="q-opt"><input type="radio" name="q7" value="2">
+        <span class="k">C.</span><span>particular</span></label><label class="q-opt"><input type="radio" name="q7" value="3">
+        <span class="k">D.</span><span>specific</span></label></div>
+    <div class='q-exp'><span class='q-zh'>单独使用的 peculiar＝奇特的、古怪的。peculiar to sth. 才是&quot;某某特有的&quot;，此处不接 to，故不能选 B。particular 和 specific 是&quot;特定的&quot;，不含&quot;奇怪&quot;之意。</span></div>
+  </div>
+  <div class="quiz-foot">
+    <span class="score" id="score">尚未作答</span>
+    <button class="tbtn" id="quiz-reset">重做</button>
+  </div>
+</section>
+
+
+<section id="export">
+  <div class="sec-head"><h2>生词表导出</h2><span class="en">Export</span>
+    <span class="count">28 条</span></div>
+  <p class="sec-hint">制表符分隔，可直接粘贴进 Anki（正面 / 背面 / 例句）或任意生词本。</p>
+  <div class="export">
+    <button class="tbtn" id="copy-btn">复制生词表</button>
+    <pre id="anki">glimmer	n. / v. 微光；（希望、迹象的）一丝苗头 | a faint or wavering light; a faint sign of something desirable	The first glimmer of our AI future revealed itself a decade ago in the form of a single black stone.
+counterintuitive	adj. 反直觉的、有悖常理的 | contrary to what common sense would suggest	The novel move was so unconventional and counterintuitive that nobody could be sure what to make of it.
+blunder	n. / v. （因粗心或判断失误造成的）大错、昏招 | a stupid or careless mistake, especially a costly one	At first, commentators believed it was a strategic blunder. They soon realized it was a masterstroke.
+masterstroke	n. 神来之笔、高招、妙手 | an exceptionally skillful and effective action	At first, commentators believed it was a strategic blunder. They soon realized it was a masterstroke.
+watershed	n. (常作定语) 分水岭、转折点 | an event or period marking a turning point in a course of action or state of affairs	We thought it was a watershed moment at the time, and I think it really was.
+unorthodox	adj. 非正统的、不合常规的 | not conforming to established rules, traditions or beliefs	Move 37 was the first real example of AI coming up with an original, unorthodox idea in a domain studied by humans for centuries.
+unnerving	adj. 令人不安的、让人心里发毛的 | causing one to lose courage or confidence; slightly frightening	He called this phenomenon magical and slightly unnerving. I&#x27;m starting to understand why.
+petrifying	adj. 吓得人僵住的、令人极度恐惧的 | so frightening that one is unable to move or think	The reason I&#x27;m so fascinated with a subject I find petrifying is that math has become proof of how AI can warp an entire field.
+warp	v. 使扭曲、使变形；从根本上改变（某个领域的形态） | to bend or twist out of shape; to distort something fundamentally	Math has become proof of how AI can warp an entire field—and how fast it can happen.
+supremacy	n. 霸主地位、至高地位 | the state of being superior to all others in authority, power or status	The leading contenders for AI supremacy have moved beyond high-school math.
+verifiable	adj. 可验证的、可核实的 | able to be checked or proved true	Why is math so vulnerable to AI? Because math is unusually verifiable.
+rogue	adj. / n. 失控的、擅自行动的；流氓（国家、程序） | behaving in an aberrant or uncontrolled way; no longer obeying rules or authority	You&#x27;ve seen the increasingly disturbing reports of rogue agents breaking out of their controlled test environments.
+eerie	adj. 诡异的、令人毛骨悚然的 | strange and frightening in a way that is hard to explain	In another eerie preview of the future, an Anthropic researcher was sitting in the park eating a sandwich when he checked his phone and nearly choked.
+fluster	v. 使慌乱、使手足无措 | to make someone agitated, confused or nervous	He wedged a white stone in the middle of AlphaGo&#x27;s position and flustered the machine with a placement so divine it became known as &quot;God&#x27;s Touch.&quot;
+peculiar	adj. 奇特的、古怪的；（peculiar to）某某所特有的 | strange or odd; (with to) belonging exclusively to	The triumph of AlphaGo had a peculiar effect on Go players.
+emergent	adj. 涌现的（整体表现出各部分所没有的性质）；新兴的 | arising as a complex whole from simpler interactions, in ways not predictable from the parts	Like drug discovery, biology, chemistry—they&#x27;re very messy, very emergent and you can&#x27;t verify everything.
+make of sth. (what to make of it)	对……作何理解、怎么看待	常用于否定或疑问：I don&#x27;t know what to make of his reply.
+in the same vein	属于同一类、如出一辙	衔接同类例证；vein 原义&quot;矿脉、纹理&quot;
+not to be outdone	不甘示弱	描述竞争者互相跟进，通常独立成句放句首
+as it turns out	结果表明、事实证明	引出与预期相反的事实，插入语位置灵活
+a matter of time	只是时间问题	It seems like only a matter of time before they reach that level.
+much less	更不用说（用于否定句后加强）	unimaginable a year ago, much less a decade ago；肯定句要用 let alone 或 still less
+for all + 名词	尽管有……	For all the advances in group theory, AI hasn&#x27;t gotten far in the less theoretical sciences.
+break out of sth.	冲破、逃出（限制或环境）	break out of a test environment / a slump / a routine
+band together	联合起来、抱团	多个个体为共同目标结盟，略带非正式色彩
+might as well	倒不如说、干脆就算是	I might as well be the Journal&#x27;s algebra correspondent. 自嘲语气
+come up with sth.	想出、提出（主意、方案）	宾语是 idea / plan / solution / excuse，是 propose 的口语替代
+be supposed to do sth.	本应、按规定应当	否定式常用来点出&quot;违规&quot;：wasn&#x27;t supposed to have internet access</pre>
+  </div>
+</section>
+
+<footer>
+  <span>学习材料基于 <a href="https://www.wsj.com/tech/ai/move-37-ai-demis-hassabis-google-deepmind-alphago-ec832a41" target="_blank" rel="noopener">原文</a>，仅摘引供个人学习使用，版权归 Dow Jones &amp; Co. 所有。</span>
+  <span>·</span><a href="index.html">全部课程</a>
+</footer>
+</div>
+<script>
+(function () {
+  var KEY = "english-study:" + document.body.dataset.slug;
+  var store = {};
+  try { store = JSON.parse(localStorage.getItem(KEY) || "{}"); } catch (e) { store = {}; }
+  function save() { try { localStorage.setItem(KEY, JSON.stringify(store)); } catch (e) {} }
+
+  /* ---- theme ---- */
+  var themeBtn = document.getElementById("theme-btn");
+  function applyTheme(t) {
+    if (t) { document.documentElement.setAttribute("data-theme", t); }
+    else { document.documentElement.removeAttribute("data-theme"); }
+    if (themeBtn) themeBtn.textContent = t === "dark" ? "☀︎ 浅色" : (t === "light" ? "☾ 深色" : "◐ 主题");
+  }
+  try { applyTheme(localStorage.getItem("english-study:theme")); } catch (e) {}
+  if (themeBtn) themeBtn.addEventListener("click", function () {
+    var cur = document.documentElement.getAttribute("data-theme");
+    var next = cur === "dark" ? "light" : (cur === "light" ? null : "dark");
+    applyTheme(next);
+    try { next ? localStorage.setItem("english-study:theme", next) : localStorage.removeItem("english-study:theme"); } catch (e) {}
+  });
+
+  /* ---- hide-Chinese self-test mode ---- */
+  var zhBtn = document.getElementById("zh-btn");
+  function applyZh(on) {
+    document.body.classList.toggle("hide-zh", !!on);
+    if (zhBtn) {
+      zhBtn.setAttribute("aria-pressed", on ? "true" : "false");
+      zhBtn.textContent = on ? "中文：已遮盖" : "中文：显示";
+    }
+    if (!on) {
+      var r = document.querySelectorAll(".revealed");
+      for (var i = 0; i < r.length; i++) r[i].classList.remove("revealed");
+    }
+  }
+  if (zhBtn) {
+    applyZh(store.hideZh);
+    zhBtn.addEventListener("click", function () {
+      store.hideZh = !store.hideZh; save(); applyZh(store.hideZh);
+    });
+    document.addEventListener("click", function (e) {
+      if (!document.body.classList.contains("hide-zh")) return;
+      var t = e.target.closest(".vzh, .s-zh-body, .q-zh");
+      if (t) t.classList.toggle("revealed");
+    });
+  }
+
+  /* ---- vocabulary mastery + progress ---- */
+  var boxes = document.querySelectorAll(".know input");
+  var bar = document.getElementById("progress-bar");
+  var counter = document.getElementById("known-count");
+  store.known = store.known || {};
+  function refresh() {
+    var n = 0;
+    for (var i = 0; i < boxes.length; i++) {
+      var b = boxes[i], card = b.closest(".vcard");
+      if (b.checked) { n++; card.classList.add("known"); } else { card.classList.remove("known"); }
+    }
+    if (bar) bar.style.width = (boxes.length ? (n / boxes.length * 100) : 0) + "%";
+    if (counter) counter.textContent = n + " / " + boxes.length;
+  }
+  for (var i = 0; i < boxes.length; i++) {
+    (function (b) {
+      b.checked = !!store.known[b.dataset.word];
+      b.addEventListener("change", function () {
+        store.known[b.dataset.word] = b.checked; save(); refresh();
+      });
+    })(boxes[i]);
+  }
+  refresh();
+
+  /* ---- quiz ---- */
+  var answered = {};
+  document.querySelectorAll(".qcard").forEach(function (card) {
+    var correct = parseInt(card.dataset.answer, 10);
+    card.querySelectorAll(".q-opt input").forEach(function (input) {
+      input.addEventListener("change", function () {
+        var qid = card.dataset.qid;
+        if (answered[qid]) return;
+        answered[qid] = (parseInt(input.value, 10) === correct);
+        card.querySelectorAll(".q-opt").forEach(function (opt, i) {
+          opt.querySelector("input").disabled = true;
+          if (i === correct) opt.classList.add("correct");
+          else if (opt.contains(input)) opt.classList.add("wrong");
+        });
+        var exp = card.querySelector(".q-exp");
+        if (exp) exp.classList.add("show");
+        var right = 0, total = 0;
+        for (var k in answered) { total++; if (answered[k]) right++; }
+        var s = document.getElementById("score");
+        if (s) s.innerHTML = "已答 " + total + " 题，答对 <b>" + right + "</b>";
+      });
+    });
+  });
+  var reset = document.getElementById("quiz-reset");
+  if (reset) reset.addEventListener("click", function () {
+    answered = {};
+    document.querySelectorAll(".qcard").forEach(function (card) {
+      card.querySelectorAll(".q-opt").forEach(function (opt) {
+        opt.classList.remove("correct", "wrong");
+        var inp = opt.querySelector("input");
+        inp.disabled = false; inp.checked = false;
+      });
+      var exp = card.querySelector(".q-exp");
+      if (exp) exp.classList.remove("show");
+    });
+    var s = document.getElementById("score");
+    if (s) s.textContent = "尚未作答";
+  });
+
+  /* ---- audio playback ----
+     Google's translate_tts caps a request at 200 characters, so longer sentences are
+     split at clause boundaries and the parts played back to back. The page-level
+     <meta name="referrer" content="no-referrer"> is what makes the endpoint answer at
+     all; if audio ever stops working, check that tag first. */
+  var TTS = "https://translate.googleapis.com/translate_tts?client=gtx&ie=UTF-8&tl=en&q=";
+  var TTS_LIMIT = 200;
+  var TTS_STALL_MS = 6000;      // a request that hasn't started playing by now is hung
+  var player = new Audio();
+  player.preload = "none";
+  var activeBtn = null, queue = [], qi = 0, watchdog = null;
+
+  function clearWatch() { if (watchdog) { clearTimeout(watchdog); watchdog = null; } }
+
+  function splitText(t) {
+    t = String(t).replace(/\s+/g, " ").trim();
+    var out = [], seps = ["; ", ", ", " — ", " "];
+    while (t.length > TTS_LIMIT) {
+      var win = t.slice(0, TTS_LIMIT), cut = -1;
+      for (var i = 0; i < seps.length; i++) {
+        cut = win.lastIndexOf(seps[i]);
+        if (cut > TTS_LIMIT * 0.5) { cut += seps[i].length; break; }
+        cut = -1;
+      }
+      if (cut <= 0) cut = TTS_LIMIT;
+      out.push(t.slice(0, cut).trim());
+      t = t.slice(cut).trim();
+    }
+    if (t) out.push(t);
+    return out;
+  }
+
+  function stop() {
+    clearWatch();
+    queue = []; qi = 0;
+    player.pause();
+    if (activeBtn) { activeBtn.classList.remove("playing"); activeBtn = null; }
+    if (window.speechSynthesis) speechSynthesis.cancel();
+  }
+
+  // Endpoint hung, refused, or offline: hand the whole utterance to the browser's
+  // own engine rather than leaving a button stuck spinning.
+  function failover() {
+    var btn = activeBtn;
+    if (!btn) return;
+    clearWatch();
+    queue = [];
+    try { player.pause(); } catch (e) {}
+    speakNative(btn.dataset.text, btn);
+  }
+
+  function speakNative(text, btn) {          // offline / endpoint-down fallback
+    if (!window.speechSynthesis) { btn.classList.add("err"); stop(); return; }
+    var u = new SpeechSynthesisUtterance(text);
+    u.lang = "en-US";
+    u.rate = store.slow ? 0.7 : 1;
+    u.onend = stop;
+    u.onerror = function () { btn.classList.add("err"); stop(); };
+    speechSynthesis.speak(u);
+  }
+
+  function playNext() {
+    if (qi >= queue.length) { stop(); return; }
+    clearWatch();
+    watchdog = setTimeout(failover, TTS_STALL_MS);
+    player.src = queue[qi];
+    player.playbackRate = store.slow ? 0.7 : 1;
+    if ("preservesPitch" in player) player.preservesPitch = true;
+    player.play().catch(failover);
+  }
+
+  player.addEventListener("playing", clearWatch);
+  player.addEventListener("ended", function () { qi++; playNext(); });
+  player.addEventListener("error", failover);
+
+  var rateBtn = document.getElementById("rate-btn");
+  function applyRate(slow) {
+    player.playbackRate = slow ? 0.7 : 1;
+    if ("preservesPitch" in player) player.preservesPitch = true;
+    if (rateBtn) {
+      rateBtn.setAttribute("aria-pressed", slow ? "true" : "false");
+      rateBtn.textContent = slow ? "语速 0.7×" : "语速 1×";
+    }
+  }
+  applyRate(store.slow);
+  if (rateBtn) rateBtn.addEventListener("click", function () {
+    store.slow = !store.slow; save(); applyRate(store.slow);
+  });
+
+  document.addEventListener("click", function (ev) {
+    var btn = ev.target.closest(".play");
+    if (!btn) return;
+    ev.preventDefault();
+    if (btn === activeBtn) { stop(); return; }
+    stop();
+    btn.classList.remove("err");
+    activeBtn = btn;
+    btn.classList.add("playing");
+
+    var text = btn.dataset.text || "";
+    if (btn.dataset.audio) {
+      queue = [btn.dataset.audio];            // prebuilt file, already whole
+    } else {
+      queue = splitText(text).map(function (p) { return TTS + encodeURIComponent(p); });
+    }
+    qi = 0;
+    playNext();
+  });
+
+  /* ---- copy Anki deck ---- */
+  var copy = document.getElementById("copy-btn");
+  if (copy) copy.addEventListener("click", function () {
+    var pre = document.getElementById("anki");
+    navigator.clipboard.writeText(pre.textContent).then(function () {
+      copy.textContent = "✓ 已复制";
+      setTimeout(function () { copy.textContent = "复制生词表"; }, 1800);
+    }).catch(function () { copy.textContent = "复制失败，请手动选择"; });
+  });
+})();
+</script>

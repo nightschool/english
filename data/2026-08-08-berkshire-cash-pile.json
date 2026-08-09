@@ -1,0 +1,300 @@
+{
+  "slug": "2026-08-08-berkshire-cash-pile",
+  "date": "2026-08-08",
+  "level": "B2–C1",
+  "study_min": 35,
+  "source": {
+    "title_en": "Berkshire Hathaway, Under a New CEO, Starts to Spend Its Cash Pile",
+    "title_zh": "新任 CEO 掌舵下，伯克希尔开始动用它的现金储备",
+    "url": "https://www.wsj.com/finance/stocks/berkshire-hathaway-earnings-q2-2026-brk-a-stock-e394a0e7",
+    "author": "Krystal Hur",
+    "published": "Aug. 8, 2026",
+    "section": "Finance",
+    "read_min": 4
+  },
+  "overview_zh": "伯克希尔·哈撒韦公布二季度财报：净利润翻倍至 256.7 亿美元，现金储备三年多来首次环比下降。公司斥资 68 亿美元收购住宅建筑商 Taylor Morrison Home，并买入 100 亿美元的 Alphabet 股票，同时回购自家股份。\n这篇报道是典型的\"财报快讯\"体裁——结构固定、句式紧凑、专有名词密集。它的语言价值在于：一是财经高频词与固定搭配（回购、承保、未实现损益、环比下降），二是记者用来避免重复的替换表达（put a dent in、spending spree、put his stamp on）。学会这套词，你读任何一家公司的财报新闻都会轻松很多。",
+  "background": [
+    { "term": "Berkshire Hathaway", "zh": "伯克希尔·哈撒韦，巴菲特创立的多元化控股集团，旗下有保险、铁路、能源、零售等业务" },
+    { "term": "Greg Abel / Warren Buffett", "zh": "阿贝尔于今年 1 月接替巴菲特出任 CEO；巴菲特执掌该公司超过半个世纪" },
+    { "term": "Class A / Class B shares", "zh": "A 类股每股约 78 万美元，从不拆股；B 类股是为小投资者设立的低价股份" },
+    { "term": "operating earnings vs. net income", "zh": "营业利润剔除投资损益，巴菲特认为它比净利润更能反映真实经营状况" }
+  ],
+  "vocab": [
+    {
+      "word": "conglomerate",
+      "ipa": "/kənˈɡlɒmərət/",
+      "pos": "n.",
+      "en": "a large corporation formed by merging separate and diverse firms",
+      "zh": "（跨行业的）企业集团、综合性大企业",
+      "sentence": "The Omaha, Neb.-based conglomerate said Saturday its quarterly profit more than doubled, powered by investment gains and strong results from its industrial and retail businesses.",
+      "highlight": "conglomerate",
+      "collocations": ["a sprawling conglomerate", "an industrial conglomerate", "conglomerate discount"],
+      "note": "财经报道里，记者第二次提到某公司时几乎不会重复公司名，而是用一个概括性同位语替换：the conglomerate / the retailer / the chipmaker。读的时候要能立刻把它对应回前文的主语。"
+    },
+    {
+      "word": "haul",
+      "ipa": "/hɔːl/",
+      "pos": "n.",
+      "en": "an amount acquired or accumulated, especially a large one",
+      "zh": "（大笔的）所得、囤积量；此处 cash haul＝现金储备",
+      "sentence": "Berkshire Hathaway put a dent in its massive cash haul during the second quarter.",
+      "highlight": "cash haul",
+      "collocations": ["a record haul", "cash haul", "a haul of medals"],
+      "note": "haul 原指\"拖、拽\"，引申为\"一次拖回来的东西\"，因此自带\"数量大、辛苦攒下\"的意味，比中性的 amount 更有画面感。同义替换还有 cash pile、cash hoard、war chest。"
+    },
+    {
+      "word": "repurchase",
+      "ipa": "/ˌriːˈpɜːtʃəs/",
+      "pos": "v. / n.",
+      "en": "to buy back one's own shares from the market",
+      "zh": "回购（股票）",
+      "sentence": "The company repurchased 478 Class A shares and more than 8 million Class B shares in May and June, for roughly $4.5 billion.",
+      "highlight": "repurchased",
+      "collocations": ["repurchase shares", "a share repurchase program", "buy back stock"],
+      "note": "口语和标题里更常用动词短语 buy back 和名词 buyback；正式财报文本用 repurchase。三者可互换，但 buyback 是名词、buy back 是动词短语，别写混。"
+    },
+    {
+      "word": "sequentially",
+      "ipa": "/sɪˈkwenʃəli/",
+      "pos": "adv.",
+      "en": "compared with the immediately preceding period (quarter or month)",
+      "zh": "环比地（与上一季度／上月相比）",
+      "sentence": "It marked the first time the company's cash declined sequentially in four years.",
+      "highlight": "sequentially",
+      "collocations": ["decline sequentially", "sequential growth", "year over year (同比)"],
+      "note": "财报里两个时间基准必须分清：sequentially＝环比（对比上一个季度），year over year / from a year earlier＝同比（对比去年同期）。本文两种都出现了，注意各自的参照物。"
+    },
+    {
+      "word": "spree",
+      "ipa": "/spriː/",
+      "pos": "n.",
+      "en": "a burst of unrestrained activity, especially spending or buying",
+      "zh": "一阵狂热的行为；spending spree＝大举花钱、疯狂扫货",
+      "sentence": "The spending spree is a sign that Greg Abel is beginning to put his stamp on the conglomerate.",
+      "highlight": "spending spree",
+      "collocations": ["a spending spree", "a buying spree", "an acquisition spree", "go on a spree"],
+      "note": "spree 一定是短时间、高强度、略带失控意味的行为，所以既能说 shopping spree，也能说 killing spree。用在公司身上是轻微的调侃，暗示\"花得比平时凶\"。"
+    },
+    {
+      "word": "predecessor",
+      "ipa": "/ˈpriːdɪsesə(r)/",
+      "pos": "n.",
+      "en": "the person who held a job or office before the current holder",
+      "zh": "前任；前身（指事物时）",
+      "sentence": "Greg Abel is beginning to put his stamp on a conglomerate that his predecessor ran for more than half a century.",
+      "highlight": "predecessor",
+      "collocations": ["his predecessor", "unlike her predecessor", "successor (继任者)"],
+      "note": "成对记忆：predecessor（前任）↔ successor（继任者）；动词 succeed sb.＝接替某人（本文的 succeeded Warren Buffett），注意别理解成\"成功\"。"
+    },
+    {
+      "word": "ebullient",
+      "ipa": "/ɪˈbʌliənt/",
+      "pos": "adj.",
+      "en": "overflowing with excitement or enthusiasm; (of markets) buoyant and overheated",
+      "zh": "（人）兴高采烈的；（市场）亢奋的、过热的",
+      "sentence": "It's very hard to want Greg to be making big deals in an ebullient market like now.",
+      "highlight": "ebullient",
+      "collocations": ["an ebullient market", "ebullient mood", "ebullient personality"],
+      "note": "词源是\"沸腾\"（拉丁语 bullire＝to boil），所以形容市场时暗含\"烧过头、迟早要冷\"的贬义。市场情绪词的强度梯度：subdued < steady < buoyant < ebullient < frothy < bubble。"
+    },
+    {
+      "word": "underwriting",
+      "ipa": "/ˈʌndəraɪtɪŋ/",
+      "pos": "n.",
+      "en": "the insurance business of assessing risk and issuing policies (as distinct from investing the premiums)",
+      "zh": "承保（业务）；保险公司靠收保费、赔付理赔赚的那部分利润",
+      "sentence": "The company's insurance arm reported a drop in underwriting earnings, weighed down by results from car insurer Geico.",
+      "highlight": "underwriting earnings",
+      "collocations": ["underwriting profit / loss", "underwriting earnings", "an underwriter"],
+      "note": "保险公司有两个利润来源，读财报必须分开：underwriting income（承保收益，保费减赔付）和 investment income（投资收益，用浮存金投资赚的）。本文说两者都下滑了。"
+    },
+    {
+      "word": "unrealized",
+      "ipa": "/ʌnˈriːəlaɪzd/",
+      "pos": "adj.",
+      "en": "(of a gain or loss) existing only on paper because the asset has not been sold",
+      "zh": "未实现的（浮盈／浮亏，尚未卖出兑现）",
+      "sentence": "Accounting rules require Berkshire to include unrealized gains and losses from its giant investment portfolio when it reports net income.",
+      "highlight": "unrealized gains",
+      "collocations": ["unrealized gains and losses", "realized a profit", "paper gains"],
+      "note": "realize 在财经语境里＝\"变现、兑现\"，不是\"意识到\"。realized gain 是卖出后落袋的收益，unrealized gain 只是账面浮盈，口语也叫 paper gains。"
+    },
+    {
+      "word": "fluctuation",
+      "ipa": "/ˌflʌktʃuˈeɪʃn/",
+      "pos": "n.",
+      "en": "an irregular rise and fall in amount or value",
+      "zh": "波动、起伏",
+      "sentence": "Short-term fluctuations in the stock market can cause big swings in quarterly income.",
+      "highlight": "fluctuations",
+      "collocations": ["price fluctuations", "seasonal fluctuations", "fluctuate wildly"],
+      "note": "同一句里 fluctuations 和 swings 是刻意的同义替换（避免重复），这是英文写作的基本要求。近义强度：fluctuation（中性波动）< swing（大幅摆动）< volatility（波动性，可量化的术语）。"
+    }
+  ],
+  "sentences": [
+    {
+      "chunks": [
+        { "t": "Berkshire Hathaway put a dent in its massive cash haul", "role": "main" },
+        { "t": "during the second quarter,", "role": "prep" },
+        { "t": "repurchasing company shares and buying more stocks than it sold", "role": "nonfin" },
+        { "t": "for the first time in more than three years.", "role": "prep" }
+      ],
+      "skeleton": "Berkshire put a dent in its cash haul, repurchasing shares and buying more stocks than it sold.",
+      "zh": "伯克希尔在第二季度动用了它庞大的现金储备：回购了自家股票，并且三年多来首次买入的股票多于卖出的股票。",
+      "points": [
+        { "label": "现在分词作伴随状语", "text": "repurchasing... and buying... 不是并列谓语，而是分词短语，说明主句动作\"put a dent in\"是怎么发生的。这是新闻导语最常见的加信息方式：主句给结论，分词补细节，避免写成两个短句。" },
+        { "label": "比较结构省略", "text": "buying more stocks than it sold 完整形式是 than it sold stocks，than 引导的比较从句里重复成分被省略。这个说法等于 was a net buyer of stocks（净买入）。" },
+        { "label": "put a dent in", "text": "字面是\"在……上砸出一个坑\"，用来说\"（终于）让一大笔钱／一个大数字有所减少\"，比 reduced 生动得多，且暗示\"减得不多，但方向变了\"——正是本文的核心新闻点。" }
+      ],
+      "drill": {
+        "prompt_zh": "用「主句 + 现在分词伴随状语」写一句：这家初创公司去年削减了开支，裁掉了两成员工并关闭了三个海外办公室。",
+        "answer": "The startup cut its costs last year, laying off a fifth of its staff and closing three overseas offices."
+      }
+    },
+    {
+      "chunks": [
+        { "t": "The spending spree is a sign", "role": "main" },
+        { "t": "that Greg Abel,", "role": "sub" },
+        { "t": "who succeeded Warren Buffett as chief executive in January,", "role": "rel" },
+        { "t": "is beginning to put his stamp on a conglomerate", "role": "sub" },
+        { "t": "that his predecessor ran for more than half a century.", "role": "rel" }
+      ],
+      "skeleton": "The spending spree is a sign that Abel is beginning to put his stamp on a conglomerate.",
+      "zh": "这轮大手笔支出表明，今年 1 月接替巴菲特出任首席执行官的格雷格·阿贝尔，正开始在这家由其前任执掌了半个多世纪的集团上留下自己的印记。",
+      "points": [
+        { "label": "同位语从句 vs 定语从句", "text": "第一个 that（a sign that...）是同位语从句，解释 sign 的具体内容，that 在从句里不作成分；最后一个 that（a conglomerate that his predecessor ran）是定语从句，that 作 ran 的宾语。两个 that 长得一样，功能完全不同——判断方法：去掉 that 后从句是否缺成分。" },
+        { "label": "主语被插入语切断", "text": "主句从句的主语 Greg Abel 和谓语 is beginning 之间插了一整个非限制性定语从句（who... in January）。读到逗号要\"挂起\"主语，跳过插入部分先找谓语，再回头补信息。这是长句最常见的阅读陷阱。" },
+        { "label": "put one's stamp on sth.", "text": "\"给某事物打上自己的烙印\"，指新领导者开始按自己的方式改造一个组织。近义：leave one's mark on、reshape sth. in one's own image。" }
+      ],
+      "drill": {
+        "prompt_zh": "模仿这个结构（同位语从句 + 插入定语从句）写一句：股价下跌说明，去年才上市的这家公司正在失去投资者的信任。",
+        "answer": "The falling share price is a sign that the company, which went public only last year, is losing the trust of investors."
+      }
+    },
+    {
+      "chunks": [
+        { "t": "Accounting rules require Berkshire to include unrealized gains and losses", "role": "main" },
+        { "t": "from its giant investment portfolio", "role": "prep" },
+        { "t": "when it reports net income,", "role": "sub" },
+        { "t": "meaning that short-term fluctuations in the stock market can cause big swings in quarterly income.", "role": "nonfin" }
+      ],
+      "skeleton": "Accounting rules require Berkshire to include unrealized gains and losses, meaning that fluctuations can cause big swings.",
+      "zh": "会计准则要求伯克希尔在报告净利润时，把其庞大投资组合的未实现损益也计算在内；这意味着股市的短期波动会造成季度利润的大幅起落。",
+      "points": [
+        { "label": "meaning that... 结果状语", "text": "分词短语 meaning that... 对整个主句作出解读，相当于 which means that... 或 and this means that...。财经和科技写作特别爱用它把\"事实\"和\"事实的含义\"接在一句里。可替换的同类表达：suggesting that、leaving sth. exposed、raising the risk that。" },
+        { "label": "require sb. to do sth.", "text": "注意 require 的宾语补足语用不定式（require Berkshire to include），而不是 require doing。类似结构：allow / enable / force / permit sb. to do。" },
+        { "label": "同义替换避免重复", "text": "fluctuations（波动）→ swings（起落），前后指的是同一类现象却换了词。写作时刻意做这种替换，是拉开水平差距最快的方式之一。" }
+      ],
+      "drill": {
+        "prompt_zh": "用 meaning that 结构写一句：新规定要求平台披露算法细节，这意味着企业将更难以商业机密为由拒绝监管。",
+        "answer": "The new rules require platforms to disclose how their algorithms work, meaning that companies will find it harder to refuse scrutiny by citing trade secrets."
+      }
+    },
+    {
+      "chunks": [
+        { "t": "Profit", "role": "main" },
+        { "t": "from Berkshire's portfolio of manufacturing, service and retailing businesses", "role": "prep" },
+        { "t": "—a group that includes industrial metal components, Duracell batteries and Flying J fuel stations—", "role": "appos" },
+        { "t": "jumped 24% to $4.47 billion.", "role": "main" }
+      ],
+      "skeleton": "Profit jumped 24% to $4.47 billion.",
+      "zh": "来自伯克希尔制造、服务和零售业务组合的利润——这一板块包括工业金属部件、金霸王电池和 Flying J 加油站——大涨 24%，至 44.7 亿美元。",
+      "points": [
+        { "label": "主谓被破折号隔开", "text": "主干只有 Profit jumped 24%，中间塞了一个介词短语加一个破折号同位语，主语和谓语相隔 20 多个词。破折号内的内容永远是可删的补充说明——先跳过读通主干，再回来看细节。" },
+        { "label": "涨跌幅的标准写法", "text": "jumped 24% to $4.47 billion＝\"上涨 24%，至 44.7 亿\"。介词分工固定：by＋变化幅度，to＋变化后的水平，from＋变化前的水平。动词强度梯度：edged up < rose < climbed < jumped < soared；下跌方向：edged down < fell < slid < slumped < plunged。" },
+        { "label": "portfolio of...", "text": "portfolio 既指\"投资组合\"，也指\"（企业的）业务组合、产品线\"。本文是后者。" }
+      ],
+      "drill": {
+        "prompt_zh": "用「主语 + 破折号同位语 + 谓语」写一句：该公司的海外收入——主要来自德国、日本和巴西——下滑了 12%，至 8.3 亿美元。",
+        "answer": "The company's overseas revenue—most of it from Germany, Japan and Brazil—fell 12% to $830 million."
+      }
+    },
+    {
+      "chunks": [
+        { "t": "Berkshire ended June with $364.7 billion in cash and Treasury bills", "role": "main" },
+        { "t": "after accounting for a payable for purchasing some of the short-term government debt,", "role": "nonfin" },
+        { "t": "a 4% decrease from three months earlier.", "role": "appos" }
+      ],
+      "skeleton": "Berkshire ended June with $364.7 billion in cash and Treasury bills, a 4% decrease from three months earlier.",
+      "zh": "在扣除购买部分短期国债所产生的应付款项之后，伯克希尔 6 月末持有 3647 亿美元的现金及国库券，较三个月前下降 4%。",
+      "points": [
+        { "label": "end + 时间 + with + 数字", "text": "end June with $X 是财报固定句式：\"截至 6 月末持有 X\"。同类：closed the year with、entered the quarter with。" },
+        { "label": "account for 的两个意思", "text": "这里 after accounting for＝\"在把……计算／扣除在内之后\"。account for 另一个高频义是\"占（比例）\"：Exports account for 30% of revenue。第三个义是\"解释\"。三个意思全靠语境区分。" },
+        { "label": "名词短语作总结同位语", "text": "句尾的 a 4% decrease from three months earlier 不修饰任何单个名词，而是概括前面整件事，相当于 which was a 4% decrease...。这种\"逗号＋名词短语\"收尾非常经济，值得主动模仿。" }
+      ],
+      "drill": {
+        "prompt_zh": "用「逗号＋名词短语」总结收尾写一句：该行三季度末的坏账余额为 210 亿美元，较去年同期增长 18%。",
+        "answer": "The bank ended the third quarter with $21 billion in bad loans, an 18% increase from a year earlier."
+      }
+    },
+    {
+      "chunks": [
+        { "t": "The company's insurance arm reported a drop in underwriting earnings,", "role": "main" },
+        { "t": "weighed down by results from car insurer Geico,", "role": "nonfin" },
+        { "t": "and investment income.", "role": "main" }
+      ],
+      "skeleton": "The insurance arm reported a drop in underwriting earnings and investment income.",
+      "zh": "公司的保险板块报告称，承保利润和投资收益双双下滑，主要受车险公司 Geico 业绩拖累。",
+      "points": [
+        { "label": "arm＝分部", "text": "arm 在公司报道里指\"（大集团的）某一业务部门\"：its insurance arm、the lending arm、the research arm。同义词：division、unit、segment。" },
+        { "label": "过去分词作后置修饰", "text": "weighed down by... 修饰前面的 a drop，说明下滑的原因。weigh down 字面\"压得抬不起头\"，是财经写作里表达\"拖累\"的最常用动词，通常用被动：earnings were weighed down by higher costs。" },
+        { "label": "阅读警示：并列成分被切断", "text": "句尾的 and investment income 其实并列的是 underwriting earnings（即 a drop in A and B），中间插入的分词短语把它们分开了，很容易误读成\"和投资收益\"并列 Geico。遇到句末孤零零的 and + 名词，要往前找它真正的并列对象。" }
+      ]
+    }
+  ],
+  "phrases": [
+    { "en": "put a dent in sth.", "zh": "使（大数目）有所减少；削弱", "note": "常搭配 savings / profits / lead：The repairs put a dent in our savings." },
+    { "en": "put one's stamp on sth.", "zh": "在某事物上留下个人印记", "note": "多用于新上任的领导者按自己意图改造组织" },
+    { "en": "be weighed down by sth.", "zh": "被……拖累", "note": "财报报道表达\"利润被某项业务拉低\"的标准说法" },
+    { "en": "more than double", "zh": "增长一倍以上、翻了不止一番", "note": "动词用法：profit more than doubled；反义是 more than halved" },
+    { "en": "a net buyer / seller of sth.", "zh": "净买入方／净卖出方", "note": "买入量减去卖出量后仍为正即 net buyer" },
+    { "en": "for now", "zh": "眼下、暂时", "note": "放句尾表示\"目前如此，但未必长久\"，是记者留有余地的常用手法" },
+    { "en": "as it turns out / it turns out that", "zh": "结果表明、事实证明", "note": "引出与预期不同的结论" },
+    { "en": "be set to do sth.", "zh": "预定将、势必将", "note": "The company is set to disclose more next week. 比 will 更书面" },
+    { "en": "in the same vein", "zh": "属于同一类、如出一辙", "note": "衔接相似的例子或观点" },
+    { "en": "not to be outdone", "zh": "不甘示弱", "note": "描述竞争对手互相跟进时的固定表达" }
+  ],
+  "quiz": [
+    {
+      "q": "Berkshire's cash declined ____ for the first time in four years, meaning it fell compared with the previous quarter.",
+      "options": ["sequentially", "year over year", "unrealized", "ebullient"],
+      "answer": 0,
+      "explain": "sequentially＝环比，参照上一个季度；year over year 是同比，参照去年同期。原文强调的是\"三年多来第一次比上一季度少\"，所以只能用 sequentially。"
+    },
+    {
+      "q": "The new chief executive is beginning to put his ____ on the company his predecessor ran for decades.",
+      "options": ["mark", "stamp", "print", "sign"],
+      "answer": 1,
+      "explain": "固定搭配是 put one's stamp on sth.（留下个人印记）。leave one's mark on 也成立，但动词必须换成 leave；put one's mark 并非习惯说法。"
+    },
+    {
+      "q": "Which pair correctly describes profits that exist only on paper because the shares have not been sold?",
+      "options": ["operating earnings", "underwriting income", "unrealized gains", "sequential growth"],
+      "answer": 2,
+      "explain": "unrealized gains＝未实现收益（浮盈），realize 在此意为\"变现\"而非\"意识到\"。underwriting income 是保险承保利润，operating earnings 是剔除投资损益的营业利润。"
+    },
+    {
+      "q": "\"The insurance arm's profit was ____ by weak results at Geico.\" Which choice fits the WSJ's usual wording?",
+      "options": ["weighed down", "put a dent", "set to", "outdone"],
+      "answer": 0,
+      "explain": "be weighed down by sth.＝被……拖累，是描述业绩被某项业务拉低的标准搭配。put a dent in 需要接宾语（put a dent in profits），语法上此处不通。"
+    },
+    {
+      "q": "In \"a sign that Greg Abel, who succeeded Buffett in January, is beginning to...\", the clause \"who succeeded Buffett in January\" is:",
+      "options": [
+        "a non-restrictive relative clause inserted between subject and verb",
+        "an appositive clause explaining the noun 'sign'",
+        "the main clause of the sentence",
+        "a participial phrase of result"
+      ],
+      "answer": 0,
+      "explain": "who 引导非限制性定语从句，修饰 Greg Abel，被逗号隔开插在主语和谓语 is beginning 之间。解释 sign 内容的是前面的 that 从句（同位语从句），两者要分清。"
+    },
+    {
+      "q": "\"Profit jumped 24% ____ $4.47 billion.\" Which preposition is correct?",
+      "options": ["by", "to", "from", "at"],
+      "answer": 1,
+      "explain": "介词分工固定：by＋变化幅度（jumped by 24%），to＋变化后的水平（to $4.47 billion），from＋变化前的水平。此处 $4.47 billion 是涨完之后的数值，用 to。"
+    }
+  ]
+}

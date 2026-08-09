@@ -1,0 +1,385 @@
+{
+  "slug": "2026-08-07-china-export-engine",
+  "date": "2026-08-07",
+  "level": "B2–C1",
+  "study_min": 40,
+  "source": {
+    "title_en": "China's New Export Engine: Supplying the Factories of the World",
+    "title_zh": "中国新的出口引擎：为全世界的工厂供货",
+    "url": "https://www.wsj.com/economy/trade/chinas-new-export-engine-supplying-the-factories-of-the-world-b8f1c176",
+    "author": "Hannah Miao and Tom Fairless",
+    "published": "Aug. 7, 2026",
+    "section": "Economy · Trade",
+    "read_min": 6
+  },
+  "overview_zh": "东莞曾经靠廉价玩具、鞋服和电子产品把中国变成\"世界工厂\"；如今它正在成为\"工厂的工厂\"。中国出口结构从低值消费品转向芯片、精密机械、机器人手臂这类中间品与资本品——2026 年前五个月，中间品出口增长 25%、资本品增长 12%，而消费品只增长 4%。这动摇了欧盟、日韩等先进制造经济体的护城河：德国从中国进口的高端资本品已经多于对华出口，欧洲开始讨论所谓\"China Shock 2.0\"。\n体裁是\"趋势报道\"（trend story）：用一个城市、几家公司、几个人物的具体细节，去承载一个宏观论断。它的语言价值有三块——一是贸易与产业分析的高频词（中间品、资本品、护城河、供应链、关税），二是英文新闻用来\"压缩信息\"的后置修饰手法（本课第 6 句一个名词后面挂了四层修饰），三是描写竞争态势的动词，几乎每个都比中文直译更有画面感（churn out、funnel、run into、encapsulate）。",
+  "background": [
+    { "term": "intermediate goods / capital goods / consumer goods", "zh": "中间品（用于再加工的零部件、材料）／资本品（用于生产的设备、机床、机器人）／消费品（直接卖给终端用户）。这三分法是全文的骨架，读贸易报道必须分清" },
+    { "term": "economic moat", "zh": "\"经济护城河\"，巴菲特推广的说法，指企业或经济体难以被竞争对手攻破的结构性优势" },
+    { "term": "China Shock", "zh": "经济学文献中的术语，指 2001 年中国加入 WTO 后廉价商品冲击发达国家制造业就业。文中的\"China Shock 2.0\"是欧洲人对新一轮高端制造冲击的类比说法" },
+    { "term": "Little Giants (专精特新\"小巨人\")", "zh": "中国的产业扶持计划，向细分高技术领域的中小企业提供补贴、税收优惠和低息贷款" },
+    { "term": "Dongguan 东莞 / BBK 步步高", "zh": "珠三角制造业重镇；BBK 是 Oppo 与 Vivo 的前身" }
+  ],
+  "vocab": [
+    {
+      "word": "underpin",
+      "ipa": "/ˌʌndəˈpɪn/",
+      "pos": "v.",
+      "en": "to support or form the basis of something",
+      "zh": "支撑、构成……的基础",
+      "sentence": "China is now exporting more of the higher-value intermediate and capital goods that underpin global manufacturing.",
+      "highlight": "underpin",
+      "collocations": ["underpin the economy", "underpin an argument", "the assumptions underpinning the model"],
+      "note": "字面是建筑上的\"在下面加支柱\"，所以强调的是\"在底层托着、没有它就塌\"，比 support 更结构性。学术写作里的高频词：the theory underpinning this approach。"
+    },
+    {
+      "word": "formidable",
+      "ipa": "/ˈfɔːmɪdəbl/",
+      "pos": "adj.",
+      "en": "inspiring fear or respect through being impressively powerful or capable",
+      "zh": "强大得令人敬畏的、难对付的",
+      "sentence": "China's dominance over greater portions of global supply chains is making the country's export machine even more formidable.",
+      "highlight": "formidable",
+      "collocations": ["a formidable competitor", "a formidable challenge", "a formidable reputation"],
+      "note": "褒贬都能用，核心是\"强到让人有压力\"。近义辨析：strong（中性）< powerful（有力量）< formidable（强到令人生畏）< invincible（不可战胜）。本文两次用它形容中国，是有分量的措辞。"
+    },
+    {
+      "word": "resilient",
+      "ipa": "/rɪˈzɪliənt/",
+      "pos": "adj.",
+      "en": "able to withstand or recover quickly from difficult conditions",
+      "zh": "有韧性的、抗打击的、能迅速恢复的",
+      "sentence": "China's dominance is making the country's export machine even more formidable—and resilient against tariffs, which tend to target finished goods.",
+      "highlight": "resilient",
+      "collocations": ["a resilient economy", "resilient to shocks", "build resilience"],
+      "note": "名词 resilience 是近十年财经与管理写作的关键词（supply-chain resilience 供应链韧性）。注意介词：resilient to / against sth.。它不是\"硬\"，而是\"被压弯后能弹回来\"。"
+    },
+    {
+      "word": "moat",
+      "ipa": "/məʊt/",
+      "pos": "n.",
+      "en": "a defensive ditch around a castle; (business) a durable competitive advantage",
+      "zh": "护城河；（商业）难以被复制的竞争壁垒",
+      "sentence": "The transformation is threatening the economic moats of advanced-manufacturing economies such as the European Union, Japan and South Korea.",
+      "highlight": "moats",
+      "collocations": ["a wide moat", "an economic moat", "moat-widening"],
+      "note": "商业语境里几乎总是比喻义，来自巴菲特。常见的护城河类型词一起记：brand（品牌）、network effects（网络效应）、switching costs（转换成本）、scale（规模）。"
+    },
+    {
+      "word": "dub",
+      "ipa": "/dʌb/",
+      "pos": "v.",
+      "en": "to give something an informal name or nickname",
+      "zh": "把……称作、给……起名为",
+      "sentence": "European leaders are considering new protective measures against what many have dubbed \"China Shock 2.0.\"",
+      "highlight": "dubbed",
+      "collocations": ["dubbed the \"...\"", "what critics have dubbed", "widely dubbed"],
+      "note": "dub 的说法暗示这个名字是别人叫出来的、并非官方定名，所以记者用它可以引用一个流行说法而不为它背书。另一个常见义是影视\"配音\"（dubbed into Chinese），别混。"
+    },
+    {
+      "word": "swath",
+      "ipa": "/swɒθ/",
+      "pos": "n.",
+      "en": "a broad strip or large portion of something",
+      "zh": "一大片、一大批（常用复数 swaths）",
+      "sentence": "While South Korea and Japan have benefited this year from a surge in exports related to artificial intelligence, swaths of industry under the surface are losing global market share.",
+      "highlight": "swaths",
+      "collocations": ["swaths of the country", "vast swaths of land", "cut a swath through"],
+      "note": "原义是割草时镰刀扫过留下的一长条，所以强调\"成片、大面积\"而不是零星。近义：a large portion of（中性）、swaths of（有画面、有规模感）。"
+    },
+    {
+      "word": "funnel",
+      "ipa": "/ˈfʌnl/",
+      "pos": "v.",
+      "en": "to direct resources through a narrow channel toward a specific target",
+      "zh": "（像通过漏斗一样）把资源集中导向某处",
+      "sentence": "Under the \"Little Giants\" initiative, China funneled subsidies, tax breaks and cheap loans to thousands of small and midsize firms in specialized, high-tech manufacturing sectors.",
+      "highlight": "funneled",
+      "collocations": ["funnel money into", "funnel resources to", "funnel investment toward"],
+      "note": "名词 funnel 是漏斗，动词保留了\"收窄后精准注入\"的意象，比 give 或 provide 更强调有意为之的定向投放。写政策与投资时非常好用。"
+    },
+    {
+      "word": "cutthroat",
+      "ipa": "/ˈkʌtθrəʊt/",
+      "pos": "adj.",
+      "en": "fierce and ruthless, especially in business competition",
+      "zh": "残酷的、你死我活的（多形容竞争）",
+      "sentence": "A large domestic market and cutthroat competition helped accelerate China's industrial upgrading.",
+      "highlight": "cutthroat",
+      "collocations": ["cutthroat competition", "a cutthroat industry", "cutthroat pricing"],
+      "note": "竞争强度梯度值得成组记：healthy < intense < fierce < cutthroat（不择手段）。注意本文把它当作\"促成产业升级的原因\"来写，是中性偏正面的用法。"
+    },
+    {
+      "word": "encapsulate",
+      "ipa": "/ɪnˈkæpsjuleɪt/",
+      "pos": "v.",
+      "en": "to express or embody the essential features of something",
+      "zh": "浓缩体现、集中概括",
+      "sentence": "In Dongguan, the life of Henry Wang encapsulates China's rise.",
+      "highlight": "encapsulates",
+      "collocations": ["encapsulate an era", "neatly encapsulates", "encapsulate the problem"],
+      "note": "capsule（胶囊）的动词形式：把一大团东西装进一个小壳里。特稿写作的枢纽词——用它把一个具体人物接到宏大主题上，正是本文这一句在做的事。"
+    },
+    {
+      "word": "precursor",
+      "ipa": "/priˈkɜːsə(r)/",
+      "pos": "n.",
+      "en": "a person or thing that comes before another of the same kind; a forerunner",
+      "zh": "前身、先驱；（化学）前体",
+      "sentence": "He lived in a cramped, 12-person dorm room, working the assembly line at BBK Electronics, the precursor to smartphone giants Oppo and Vivo.",
+      "highlight": "precursor",
+      "collocations": ["the precursor to sth.", "an early precursor", "a precursor of change"],
+      "note": "介词固定用 to（偶见 of）。与 predecessor 区分：predecessor 指同一职位的\"前任者\"（人），precursor 指同一类事物的\"前身、更早形态\"。"
+    },
+    {
+      "word": "boon",
+      "ipa": "/buːn/",
+      "pos": "n.",
+      "en": "something that is very helpful and makes life better",
+      "zh": "福音、大利好",
+      "sentence": "Many companies have shifted production from China to other countries to avoid U.S. tariffs, accelerating industrialization in Southeast Asia and Latin America—a boon for Chinese factories making intermediate and capital goods.",
+      "highlight": "boon",
+      "collocations": ["a boon for/to sb.", "prove a boon", "a mixed blessing (对照)"],
+      "note": "总是正面的，且通常是\"意外得来的好处\"。反义常用 bane（祸害），成语 a boon or a bane 是标题常客。注意它是可数名词，要说 a boon。"
+    },
+    {
+      "word": "stiff",
+      "ipa": "/stɪf/",
+      "pos": "adj.",
+      "en": "(of competition, opposition or penalties) severe and hard to deal with",
+      "zh": "激烈的、严厉的（竞争、阻力、处罚）",
+      "sentence": "German manufacturer Harting, which produces heavy-duty industrial connectors, is running into stiff competition from Chinese manufacturers.",
+      "highlight": "stiff competition",
+      "collocations": ["stiff competition", "stiff opposition", "a stiff penalty", "stiff resistance"],
+      "note": "本义是\"硬、僵\"，引申到抽象事物就是\"不好对付\"。搭配几乎固定：competition / opposition / resistance / penalty / fine。说\"竞争激烈\"用 stiff 比 strong 地道得多。"
+    },
+    {
+      "word": "ethos",
+      "ipa": "/ˈiːθɒs/",
+      "pos": "n.",
+      "en": "the characteristic spirit, values or attitudes of a group",
+      "zh": "（某个群体的）精神气质、行事准则",
+      "sentence": "Overhead, corporate slogans captured the relentless service-oriented ethos driving China's factories.",
+      "highlight": "ethos",
+      "collocations": ["a corporate ethos", "the work ethos", "an ethos of ..."],
+      "note": "不可数，没有复数。与 ethics（伦理规范）同源但不同：ethos 是弥漫在群体里的\"气质与信念\"，ethics 是\"对错的准则\"。近义 culture 更常用，ethos 更书面、更强调精神内核。"
+    },
+    {
+      "word": "tailored",
+      "ipa": "/ˈteɪləd/",
+      "pos": "adj.",
+      "en": "made or adapted for a particular person or purpose",
+      "zh": "量身定制的、按需调整的",
+      "sentence": "He believes his business is successful not just because it makes cost-effective products, but also because it provides comprehensive and tailored services, such as engineering, for customers.",
+      "highlight": "tailored",
+      "collocations": ["tailored to sb.'s needs", "a tailored solution", "tailor sth. to sth."],
+      "note": "来自\"裁缝 tailor\"。动词用法要记介词：tailor the program to local conditions。近义 bespoke（更高端、多用于英式语境）、customized（更technical）。"
+    }
+  ],
+  "sentences": [
+    {
+      "chunks": [
+        { "t": "DONGGUAN, China—This city near Hong Kong helped turn China into the world's factory floor", "role": "main" },
+        { "t": "decades ago,", "role": "prep" },
+        { "t": "churning out the cheap toys, shoes, clothing and electronics", "role": "nonfin" },
+        { "t": "that powered the country's economic rise.", "role": "rel" }
+      ],
+      "skeleton": "This city helped turn China into the world's factory floor, churning out the goods that powered the country's economic rise.",
+      "zh": "中国东莞——数十年前，这座毗邻香港的城市帮助中国成为\"世界工厂\"，源源不断地生产出廉价玩具、鞋服和电子产品，推动了这个国家的经济崛起。",
+      "points": [
+        { "label": "dateline 电头", "text": "外媒实地报道的开头惯例是「地名, 国名—」（全大写地名 + 破折号，中间不空格），表示记者人在现场。看到这个格式就知道后面是带有第一手观察的特稿，而不是编译稿。" },
+        { "label": "turn A into B", "text": "\"把 A 变成 B\"，比 make A become B 地道得多。同类三件套：turn sth. into sth.（转变形态）、transform A into B（更彻底）、reduce A to B（贬义地降格）。" },
+        { "label": "分词短语接管第二个动作", "text": "churning out... 不是新的谓语，而是对主句的伴随说明——\"帮中国成为世界工厂\"这件事，具体表现就是\"不断生产廉价商品\"。中文习惯写成两个分句，英文用分词挂在后面，句子重心不散。" }
+      ],
+      "drill": {
+        "prompt_zh": "用「turn A into B + 现在分词伴随」写一句：这项补贴几年间把这个小县城变成了电池产业中心，吸引来数十家上下游供应商。",
+        "answer": "The subsidy turned the small county into a battery hub within a few years, drawing dozens of upstream and downstream suppliers."
+      }
+    },
+    {
+      "chunks": [
+        { "t": "No longer just a producer of low-value consumer goods,", "role": "appos" },
+        { "t": "China is now exporting more of the higher-value intermediate and capital goods", "role": "main" },
+        { "t": "that underpin global manufacturing,", "role": "rel" },
+        { "t": "such as chips, precision machinery and robotic arms.", "role": "prep" }
+      ],
+      "skeleton": "China is now exporting more of the higher-value intermediate and capital goods that underpin global manufacturing.",
+      "zh": "中国不再只是低值消费品的生产者，如今它出口的越来越多的是支撑全球制造业的高附加值中间品和资本品，比如芯片、精密机械和机器人手臂。",
+      "points": [
+        { "label": "句首名词短语作状语", "text": "No longer just a producer of... 是一个没有动词的名词短语，放句首相当于 China is no longer just a producer...，但把它压成状语后，主句才能承载新信息。这是英文新闻避免\"两个短句\"的核心技巧，中文母语者几乎不会主动用。" },
+        { "label": "not just A but B 的隐性版本", "text": "全句其实是\"不再只是 A，而是 B\"的对比。英文常把\"不再是 A\"降格成句首修饰，把重音全留给 B——判断作者立场，就看他把什么放进主句。" },
+        { "label": "such as 的位置", "text": "such as 举的例子是 goods，却被 that 从句隔开放到了句尾。英文允许这种远距离挂载，读的时候要把 such as 往前找它真正的对象，别误以为它在举 manufacturing 的例子。" }
+      ],
+      "drill": {
+        "prompt_zh": "用「句首名词短语 + 主句」改写：这家公司已经不只是一个搜索引擎，它现在是全球最大的广告平台之一。",
+        "answer": "No longer just a search engine, the company is now one of the world's largest advertising platforms."
+      }
+    },
+    {
+      "chunks": [
+        { "t": "China's dominance", "role": "main" },
+        { "t": "over greater portions of global supply chains", "role": "prep" },
+        { "t": "is making the country's export machine even more formidable—and resilient against tariffs,", "role": "main" },
+        { "t": "which tend to target finished goods.", "role": "rel" }
+      ],
+      "skeleton": "China's dominance is making the country's export machine even more formidable and resilient against tariffs.",
+      "zh": "中国对全球供应链更大范围的掌控，正让这个国家的出口机器变得更加难以撼动，也更能抵御关税——因为关税针对的往往是制成品。",
+      "points": [
+        { "label": "主语被介词短语撑开", "text": "主语 China's dominance 与谓语 is making 之间插了七个词的介词短语。英文名词化主语（dominance 而非 China dominates）+ 后置介词短语，是分析性文章的标准写法：它让一整个概念成为句子的施动者。" },
+        { "label": "破折号补出第二个形容词", "text": "more formidable—and resilient 里，破折号让 resilient 单独获得一次强调，等于说\"不只是更强，而且是打不动\"。如果写成 more formidable and resilient，这层递进就没了。标点在这里是语气工具。" },
+        { "label": "which 引导的非限制性从句给理由", "text": "which tend to target finished goods 表面是补充说明关税，实际是在解释\"为什么中间品出口能躲开关税\"。英文常把关键论证放进一个看似顺带的定语从句里——这类从句不能跳读。" }
+      ],
+      "drill": {
+        "prompt_zh": "用「名词化主语 + 破折号追加形容词 + which 从句补理由」写一句：该行对本地存款的依赖使它更稳定，也更迟钝——而这些存款几乎不随利率变动。",
+        "answer": "The bank's reliance on local deposits makes it more stable—and slower to react, which barely move with interest rates."
+      }
+    },
+    {
+      "chunks": [
+        { "t": "Producers of chemicals, machines, batteries and other industrial goods", "role": "main" },
+        { "t": "in those economies", "role": "prep" },
+        { "t": "once depended on Chinese factories as customers,", "role": "main" },
+        { "t": "but now China is a formidable competitor abroad and even in their home markets.", "role": "main" }
+      ],
+      "skeleton": "Producers in those economies once depended on Chinese factories as customers, but now China is a formidable competitor.",
+      "zh": "这些经济体里生产化工品、机械、电池等工业品的厂商，过去把中国工厂当作客户，如今中国却成了它们在海外、甚至在本土市场上的强劲对手。",
+      "points": [
+        { "label": "once ... but now ... 时间对照", "text": "这是趋势报道最常用的骨架句型：用 once 标记旧秩序，用 but now 推出新秩序，一句话讲完一次结构性转变。注意 once 在这里是\"曾经\"（副词），不是\"一次\"，且必须放在实义动词前。" },
+        { "label": "customer → competitor 的词形呼应", "text": "两个词同以 comp-/cust- 开头、长度相近，作者靠这种近形对照强化反差。文中后面还专门引用了一句 \"China is increasingly evolving from a customer into a competitor\"，是同一手法的显性版本。" },
+        { "label": "abroad and even in their home markets", "text": "even 在这里承担了全句最重的一击：在海外被抢单还能理解，连本土市场都守不住才是真正的坏消息。写作时要有意识地把 even 放在你想让读者停顿的那个成分前。" }
+      ],
+      "drill": {
+        "prompt_zh": "用「once ... but now ...＋even」写一句：这些出版社过去依赖搜索引擎带来流量，如今 AI 摘要正在抢走读者，甚至抢走它们的订阅用户。",
+        "answer": "These publishers once depended on search engines for traffic, but now AI summaries are taking away their readers and even their subscribers."
+      }
+    },
+    {
+      "chunks": [
+        { "t": "When China joined the World Trade Organization in 2001,", "role": "sub" },
+        { "t": "Wang was an 18-year-old junior-high graduate", "role": "main" },
+        { "t": "from the country's northernmost province", "role": "prep" },
+        { "t": "arriving in Dongguan with nothing.", "role": "nonfin" }
+      ],
+      "skeleton": "When China joined the WTO in 2001, Wang was an 18-year-old graduate arriving in Dongguan with nothing.",
+      "zh": "2001 年中国加入世界贸易组织时，王亨利还是个 18 岁的初中毕业生，从中国最北边的省份来到东莞，身无分文。",
+      "points": [
+        { "label": "一个名词挂两层修饰", "text": "graduate 后面先接介词短语 from...province，再接现在分词 arriving...，两层都往后挂。中文只能拆成\"从……来的\"\"来到……的\"两个小句，英文却能保持一个名词中心不动。翻译时的拆句方向，正是写作时该反过来做的合句方向。" },
+        { "label": "用时间从句锚定宏观事件", "text": "把个人经历系在一个所有人都知道的时间点（入世 2001）上，是特稿把\"小人物\"接进\"大历史\"的标准动作。写作中可直接照搬：When X happened, Y was still only ...。" },
+        { "label": "with nothing 的分量", "text": "两个词收尾，不加任何形容。英文写作里，越是想让读者感受重量的地方，越要克制——如果写成 with no money, no connections and no education，反而弱了。" }
+      ],
+      "drill": {
+        "prompt_zh": "模仿「时间从句 + 名词挂两层修饰」写一句：金融危机爆发那年，她还是个刚从北京一所小学校毕业、揣着两百美元来到纽约的年轻记者。",
+        "answer": "When the financial crisis hit, she was a young reporter fresh out of a small school in Beijing, arriving in New York with $200."
+      }
+    },
+    {
+      "chunks": [
+        { "t": "By 2012,", "role": "prep" },
+        { "t": "Wang had co-founded", "role": "main" },
+        { "t": "what became Dongguan ICT Technology,", "role": "sub" },
+        { "t": "an 80-person firm", "role": "appos" },
+        { "t": "exporting automated robotic systems", "role": "nonfin" },
+        { "t": "that assemble circuit boards", "role": "rel" },
+        { "t": "used in virtually all modern electronics.", "role": "nonfin" }
+      ],
+      "skeleton": "By 2012, Wang had co-founded what became Dongguan ICT Technology.",
+      "zh": "到 2012 年，王亨利与人合伙创办了后来的东莞 ICT 科技——一家 80 人的公司，出口用于组装电路板的自动化机器人系统，而这些电路板几乎存在于所有现代电子产品之中。",
+      "points": [
+        { "label": "四层后置修饰的\"链条\"", "text": "主干只有 Wang had co-founded 三个词，之后像挂车厢一样接了四节：同位语 an 80-person firm → 分词 exporting... → 定语从句 that assemble... → 分词 used in...。每一节修饰的都是紧挨着的前一个名词，不是修饰主语。读长句时按\"就近修饰\"逐节解开，几乎不会错。" },
+        { "label": "what became ... 名词性从句", "text": "what became X＝\"后来成为 X 的那个东西\"。它一个词就解决了\"当时还不叫这个名字\"的时间差，比 the company that later became known as X 干净得多。同类：what is now、what would become。" },
+        { "label": "过去完成时的用途", "text": "had co-founded 与 By 2012 搭配，表示\"到那个时间点之前已经完成\"。By + 时间点几乎总是过去完成时的信号，这是叙事文里最容易被中文母语者忽略的时态搭配。" }
+      ],
+      "drill": {
+        "prompt_zh": "用「By + 时间 + 过去完成时 + what became ... + 同位语」写一句：到 2015 年，他们已经做出了后来的公司主力产品——一款面向小商户的支付应用，如今每月处理数百万笔交易。",
+        "answer": "By 2015, they had built what became the company's flagship product, a payments app for small merchants that now handles millions of transactions a month."
+      }
+    },
+    {
+      "chunks": [
+        { "t": "Many companies have shifted production from China to other countries", "role": "main" },
+        { "t": "to avoid U.S. tariffs,", "role": "nonfin" },
+        { "t": "accelerating industrialization in Southeast Asia and Latin America", "role": "nonfin" },
+        { "t": "—a boon for Chinese factories making intermediate and capital goods.", "role": "appos" }
+      ],
+      "skeleton": "Many companies have shifted production to other countries to avoid tariffs, accelerating industrialization in those regions.",
+      "zh": "许多企业为规避美国关税，把生产从中国转移到其他国家，这加快了东南亚和拉美的工业化进程——而这对生产中间品和资本品的中国工厂反而是一大利好。",
+      "points": [
+        { "label": "分词表结果，不是伴随", "text": "accelerating... 在这里是\"造成的结果\"，等于 which has accelerated...。同一个 -ing 形式，既可表伴随（第 1 句的 churning out）也可表结果，靠逻辑判断。表结果时通常放在句末，且前面有逗号。" },
+        { "label": "破折号 + 名词短语作全句总结", "text": "—a boon for... 不修饰任何单个名词，而是对整件事下一个判断。这是英文最经济的\"评论收尾\"：陈述完事实，用一个名词短语给出意义。这个结构上一课也出现过，值得固定下来主动使用。" },
+        { "label": "全句的反讽结构", "text": "企业为了躲关税搬出中国 → 结果反而让中国的上游工厂生意更好。作者不加一句评论，靠 a boon 一个词把反讽点出来。读英文分析文章要留意这种\"用事实排列代替论断\"的写法。" }
+      ],
+      "drill": {
+        "prompt_zh": "用「主句 + 分词表结果 + 破折号名词短语总结」写一句：监管收紧迫使小平台退出市场，把用户推向了几家巨头——这对本想遏制垄断的政策来说是个尴尬的结果。",
+        "answer": "Tighter regulation forced smaller platforms out of the market, pushing users toward a handful of giants—an awkward outcome for a policy meant to curb monopolies."
+      }
+    }
+  ],
+  "phrases": [
+    { "en": "churn out sth.", "zh": "大批量地生产、粗放地产出", "note": "常含\"量大质普通\"的意味：churn out reports / graduates / cheap goods" },
+    { "en": "move up the value chain", "zh": "向价值链上游攀升", "note": "产业升级的标准说法；反向是 be stuck at the low end of the value chain" },
+    { "en": "catch up (with sb.) / surpass sb.", "zh": "追赶上／超越", "note": "文中受访者说 our technology has caught up... we have surpassed them，是一组自然的递进" },
+    { "en": "be years in the making", "zh": "酝酿了多年才成形", "note": "强调结果并非偶然：The deal was three years in the making." },
+    { "en": "an uneven playing field", "zh": "不公平的竞争环境", "note": "反义 a level playing field（公平竞争环境）更常用，两者常在贸易争端报道中成对出现" },
+    { "en": "run into stiff competition", "zh": "遭遇激烈竞争", "note": "run into 后接麻烦类名词：trouble / resistance / delays / competition" },
+    { "en": "account for + 比例", "zh": "占（多少比例）", "note": "Europe accounts for about 60% of its exports. 注意不能用 occupy 表示占比" },
+    { "en": "operate at a loss", "zh": "处于亏损经营状态", "note": "对照 turn a profit（实现盈利）、break even（收支平衡）" },
+    { "en": "under the surface", "zh": "在表象之下", "note": "用来引出与整体数据相反的局部真相，是分析文章的转折信号" },
+    { "en": "year-over-year (YoY)", "zh": "同比（与去年同期相比）", "note": "对照上一课的 sequentially（环比）；文中 jumped 81% year-over-year" },
+    { "en": "a boon for sb.", "zh": "对某方是一大利好", "note": "可数名词，必须带 a；反义 a bane" },
+    { "en": "in response", "zh": "作为回应", "note": "独立成句放段首，用来引出对手方的对策，是叙述博弈的过渡词" }
+  ],
+  "quiz": [
+    {
+      "q": "China's exports of goods that ____ global manufacturing — chips, machinery, robotic arms — grew far faster than consumer goods.",
+      "options": ["undermine", "underpin", "undertake", "undergo"],
+      "answer": 1,
+      "explain": "underpin＝支撑、构成基础。undermine 恰好相反，是\"削弱、侵蚀\"；undertake 是\"着手做\"；undergo 是\"经历（变化）\"。四个词共用 under- 前缀却毫不相干，是极易混淆的一组。"
+    },
+    {
+      "q": "The article says the shift threatens the economic ____ of the EU, Japan and South Korea — their durable competitive advantages.",
+      "options": ["moats", "trenches", "barriers", "ceilings"],
+      "answer": 0,
+      "explain": "economic moat（经济护城河）是固定说法，指难以被复制的结构性优势。barrier 通常指 barriers to entry（进入壁垒），角度是\"挡住新进入者\"而非\"保护自身\"；trench 和 ceiling 在这个意义上不成搭配。"
+    },
+    {
+      "q": "\"German manufacturer Harting is running into ____ competition from Chinese rivals.\" Which adjective is the idiomatic choice?",
+      "options": ["strong", "stiff", "hard", "heavy"],
+      "answer": 1,
+      "explain": "stiff competition 是固定搭配，同类还有 stiff opposition / resistance / penalty。strong competition 语法正确但不地道；hard 和 heavy 都不与 competition 搭配（heavy 搭 traffic、losses）。"
+    },
+    {
+      "q": "In \"By 2012, Wang had co-founded what became Dongguan ICT Technology\", why is the past perfect used?",
+      "options": [
+        "Because the company still exists today",
+        "Because 'By + a past time point' marks an action completed before that point",
+        "Because the sentence contains a relative clause",
+        "Because the subject is a person rather than a company"
+      ],
+      "answer": 1,
+      "explain": "By + 过去时间点几乎总是过去完成时的信号：动作在那个时间之前就已完成。与公司是否存续、是否有从句都无关。这是中文母语者最常漏掉的时态搭配之一。"
+    },
+    {
+      "q": "Topstar's robotics revenue \"jumped 81% ____\" — compared with the same quarter one year earlier.",
+      "options": ["sequentially", "year-over-year", "on aggregate", "at a loss"],
+      "answer": 1,
+      "explain": "year-over-year＝同比，参照去年同期。sequentially 是环比（对比上一季度）。这两个基准在财经阅读中必须分清，弄反会把增长故事完全读错。"
+    },
+    {
+      "q": "\"Companies shifted production out of China to avoid tariffs, accelerating industrialization in Southeast Asia—a boon for Chinese factories.\" What is the writers' point?",
+      "options": [
+        "Tariffs succeeded in weakening China's export sector",
+        "Southeast Asian factories now compete directly with Chinese consumer-goods makers",
+        "Avoiding tariffs by relocating assembly created new demand for Chinese machinery and components",
+        "Chinese factories are relocating to Latin America to escape competition"
+      ],
+      "answer": 2,
+      "explain": "这是全文的反讽核心：企业把组装环节搬离中国以躲避关税，新工厂却仍要买中国的设备和零部件，反而扩大了中国中间品与资本品的市场。a boon 一词就是作者对这个结果的判断。"
+    },
+    {
+      "q": "\"____ just a producer of low-value consumer goods, China is now exporting higher-value capital goods.\" Which opening keeps the main clause carrying the new information?",
+      "options": ["No longer", "Although it is not", "It is not", "Not being"],
+      "answer": 0,
+      "explain": "No longer just a producer of... 是无动词的名词短语作状语，把旧信息压成修饰、把重音留给主句。Although it is not 和 It is not 都会造出一个完整分句，分散重心；Not being 语法勉强但极不自然。"
+    }
+  ]
+}

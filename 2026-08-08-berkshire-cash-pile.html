@@ -1,0 +1,993 @@
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="referrer" content="no-referrer">
+<title>Berkshire Hathaway, Under a New CEO, Starts to Spend Its Cash Pile — 英语精读</title>
+<style>
+*, *::before, *::after { box-sizing: border-box; }
+
+:root {
+  --bg:        #f7f4ef;
+  --bg-alt:    #efeae1;
+  --card:      #ffffff;
+  --ink:       #1b1a18;
+  --ink-soft:  #4a4741;
+  --muted:     #7c766c;
+  --rule:      #e0d9cd;
+  --rule-soft: #ece6db;
+  --accent:    #0a4f8f;
+  --accent-2:  #a8502a;
+  --mark:      #fde68a;
+  --mark-ink:  #3f2d05;
+  --ok:        #2f7a4f;
+  --shadow:    0 1px 2px rgba(27,26,24,.05), 0 8px 24px -16px rgba(27,26,24,.28);
+
+  --r-main:   #1b1a18;
+  --r-sub:    #1f6f4a;
+  --r-rel:    #8a4b12;
+  --r-nonfin: #6b3fa0;
+  --r-prep:   #0a4f8f;
+  --r-appos:  #a03a5a;
+
+  --serif: "Iowan Old Style", "Source Serif 4", Georgia, "Times New Roman", serif;
+  --sans: -apple-system, BlinkMacSystemFont, "Segoe UI", "PingFang SC", "Hiragino Sans GB",
+          "Microsoft YaHei", "Noto Sans SC", sans-serif;
+  --mono: ui-monospace, SFMono-Regular, "SF Mono", Menlo, monospace;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --bg:        #131417;
+    --bg-alt:    #191b1f;
+    --card:      #1c1e23;
+    --ink:       #e9e5dd;
+    --ink-soft:  #c3bdb2;
+    --muted:     #928c81;
+    --rule:      #2e3238;
+    --rule-soft: #24272c;
+    --accent:    #6fb0f0;
+    --accent-2:  #e2926a;
+    --mark:      #5a4a12;
+    --mark-ink:  #f7e9b8;
+    --ok:        #6cc08d;
+    --shadow:    0 1px 2px rgba(0,0,0,.4), 0 10px 30px -18px rgba(0,0,0,.8);
+
+    --r-main:   #e9e5dd;
+    --r-sub:    #63c396;
+    --r-rel:    #e0a054;
+    --r-nonfin: #b490ea;
+    --r-prep:   #6fb0f0;
+    --r-appos:  #ef8fac;
+  }
+}
+
+:root[data-theme="dark"] {
+  --bg:        #131417;
+  --bg-alt:    #191b1f;
+  --card:      #1c1e23;
+  --ink:       #e9e5dd;
+  --ink-soft:  #c3bdb2;
+  --muted:     #928c81;
+  --rule:      #2e3238;
+  --rule-soft: #24272c;
+  --accent:    #6fb0f0;
+  --accent-2:  #e2926a;
+  --mark:      #5a4a12;
+  --mark-ink:  #f7e9b8;
+  --ok:        #6cc08d;
+  --shadow:    0 1px 2px rgba(0,0,0,.4), 0 10px 30px -18px rgba(0,0,0,.8);
+
+  --r-main:   #e9e5dd;
+  --r-sub:    #63c396;
+  --r-rel:    #e0a054;
+  --r-nonfin: #b490ea;
+  --r-prep:   #6fb0f0;
+  --r-appos:  #ef8fac;
+}
+
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--ink);
+  font-family: var(--sans);
+  font-size: 16px;
+  line-height: 1.65;
+  -webkit-font-smoothing: antialiased;
+}
+
+.wrap { max-width: 940px; margin: 0 auto; padding: 0 20px 96px; }
+
+/* ---------------------------------------------------------------- masthead */
+
+.masthead {
+  border-bottom: 3px double var(--ink);
+  padding: 28px 0 16px;
+  margin-bottom: 28px;
+}
+.kicker {
+  display: flex; flex-wrap: wrap; align-items: center; gap: 10px;
+  font-size: 11px; letter-spacing: .14em; text-transform: uppercase;
+  color: var(--muted); font-weight: 600; margin-bottom: 16px;
+}
+.kicker .brand { color: var(--ink); font-family: var(--serif); font-size: 15px;
+  letter-spacing: .02em; text-transform: none; font-weight: 700; }
+.kicker .sep { width: 1px; height: 12px; background: var(--rule); }
+h1.title {
+  font-family: var(--serif); font-weight: 700; font-size: clamp(28px, 4.4vw, 42px);
+  line-height: 1.18; letter-spacing: -.015em; margin: 0 0 8px;
+}
+.title-zh { font-size: clamp(16px, 2.2vw, 20px); color: var(--ink-soft); font-weight: 500; margin: 0 0 18px; }
+.byline { display: flex; flex-wrap: wrap; gap: 8px 14px; align-items: center;
+  font-size: 13px; color: var(--muted); }
+.byline a { color: var(--accent); text-decoration: none; border-bottom: 1px solid transparent; }
+.byline a:hover { border-bottom-color: currentColor; }
+.chips { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 16px; }
+.chip {
+  font-size: 12px; padding: 4px 11px; border-radius: 999px;
+  background: var(--bg-alt); border: 1px solid var(--rule); color: var(--ink-soft);
+  font-variant-numeric: tabular-nums;
+}
+.chip b { font-weight: 650; color: var(--ink); }
+
+/* ---------------------------------------------------------------- toolbar */
+
+.toolbar {
+  position: sticky; top: 0; z-index: 20;
+  display: flex; flex-wrap: wrap; align-items: center; gap: 6px;
+  padding: 10px 0; margin-bottom: 26px;
+  background: color-mix(in srgb, var(--bg) 92%, transparent);
+  backdrop-filter: blur(10px);
+  border-bottom: 1px solid var(--rule);
+}
+.toolbar nav { display: flex; flex-wrap: wrap; gap: 4px; margin-right: auto; }
+.toolbar nav a {
+  font-size: 13px; color: var(--ink-soft); text-decoration: none;
+  padding: 5px 10px; border-radius: 7px;
+}
+.toolbar nav a:hover { background: var(--bg-alt); color: var(--ink); }
+.tbtn {
+  font: inherit; font-size: 12.5px; cursor: pointer;
+  padding: 5px 12px; border-radius: 7px;
+  border: 1px solid var(--rule); background: var(--card); color: var(--ink-soft);
+}
+.tbtn:hover { border-color: var(--accent); color: var(--accent); }
+.tbtn[aria-pressed="true"] { background: var(--accent); border-color: var(--accent); color: var(--bg); }
+
+.progress-rail { height: 3px; background: var(--rule-soft); border-radius: 2px; overflow: hidden; margin-bottom: 30px; }
+.progress-bar { height: 100%; width: 0%; background: var(--ok); transition: width .35s ease; }
+
+/* ---------------------------------------------------------------- sections */
+
+section { margin-bottom: 52px; scroll-margin-top: 64px; }
+.sec-head { display: flex; align-items: baseline; gap: 12px; margin-bottom: 6px;
+  padding-bottom: 10px; border-bottom: 1px solid var(--ink); }
+.sec-head h2 { font-family: var(--serif); font-size: 22px; margin: 0; font-weight: 700; letter-spacing: -.01em; }
+.sec-head .en { font-size: 12px; letter-spacing: .12em; text-transform: uppercase; color: var(--muted); font-weight: 600; }
+.sec-head .count { margin-left: auto; font-size: 12px; color: var(--muted); font-variant-numeric: tabular-nums; }
+.sec-hint { font-size: 13px; color: var(--muted); margin: 10px 0 20px; }
+
+/* ---------------------------------------------------------------- overview */
+
+.overview { background: var(--card); border: 1px solid var(--rule); border-left: 3px solid var(--accent-2);
+  border-radius: 4px; padding: 20px 22px; box-shadow: var(--shadow); }
+.overview p { margin: 0 0 12px; color: var(--ink-soft); }
+.overview p:last-child { margin-bottom: 0; }
+.bg-list { list-style: none; margin: 18px 0 0; padding: 16px 0 0; border-top: 1px dashed var(--rule); }
+.bg-list li { font-size: 14px; margin-bottom: 9px; color: var(--ink-soft); }
+.bg-list li:last-child { margin-bottom: 0; }
+.bg-list b { font-family: var(--serif); color: var(--ink); }
+
+/* ---------------------------------------------------------------- vocab */
+
+.vgrid { display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 14px; }
+.vcard {
+  background: var(--card); border: 1px solid var(--rule); border-radius: 6px;
+  padding: 16px 18px 15px; box-shadow: var(--shadow);
+  display: flex; flex-direction: column; position: relative;
+  transition: border-color .15s ease;
+}
+.vcard:hover { border-color: var(--muted); }
+.vcard.known { border-color: var(--ok); background: color-mix(in srgb, var(--ok) 5%, var(--card)); }
+.vtop { display: flex; align-items: flex-start; gap: 8px; margin-bottom: 4px; }
+.vnum { font-family: var(--mono); font-size: 10px; color: var(--muted); padding-top: 6px; min-width: 18px; }
+.vword { font-family: var(--serif); font-size: 21px; font-weight: 700; letter-spacing: -.01em; line-height: 1.25; }
+.vpos { font-size: 11px; font-style: italic; color: var(--accent-2); border: 1px solid currentColor;
+  border-radius: 3px; padding: 1px 5px; margin-left: 2px; white-space: nowrap; }
+.vipa { font-family: var(--mono); font-size: 12px; color: var(--muted); margin-bottom: 10px; }
+.ven { font-size: 13.5px; color: var(--ink-soft); margin-bottom: 8px; }
+.vzh { font-size: 14.5px; color: var(--ink); font-weight: 500; margin-bottom: 12px; }
+.vquote {
+  font-family: var(--serif); font-size: 14px; line-height: 1.6; color: var(--ink-soft);
+  border-left: 2px solid var(--rule); padding: 2px 0 2px 12px; margin-bottom: 11px;
+}
+.vquote mark { background: var(--mark); color: var(--mark-ink); padding: 0 2px; border-radius: 2px; font-weight: 600; }
+.vcolls { display: flex; flex-wrap: wrap; gap: 5px; margin-bottom: 10px; }
+.vcoll { font-family: var(--serif); font-size: 12.5px; background: var(--bg-alt); border: 1px solid var(--rule-soft);
+  border-radius: 4px; padding: 2px 8px; color: var(--ink-soft); }
+.vnote { font-size: 12.5px; color: var(--muted); border-top: 1px dashed var(--rule); padding-top: 9px; line-height: 1.55; }
+.vnote b { color: var(--accent-2); font-weight: 600; }
+/* ---------------------------------------------------------------- audio */
+
+.play {
+  font: inherit; font-size: 12px; line-height: 1; cursor: pointer;
+  border: 1px solid var(--rule); background: var(--card); color: var(--ink-soft);
+  border-radius: 999px; padding: 4px 7px; vertical-align: middle;
+  transition: border-color .12s, background .12s, transform .12s;
+  flex: none;
+}
+.play:hover { border-color: var(--accent); background: var(--bg-alt); }
+.play.playing { border-color: var(--accent); background: var(--accent); color: var(--bg); }
+.play.playing::after { content: ""; }
+.play.err { border-color: #c0392b; opacity: .55; }
+.play.sm { font-size: 10.5px; padding: 3px 6px; }
+
+.vword-row { display: flex; align-items: center; gap: 7px; flex-wrap: wrap; }
+.vquote-row { display: flex; align-items: flex-start; gap: 8px; margin-bottom: 11px; }
+.vquote-row .vquote { margin-bottom: 0; flex: 1 1 auto; min-width: 0; }
+.vquote-row .play { margin-top: 3px; }
+
+.vfoot { margin-top: auto; padding-top: 11px; }
+.know { display: inline-flex; align-items: center; gap: 6px; font-size: 12px; color: var(--muted); cursor: pointer; user-select: none; }
+.know input { accent-color: var(--ok); cursor: pointer; margin: 0; }
+
+/* hide-Chinese test mode */
+body.hide-zh .vzh, body.hide-zh .s-zh-body, body.hide-zh .q-zh {
+  filter: blur(5px); cursor: pointer; transition: filter .18s ease;
+}
+body.hide-zh .vzh:hover, body.hide-zh .s-zh-body:hover, body.hide-zh .q-zh:hover,
+body.hide-zh .revealed { filter: none; }
+
+/* ---------------------------------------------------------------- sentences */
+
+.legend { display: flex; flex-wrap: wrap; gap: 6px 14px; margin: 0 0 22px;
+  font-size: 12px; color: var(--muted); }
+.legend span { display: inline-flex; align-items: center; gap: 5px; }
+.legend i { width: 14px; height: 3px; border-radius: 2px; display: inline-block; }
+
+.scard { background: var(--card); border: 1px solid var(--rule); border-radius: 6px;
+  padding: 20px 22px; margin-bottom: 18px; box-shadow: var(--shadow); }
+.snum { font-family: var(--mono); font-size: 11px; color: var(--muted); letter-spacing: .08em;
+  text-transform: uppercase; margin-bottom: 12px; display: flex; gap: 10px; align-items: center; }
+.snum .wc { color: var(--accent-2); }
+.sentence { font-family: var(--serif); font-size: clamp(17px, 2.3vw, 19.5px); line-height: 1.85; margin-bottom: 18px; }
+.ch { border-bottom: 2px solid transparent; padding-bottom: 1px; }
+.ch-main   { color: var(--r-main);   font-weight: 600; border-bottom-color: color-mix(in srgb, var(--r-main) 40%, transparent); }
+.ch-sub    { color: var(--r-sub);    border-bottom-color: color-mix(in srgb, var(--r-sub) 55%, transparent); }
+.ch-rel    { color: var(--r-rel);    border-bottom-color: color-mix(in srgb, var(--r-rel) 55%, transparent); }
+.ch-nonfin { color: var(--r-nonfin); border-bottom-color: color-mix(in srgb, var(--r-nonfin) 55%, transparent); }
+.ch-prep   { color: var(--r-prep);   border-bottom-color: color-mix(in srgb, var(--r-prep) 55%, transparent); }
+.ch-appos  { color: var(--r-appos);  border-bottom-color: color-mix(in srgb, var(--r-appos) 55%, transparent); }
+
+.skeleton { background: var(--bg-alt); border-radius: 5px; padding: 11px 14px; margin-bottom: 16px;
+  font-family: var(--serif); font-size: 15px; color: var(--ink); }
+.skeleton .lbl { font-family: var(--sans); font-size: 11px; letter-spacing: .1em; text-transform: uppercase;
+  color: var(--muted); display: block; margin-bottom: 4px; font-weight: 600; }
+
+.s-zh { margin-bottom: 16px; }
+.s-zh .lbl, .s-points .lbl { font-size: 11px; letter-spacing: .1em; text-transform: uppercase;
+  color: var(--muted); font-weight: 600; display: block; margin-bottom: 5px; }
+.s-zh-body { font-size: 15px; color: var(--ink-soft); }
+
+.s-points { border-top: 1px dashed var(--rule); padding-top: 14px; }
+.s-points ul { list-style: none; margin: 0; padding: 0; }
+.s-points li { font-size: 14px; color: var(--ink-soft); margin-bottom: 10px; padding-left: 16px; position: relative; }
+.s-points li:last-child { margin-bottom: 0; }
+.s-points li::before { content: "▸"; position: absolute; left: 0; color: var(--accent-2); }
+.s-points li b { color: var(--ink); font-weight: 650; }
+
+.drill { margin-top: 15px; border-top: 1px dashed var(--rule); padding-top: 14px; }
+.drill-q { font-size: 14px; color: var(--ink); margin-bottom: 9px; }
+.drill-q .lbl { font-size: 11px; letter-spacing: .1em; text-transform: uppercase; color: var(--accent-2);
+  font-weight: 700; margin-right: 8px; }
+.drill details summary { font-size: 13px; color: var(--accent); cursor: pointer; list-style: none; width: fit-content; }
+.drill details summary::-webkit-details-marker { display: none; }
+.drill details summary::before { content: "▸ "; }
+.drill details[open] summary::before { content: "▾ "; }
+.drill details p { font-family: var(--serif); font-size: 14.5px; color: var(--ink-soft);
+  background: var(--bg-alt); border-radius: 5px; padding: 11px 14px; margin: 9px 0 0; }
+
+/* ---------------------------------------------------------------- phrases */
+
+.ptable { width: 100%; border-collapse: collapse; font-size: 14px; }
+.ptable th { text-align: left; font-size: 11px; letter-spacing: .1em; text-transform: uppercase;
+  color: var(--muted); font-weight: 600; padding: 0 12px 8px 0; border-bottom: 1px solid var(--rule); }
+.ptable td { padding: 11px 12px 11px 0; border-bottom: 1px solid var(--rule-soft); vertical-align: top; color: var(--ink-soft); }
+.ptable td:first-child { font-family: var(--serif); font-weight: 600; color: var(--ink); white-space: nowrap; }
+.ptable td:nth-child(2) { white-space: nowrap; color: var(--ink); }
+.ptable td:last-child { font-size: 13px; color: var(--muted); }
+.tscroll { overflow-x: auto; }
+
+/* ---------------------------------------------------------------- quiz */
+
+.qcard { background: var(--card); border: 1px solid var(--rule); border-radius: 6px;
+  padding: 18px 20px; margin-bottom: 14px; box-shadow: var(--shadow); }
+.q-stem { font-family: var(--serif); font-size: 16px; line-height: 1.7; margin-bottom: 14px; }
+.q-stem .blank { border-bottom: 1.5px solid var(--accent-2); padding: 0 22px; }
+.q-opts { display: grid; gap: 7px; }
+.q-opt { display: flex; align-items: flex-start; gap: 9px; font-size: 14px; cursor: pointer;
+  padding: 8px 11px; border: 1px solid var(--rule); border-radius: 5px; background: var(--bg-alt);
+  transition: border-color .12s, background .12s; }
+.q-opt:hover { border-color: var(--accent); }
+.q-opt input { margin: 4px 0 0; accent-color: var(--accent); cursor: pointer; }
+.q-opt .k { font-family: var(--mono); font-size: 12px; color: var(--muted); }
+.q-opt.correct { border-color: var(--ok); background: color-mix(in srgb, var(--ok) 12%, var(--card)); }
+.q-opt.wrong { border-color: #c0392b; background: color-mix(in srgb, #c0392b 12%, var(--card)); }
+.q-exp { display: none; margin-top: 12px; padding-top: 12px; border-top: 1px dashed var(--rule);
+  font-size: 13.5px; color: var(--ink-soft); }
+.q-exp.show { display: block; }
+.quiz-foot { display: flex; align-items: center; gap: 14px; margin-top: 18px; }
+.score { font-size: 14px; color: var(--muted); font-variant-numeric: tabular-nums; }
+.score b { color: var(--ok); font-size: 17px; }
+
+/* ---------------------------------------------------------------- export */
+
+.export { background: var(--card); border: 1px solid var(--rule); border-radius: 6px; padding: 18px 20px; }
+.export pre { font-family: var(--mono); font-size: 11.5px; line-height: 1.7; background: var(--bg-alt);
+  border: 1px solid var(--rule-soft); border-radius: 5px; padding: 13px; overflow-x: auto;
+  max-height: 260px; overflow-y: auto; margin: 12px 0 0; color: var(--ink-soft); white-space: pre; }
+
+/* ---------------------------------------------------------------- index page */
+
+.lgrid { display: grid; grid-template-columns: repeat(auto-fill, minmax(290px, 1fr)); gap: 16px; }
+.lcard { display: block; text-decoration: none; color: inherit; background: var(--card);
+  border: 1px solid var(--rule); border-radius: 6px; padding: 20px; box-shadow: var(--shadow);
+  transition: transform .14s ease, border-color .14s ease; }
+.lcard:hover { transform: translateY(-2px); border-color: var(--accent); }
+.lcard .date { font-family: var(--mono); font-size: 11px; color: var(--muted); letter-spacing: .06em; }
+.lcard h3 { font-family: var(--serif); font-size: 18px; line-height: 1.3; margin: 8px 0 6px; font-weight: 700; }
+.lcard .zh { font-size: 13.5px; color: var(--ink-soft); margin-bottom: 14px; }
+.lcard .stats { display: flex; gap: 8px; flex-wrap: wrap; }
+.empty { color: var(--muted); font-size: 15px; padding: 40px 0; text-align: center; }
+
+footer { margin-top: 60px; padding-top: 20px; border-top: 1px solid var(--rule);
+  font-size: 12px; color: var(--muted); display: flex; flex-wrap: wrap; gap: 10px; align-items: center; }
+footer a { color: var(--accent); text-decoration: none; }
+
+@media (max-width: 620px) {
+  .toolbar nav { order: 2; width: 100%; margin-right: 0; }
+  .vgrid { grid-template-columns: 1fr; }
+}
+
+@media print {
+  .toolbar, .progress-rail, .quiz-foot, .tbtn, .play { display: none !important; }
+  body { background: #fff; font-size: 12pt; }
+  body.hide-zh .vzh, body.hide-zh .s-zh-body, body.hide-zh .q-zh { filter: none !important; }
+  .vcard, .scard, .qcard, .overview { break-inside: avoid; box-shadow: none; }
+  .q-exp { display: block !important; }
+  .drill details { display: block; }
+  .drill details > p { display: block !important; }
+}
+</style>
+<body data-slug="2026-08-08-berkshire-cash-pile">
+<div class="wrap">
+
+<header class="masthead">
+  <div class="kicker">
+    <span class="brand">The Wall Street Journal</span>
+    <span class="sep"></span><span>英语精读</span>
+    <span class="sep"></span><span>Finance</span>
+    <span class="sep"></span><span>2026-08-08</span>
+  </div>
+  <h1 class="title">Berkshire Hathaway, Under a New CEO, Starts to Spend Its Cash Pile</h1>
+  <p class="title-zh">新任 CEO 掌舵下，伯克希尔开始动用它的现金储备</p>
+  <div class="byline">By Krystal Hur <span class="sep"></span> Aug. 8, 2026 <span class="sep"></span> <a href='https://www.wsj.com/finance/stocks/berkshire-hathaway-earnings-q2-2026-brk-a-stock-e394a0e7' target='_blank' rel='noopener'>阅读原文 ↗</a></div>
+  <div class="chips"><span class='chip'>核心词汇 <b>10</b></span><span class='chip'>长难句 <b>6</b></span><span class='chip'>难度 <b>B2–C1</b></span><span class='chip'>建议学习 <b>35 分钟</b></span><span class='chip'>原文 <b>4 min read</b></span></div>
+</header>
+
+
+<div class="toolbar">
+  <nav><a href='#overview'>导读</a><a href='#vocab'>词汇</a><a href='#sentences'>长难句</a><a href='#phrases'>表达</a><a href='#quiz'>自测</a><a href='#export'>生词表</a><a href="index.html">← 全部课程</a></nav>
+  <button class="tbtn" id="zh-btn" aria-pressed="false">中文：显示</button>
+  <button class="tbtn" id="rate-btn" aria-pressed="false">语速 1×</button>
+  <button class="tbtn" id="theme-btn">◐ 主题</button>
+  <button class="tbtn" onclick="window.print()">打印</button>
+</div>
+<div class="progress-rail"><div class="progress-bar" id="progress-bar"></div></div>
+
+
+<section id="overview">
+  <div class="sec-head"><h2>导读</h2><span class="en">Overview</span></div>
+  <p class="sec-hint">先读懂大意与背景，再进入词汇和句子，效率会高很多。</p>
+  <div class="overview"><p>伯克希尔·哈撒韦公布二季度财报：净利润翻倍至 256.7 亿美元，现金储备三年多来首次环比下降。公司斥资 68 亿美元收购住宅建筑商 Taylor Morrison Home，并买入 100 亿美元的 Alphabet 股票，同时回购自家股份。</p><p>这篇报道是典型的&quot;财报快讯&quot;体裁——结构固定、句式紧凑、专有名词密集。它的语言价值在于：一是财经高频词与固定搭配（回购、承保、未实现损益、环比下降），二是记者用来避免重复的替换表达（put a dent in、spending spree、put his stamp on）。学会这套词，你读任何一家公司的财报新闻都会轻松很多。</p><ul class='bg-list'><li><b>Berkshire Hathaway</b> — 伯克希尔·哈撒韦，巴菲特创立的多元化控股集团，旗下有保险、铁路、能源、零售等业务</li><li><b>Greg Abel / Warren Buffett</b> — 阿贝尔于今年 1 月接替巴菲特出任 CEO；巴菲特执掌该公司超过半个世纪</li><li><b>Class A / Class B shares</b> — A 类股每股约 78 万美元，从不拆股；B 类股是为小投资者设立的低价股份</li><li><b>operating earnings vs. net income</b> — 营业利润剔除投资损益，巴菲特认为它比净利润更能反映真实经营状况</li></ul></div>
+</section>
+
+
+<section id="vocab">
+  <div class="sec-head"><h2>核心词汇</h2><span class="en">Vocabulary</span>
+    <span class="count">已掌握 <span id="known-count">0 / 10</span></span></div>
+  <p class="sec-hint">每个词都配了原文例句 —— 记搭配和语境，不要只记中文对应词。🔊 可听单词与例句发音，点「中文：显示」切换遮盖模式自测。</p>
+  <div class="vgrid">
+  <article class="vcard">
+    <div class="vtop">
+      <span class="vnum">01</span>
+      <div>
+        <div class="vword-row">
+          <span class="vword">conglomerate</span> <span class="vpos">n.</span>
+          <button class="play" data-text="conglomerate" aria-label="朗读">🔊</button>
+        </div>
+        <div class='vipa'>/kənˈɡlɒmərət/</div>
+      </div>
+    </div>
+    <div class="ven">a large corporation formed by merging separate and diverse firms</div>
+    <div class="vzh">（跨行业的）企业集团、综合性大企业</div>
+    <div class='vquote-row'><div class='vquote'>The Omaha, Neb.-based <mark>conglomerate</mark> said Saturday its quarterly profit more than doubled, powered by investment gains and strong results from its industrial and retail businesses.</div><button class="play sm" data-text="The Omaha, Neb.-based conglomerate said Saturday its quarterly profit more than doubled, powered by investment gains and strong results from its industrial and retail businesses." aria-label="朗读">🔊</button></div><div class='vcolls'><span class='vcoll'>a sprawling conglomerate</span><span class='vcoll'>an industrial conglomerate</span><span class='vcoll'>conglomerate discount</span></div><div class='vnote'><b>辨析</b> 财经报道里，记者第二次提到某公司时几乎不会重复公司名，而是用一个概括性同位语替换：the conglomerate / the retailer / the chipmaker。读的时候要能立刻把它对应回前文的主语。</div>
+    <div class="vfoot">
+      <label class="know"><input type="checkbox" data-word="conglomerate"> 已掌握</label>
+    </div>
+  </article>
+  <article class="vcard">
+    <div class="vtop">
+      <span class="vnum">02</span>
+      <div>
+        <div class="vword-row">
+          <span class="vword">haul</span> <span class="vpos">n.</span>
+          <button class="play" data-text="haul" aria-label="朗读">🔊</button>
+        </div>
+        <div class='vipa'>/hɔːl/</div>
+      </div>
+    </div>
+    <div class="ven">an amount acquired or accumulated, especially a large one</div>
+    <div class="vzh">（大笔的）所得、囤积量；此处 cash haul＝现金储备</div>
+    <div class='vquote-row'><div class='vquote'>Berkshire Hathaway put a dent in its massive <mark>cash haul</mark> during the second quarter.</div><button class="play sm" data-text="Berkshire Hathaway put a dent in its massive cash haul during the second quarter." aria-label="朗读">🔊</button></div><div class='vcolls'><span class='vcoll'>a record haul</span><span class='vcoll'>cash haul</span><span class='vcoll'>a haul of medals</span></div><div class='vnote'><b>辨析</b> haul 原指&quot;拖、拽&quot;，引申为&quot;一次拖回来的东西&quot;，因此自带&quot;数量大、辛苦攒下&quot;的意味，比中性的 amount 更有画面感。同义替换还有 cash pile、cash hoard、war chest。</div>
+    <div class="vfoot">
+      <label class="know"><input type="checkbox" data-word="haul"> 已掌握</label>
+    </div>
+  </article>
+  <article class="vcard">
+    <div class="vtop">
+      <span class="vnum">03</span>
+      <div>
+        <div class="vword-row">
+          <span class="vword">repurchase</span> <span class="vpos">v. / n.</span>
+          <button class="play" data-text="repurchase" aria-label="朗读">🔊</button>
+        </div>
+        <div class='vipa'>/ˌriːˈpɜːtʃəs/</div>
+      </div>
+    </div>
+    <div class="ven">to buy back one&#x27;s own shares from the market</div>
+    <div class="vzh">回购（股票）</div>
+    <div class='vquote-row'><div class='vquote'>The company <mark>repurchased</mark> 478 Class A shares and more than 8 million Class B shares in May and June, for roughly $4.5 billion.</div><button class="play sm" data-text="The company repurchased 478 Class A shares and more than 8 million Class B shares in May and June, for roughly $4.5 billion." aria-label="朗读">🔊</button></div><div class='vcolls'><span class='vcoll'>repurchase shares</span><span class='vcoll'>a share repurchase program</span><span class='vcoll'>buy back stock</span></div><div class='vnote'><b>辨析</b> 口语和标题里更常用动词短语 buy back 和名词 buyback；正式财报文本用 repurchase。三者可互换，但 buyback 是名词、buy back 是动词短语，别写混。</div>
+    <div class="vfoot">
+      <label class="know"><input type="checkbox" data-word="repurchase"> 已掌握</label>
+    </div>
+  </article>
+  <article class="vcard">
+    <div class="vtop">
+      <span class="vnum">04</span>
+      <div>
+        <div class="vword-row">
+          <span class="vword">sequentially</span> <span class="vpos">adv.</span>
+          <button class="play" data-text="sequentially" aria-label="朗读">🔊</button>
+        </div>
+        <div class='vipa'>/sɪˈkwenʃəli/</div>
+      </div>
+    </div>
+    <div class="ven">compared with the immediately preceding period (quarter or month)</div>
+    <div class="vzh">环比地（与上一季度／上月相比）</div>
+    <div class='vquote-row'><div class='vquote'>It marked the first time the company&#x27;s cash declined <mark>sequentially</mark> in four years.</div><button class="play sm" data-text="It marked the first time the company&#x27;s cash declined sequentially in four years." aria-label="朗读">🔊</button></div><div class='vcolls'><span class='vcoll'>decline sequentially</span><span class='vcoll'>sequential growth</span><span class='vcoll'>year over year (同比)</span></div><div class='vnote'><b>辨析</b> 财报里两个时间基准必须分清：sequentially＝环比（对比上一个季度），year over year / from a year earlier＝同比（对比去年同期）。本文两种都出现了，注意各自的参照物。</div>
+    <div class="vfoot">
+      <label class="know"><input type="checkbox" data-word="sequentially"> 已掌握</label>
+    </div>
+  </article>
+  <article class="vcard">
+    <div class="vtop">
+      <span class="vnum">05</span>
+      <div>
+        <div class="vword-row">
+          <span class="vword">spree</span> <span class="vpos">n.</span>
+          <button class="play" data-text="spree" aria-label="朗读">🔊</button>
+        </div>
+        <div class='vipa'>/spriː/</div>
+      </div>
+    </div>
+    <div class="ven">a burst of unrestrained activity, especially spending or buying</div>
+    <div class="vzh">一阵狂热的行为；spending spree＝大举花钱、疯狂扫货</div>
+    <div class='vquote-row'><div class='vquote'>The <mark>spending spree</mark> is a sign that Greg Abel is beginning to put his stamp on the conglomerate.</div><button class="play sm" data-text="The spending spree is a sign that Greg Abel is beginning to put his stamp on the conglomerate." aria-label="朗读">🔊</button></div><div class='vcolls'><span class='vcoll'>a spending spree</span><span class='vcoll'>a buying spree</span><span class='vcoll'>an acquisition spree</span><span class='vcoll'>go on a spree</span></div><div class='vnote'><b>辨析</b> spree 一定是短时间、高强度、略带失控意味的行为，所以既能说 shopping spree，也能说 killing spree。用在公司身上是轻微的调侃，暗示&quot;花得比平时凶&quot;。</div>
+    <div class="vfoot">
+      <label class="know"><input type="checkbox" data-word="spree"> 已掌握</label>
+    </div>
+  </article>
+  <article class="vcard">
+    <div class="vtop">
+      <span class="vnum">06</span>
+      <div>
+        <div class="vword-row">
+          <span class="vword">predecessor</span> <span class="vpos">n.</span>
+          <button class="play" data-text="predecessor" aria-label="朗读">🔊</button>
+        </div>
+        <div class='vipa'>/ˈpriːdɪsesə(r)/</div>
+      </div>
+    </div>
+    <div class="ven">the person who held a job or office before the current holder</div>
+    <div class="vzh">前任；前身（指事物时）</div>
+    <div class='vquote-row'><div class='vquote'>Greg Abel is beginning to put his stamp on a conglomerate that his <mark>predecessor</mark> ran for more than half a century.</div><button class="play sm" data-text="Greg Abel is beginning to put his stamp on a conglomerate that his predecessor ran for more than half a century." aria-label="朗读">🔊</button></div><div class='vcolls'><span class='vcoll'>his predecessor</span><span class='vcoll'>unlike her predecessor</span><span class='vcoll'>successor (继任者)</span></div><div class='vnote'><b>辨析</b> 成对记忆：predecessor（前任）↔ successor（继任者）；动词 succeed sb.＝接替某人（本文的 succeeded Warren Buffett），注意别理解成&quot;成功&quot;。</div>
+    <div class="vfoot">
+      <label class="know"><input type="checkbox" data-word="predecessor"> 已掌握</label>
+    </div>
+  </article>
+  <article class="vcard">
+    <div class="vtop">
+      <span class="vnum">07</span>
+      <div>
+        <div class="vword-row">
+          <span class="vword">ebullient</span> <span class="vpos">adj.</span>
+          <button class="play" data-text="ebullient" aria-label="朗读">🔊</button>
+        </div>
+        <div class='vipa'>/ɪˈbʌliənt/</div>
+      </div>
+    </div>
+    <div class="ven">overflowing with excitement or enthusiasm; (of markets) buoyant and overheated</div>
+    <div class="vzh">（人）兴高采烈的；（市场）亢奋的、过热的</div>
+    <div class='vquote-row'><div class='vquote'>It&#x27;s very hard to want Greg to be making big deals in an <mark>ebullient</mark> market like now.</div><button class="play sm" data-text="It&#x27;s very hard to want Greg to be making big deals in an ebullient market like now." aria-label="朗读">🔊</button></div><div class='vcolls'><span class='vcoll'>an ebullient market</span><span class='vcoll'>ebullient mood</span><span class='vcoll'>ebullient personality</span></div><div class='vnote'><b>辨析</b> 词源是&quot;沸腾&quot;（拉丁语 bullire＝to boil），所以形容市场时暗含&quot;烧过头、迟早要冷&quot;的贬义。市场情绪词的强度梯度：subdued &lt; steady &lt; buoyant &lt; ebullient &lt; frothy &lt; bubble。</div>
+    <div class="vfoot">
+      <label class="know"><input type="checkbox" data-word="ebullient"> 已掌握</label>
+    </div>
+  </article>
+  <article class="vcard">
+    <div class="vtop">
+      <span class="vnum">08</span>
+      <div>
+        <div class="vword-row">
+          <span class="vword">underwriting</span> <span class="vpos">n.</span>
+          <button class="play" data-text="underwriting" aria-label="朗读">🔊</button>
+        </div>
+        <div class='vipa'>/ˈʌndəraɪtɪŋ/</div>
+      </div>
+    </div>
+    <div class="ven">the insurance business of assessing risk and issuing policies (as distinct from investing the premiums)</div>
+    <div class="vzh">承保（业务）；保险公司靠收保费、赔付理赔赚的那部分利润</div>
+    <div class='vquote-row'><div class='vquote'>The company&#x27;s insurance arm reported a drop in <mark>underwriting earnings</mark>, weighed down by results from car insurer Geico.</div><button class="play sm" data-text="The company&#x27;s insurance arm reported a drop in underwriting earnings, weighed down by results from car insurer Geico." aria-label="朗读">🔊</button></div><div class='vcolls'><span class='vcoll'>underwriting profit / loss</span><span class='vcoll'>underwriting earnings</span><span class='vcoll'>an underwriter</span></div><div class='vnote'><b>辨析</b> 保险公司有两个利润来源，读财报必须分开：underwriting income（承保收益，保费减赔付）和 investment income（投资收益，用浮存金投资赚的）。本文说两者都下滑了。</div>
+    <div class="vfoot">
+      <label class="know"><input type="checkbox" data-word="underwriting"> 已掌握</label>
+    </div>
+  </article>
+  <article class="vcard">
+    <div class="vtop">
+      <span class="vnum">09</span>
+      <div>
+        <div class="vword-row">
+          <span class="vword">unrealized</span> <span class="vpos">adj.</span>
+          <button class="play" data-text="unrealized" aria-label="朗读">🔊</button>
+        </div>
+        <div class='vipa'>/ʌnˈriːəlaɪzd/</div>
+      </div>
+    </div>
+    <div class="ven">(of a gain or loss) existing only on paper because the asset has not been sold</div>
+    <div class="vzh">未实现的（浮盈／浮亏，尚未卖出兑现）</div>
+    <div class='vquote-row'><div class='vquote'>Accounting rules require Berkshire to include <mark>unrealized gains</mark> and losses from its giant investment portfolio when it reports net income.</div><button class="play sm" data-text="Accounting rules require Berkshire to include unrealized gains and losses from its giant investment portfolio when it reports net income." aria-label="朗读">🔊</button></div><div class='vcolls'><span class='vcoll'>unrealized gains and losses</span><span class='vcoll'>realized a profit</span><span class='vcoll'>paper gains</span></div><div class='vnote'><b>辨析</b> realize 在财经语境里＝&quot;变现、兑现&quot;，不是&quot;意识到&quot;。realized gain 是卖出后落袋的收益，unrealized gain 只是账面浮盈，口语也叫 paper gains。</div>
+    <div class="vfoot">
+      <label class="know"><input type="checkbox" data-word="unrealized"> 已掌握</label>
+    </div>
+  </article>
+  <article class="vcard">
+    <div class="vtop">
+      <span class="vnum">10</span>
+      <div>
+        <div class="vword-row">
+          <span class="vword">fluctuation</span> <span class="vpos">n.</span>
+          <button class="play" data-text="fluctuation" aria-label="朗读">🔊</button>
+        </div>
+        <div class='vipa'>/ˌflʌktʃuˈeɪʃn/</div>
+      </div>
+    </div>
+    <div class="ven">an irregular rise and fall in amount or value</div>
+    <div class="vzh">波动、起伏</div>
+    <div class='vquote-row'><div class='vquote'>Short-term <mark>fluctuations</mark> in the stock market can cause big swings in quarterly income.</div><button class="play sm" data-text="Short-term fluctuations in the stock market can cause big swings in quarterly income." aria-label="朗读">🔊</button></div><div class='vcolls'><span class='vcoll'>price fluctuations</span><span class='vcoll'>seasonal fluctuations</span><span class='vcoll'>fluctuate wildly</span></div><div class='vnote'><b>辨析</b> 同一句里 fluctuations 和 swings 是刻意的同义替换（避免重复），这是英文写作的基本要求。近义强度：fluctuation（中性波动）&lt; swing（大幅摆动）&lt; volatility（波动性，可量化的术语）。</div>
+    <div class="vfoot">
+      <label class="know"><input type="checkbox" data-word="fluctuation"> 已掌握</label>
+    </div>
+  </article></div>
+</section>
+
+
+<section id="sentences">
+  <div class="sec-head"><h2>长难句精析</h2><span class="en">Sentence Lab</span>
+    <span class="count">6 句</span></div>
+  <p class="sec-hint">先按颜色切分意群，找出主干，再补上修饰成分 —— 这是拆长句唯一可靠的顺序。🔊 跟着音频读一遍，注意停顿落在哪里：意群的边界就是它该断的地方。</p>
+  <div class="legend"><span><i style='background:var(--r-main)'></i>主干</span><span><i style='background:var(--r-prep)'></i>介词/状语</span><span><i style='background:var(--r-nonfin)'></i>非谓语</span><span><i style='background:var(--r-sub)'></i>从句</span><span><i style='background:var(--r-rel)'></i>定语从句</span><span><i style='background:var(--r-appos)'></i>同位语/插入</span></div>
+  
+  <article class="scard">
+    <div class="snum"><span>Sentence 01</span><span class="wc">33 words</span><button class="play" data-text="Berkshire Hathaway put a dent in its massive cash haul during the second quarter, repurchasing company shares and buying more stocks than it sold for the first time in more than three years." aria-label="朗读">🔊</button></div>
+    <div class="sentence"><span class='ch ch-main'>Berkshire Hathaway put a dent in its massive cash haul</span> <span class='ch ch-prep'>during the second quarter,</span> <span class='ch ch-nonfin'>repurchasing company shares and buying more stocks than it sold</span> <span class='ch ch-prep'>for the first time in more than three years.</span></div>
+    <div class='skeleton'><span class='lbl'>句子主干</span>Berkshire put a dent in its cash haul, repurchasing shares and buying more stocks than it sold.</div>
+    <div class="s-zh"><span class="lbl">参考译文</span><div class="s-zh-body">伯克希尔在第二季度动用了它庞大的现金储备：回购了自家股票，并且三年多来首次买入的股票多于卖出的股票。</div></div>
+    <div class='s-points'><span class='lbl'>语法与写作点</span><ul><li><b>现在分词作伴随状语</b> — repurchasing... and buying... 不是并列谓语，而是分词短语，说明主句动作&quot;put a dent in&quot;是怎么发生的。这是新闻导语最常见的加信息方式：主句给结论，分词补细节，避免写成两个短句。</li><li><b>比较结构省略</b> — buying more stocks than it sold 完整形式是 than it sold stocks，than 引导的比较从句里重复成分被省略。这个说法等于 was a net buyer of stocks（净买入）。</li><li><b>put a dent in</b> — 字面是&quot;在……上砸出一个坑&quot;，用来说&quot;（终于）让一大笔钱／一个大数字有所减少&quot;，比 reduced 生动得多，且暗示&quot;减得不多，但方向变了&quot;——正是本文的核心新闻点。</li></ul></div>
+    <div class="drill">
+      <div class="drill-q"><span class="lbl">仿写</span>用「主句 + 现在分词伴随状语」写一句：这家初创公司去年削减了开支，裁掉了两成员工并关闭了三个海外办公室。</div>
+      <details><summary>参考答案</summary><p>The startup cut its costs last year, laying off a fifth of its staff and closing three overseas offices.</p></details>
+    </div>
+  </article>
+  <article class="scard">
+    <div class="snum"><span>Sentence 02</span><span class="wc">37 words</span><button class="play" data-text="The spending spree is a sign that Greg Abel, who succeeded Warren Buffett as chief executive in January, is beginning to put his stamp on a conglomerate that his predecessor ran for more than half a century." aria-label="朗读">🔊</button></div>
+    <div class="sentence"><span class='ch ch-main'>The spending spree is a sign</span> <span class='ch ch-sub'>that Greg Abel,</span> <span class='ch ch-rel'>who succeeded Warren Buffett as chief executive in January,</span> <span class='ch ch-sub'>is beginning to put his stamp on a conglomerate</span> <span class='ch ch-rel'>that his predecessor ran for more than half a century.</span></div>
+    <div class='skeleton'><span class='lbl'>句子主干</span>The spending spree is a sign that Abel is beginning to put his stamp on a conglomerate.</div>
+    <div class="s-zh"><span class="lbl">参考译文</span><div class="s-zh-body">这轮大手笔支出表明，今年 1 月接替巴菲特出任首席执行官的格雷格·阿贝尔，正开始在这家由其前任执掌了半个多世纪的集团上留下自己的印记。</div></div>
+    <div class='s-points'><span class='lbl'>语法与写作点</span><ul><li><b>同位语从句 vs 定语从句</b> — 第一个 that（a sign that...）是同位语从句，解释 sign 的具体内容，that 在从句里不作成分；最后一个 that（a conglomerate that his predecessor ran）是定语从句，that 作 ran 的宾语。两个 that 长得一样，功能完全不同——判断方法：去掉 that 后从句是否缺成分。</li><li><b>主语被插入语切断</b> — 主句从句的主语 Greg Abel 和谓语 is beginning 之间插了一整个非限制性定语从句（who... in January）。读到逗号要&quot;挂起&quot;主语，跳过插入部分先找谓语，再回头补信息。这是长句最常见的阅读陷阱。</li><li><b>put one&#x27;s stamp on sth.</b> — &quot;给某事物打上自己的烙印&quot;，指新领导者开始按自己的方式改造一个组织。近义：leave one&#x27;s mark on、reshape sth. in one&#x27;s own image。</li></ul></div>
+    <div class="drill">
+      <div class="drill-q"><span class="lbl">仿写</span>模仿这个结构（同位语从句 + 插入定语从句）写一句：股价下跌说明，去年才上市的这家公司正在失去投资者的信任。</div>
+      <details><summary>参考答案</summary><p>The falling share price is a sign that the company, which went public only last year, is losing the trust of investors.</p></details>
+    </div>
+  </article>
+  <article class="scard">
+    <div class="snum"><span>Sentence 03</span><span class="wc">35 words</span><button class="play" data-text="Accounting rules require Berkshire to include unrealized gains and losses from its giant investment portfolio when it reports net income, meaning that short-term fluctuations in the stock market can cause big swings in quarterly income." aria-label="朗读">🔊</button></div>
+    <div class="sentence"><span class='ch ch-main'>Accounting rules require Berkshire to include unrealized gains and losses</span> <span class='ch ch-prep'>from its giant investment portfolio</span> <span class='ch ch-sub'>when it reports net income,</span> <span class='ch ch-nonfin'>meaning that short-term fluctuations in the stock market can cause big swings in quarterly income.</span></div>
+    <div class='skeleton'><span class='lbl'>句子主干</span>Accounting rules require Berkshire to include unrealized gains and losses, meaning that fluctuations can cause big swings.</div>
+    <div class="s-zh"><span class="lbl">参考译文</span><div class="s-zh-body">会计准则要求伯克希尔在报告净利润时，把其庞大投资组合的未实现损益也计算在内；这意味着股市的短期波动会造成季度利润的大幅起落。</div></div>
+    <div class='s-points'><span class='lbl'>语法与写作点</span><ul><li><b>meaning that... 结果状语</b> — 分词短语 meaning that... 对整个主句作出解读，相当于 which means that... 或 and this means that...。财经和科技写作特别爱用它把&quot;事实&quot;和&quot;事实的含义&quot;接在一句里。可替换的同类表达：suggesting that、leaving sth. exposed、raising the risk that。</li><li><b>require sb. to do sth.</b> — 注意 require 的宾语补足语用不定式（require Berkshire to include），而不是 require doing。类似结构：allow / enable / force / permit sb. to do。</li><li><b>同义替换避免重复</b> — fluctuations（波动）→ swings（起落），前后指的是同一类现象却换了词。写作时刻意做这种替换，是拉开水平差距最快的方式之一。</li></ul></div>
+    <div class="drill">
+      <div class="drill-q"><span class="lbl">仿写</span>用 meaning that 结构写一句：新规定要求平台披露算法细节，这意味着企业将更难以商业机密为由拒绝监管。</div>
+      <details><summary>参考答案</summary><p>The new rules require platforms to disclose how their algorithms work, meaning that companies will find it harder to refuse scrutiny by citing trade secrets.</p></details>
+    </div>
+  </article>
+  <article class="scard">
+    <div class="snum"><span>Sentence 04</span><span class="wc">27 words</span><button class="play" data-text="Profit from Berkshire&#x27;s portfolio of manufacturing, service and retailing businesses —a group that includes industrial metal components, Duracell batteries and Flying J fuel stations— jumped 24% to $4.47 billion." aria-label="朗读">🔊</button></div>
+    <div class="sentence"><span class='ch ch-main'>Profit</span> <span class='ch ch-prep'>from Berkshire&#x27;s portfolio of manufacturing, service and retailing businesses</span> <span class='ch ch-appos'>—a group that includes industrial metal components, Duracell batteries and Flying J fuel stations—</span> <span class='ch ch-main'>jumped 24% to $4.47 billion.</span></div>
+    <div class='skeleton'><span class='lbl'>句子主干</span>Profit jumped 24% to $4.47 billion.</div>
+    <div class="s-zh"><span class="lbl">参考译文</span><div class="s-zh-body">来自伯克希尔制造、服务和零售业务组合的利润——这一板块包括工业金属部件、金霸王电池和 Flying J 加油站——大涨 24%，至 44.7 亿美元。</div></div>
+    <div class='s-points'><span class='lbl'>语法与写作点</span><ul><li><b>主谓被破折号隔开</b> — 主干只有 Profit jumped 24%，中间塞了一个介词短语加一个破折号同位语，主语和谓语相隔 20 多个词。破折号内的内容永远是可删的补充说明——先跳过读通主干，再回来看细节。</li><li><b>涨跌幅的标准写法</b> — jumped 24% to $4.47 billion＝&quot;上涨 24%，至 44.7 亿&quot;。介词分工固定：by＋变化幅度，to＋变化后的水平，from＋变化前的水平。动词强度梯度：edged up &lt; rose &lt; climbed &lt; jumped &lt; soared；下跌方向：edged down &lt; fell &lt; slid &lt; slumped &lt; plunged。</li><li><b>portfolio of...</b> — portfolio 既指&quot;投资组合&quot;，也指&quot;（企业的）业务组合、产品线&quot;。本文是后者。</li></ul></div>
+    <div class="drill">
+      <div class="drill-q"><span class="lbl">仿写</span>用「主语 + 破折号同位语 + 谓语」写一句：该公司的海外收入——主要来自德国、日本和巴西——下滑了 12%，至 8.3 亿美元。</div>
+      <details><summary>参考答案</summary><p>The company&#x27;s overseas revenue—most of it from Germany, Japan and Brazil—fell 12% to $830 million.</p></details>
+    </div>
+  </article>
+  <article class="scard">
+    <div class="snum"><span>Sentence 05</span><span class="wc">29 words</span><button class="play" data-text="Berkshire ended June with $364.7 billion in cash and Treasury bills after accounting for a payable for purchasing some of the short-term government debt, a 4% decrease from three months earlier." aria-label="朗读">🔊</button></div>
+    <div class="sentence"><span class='ch ch-main'>Berkshire ended June with $364.7 billion in cash and Treasury bills</span> <span class='ch ch-nonfin'>after accounting for a payable for purchasing some of the short-term government debt,</span> <span class='ch ch-appos'>a 4% decrease from three months earlier.</span></div>
+    <div class='skeleton'><span class='lbl'>句子主干</span>Berkshire ended June with $364.7 billion in cash and Treasury bills, a 4% decrease from three months earlier.</div>
+    <div class="s-zh"><span class="lbl">参考译文</span><div class="s-zh-body">在扣除购买部分短期国债所产生的应付款项之后，伯克希尔 6 月末持有 3647 亿美元的现金及国库券，较三个月前下降 4%。</div></div>
+    <div class='s-points'><span class='lbl'>语法与写作点</span><ul><li><b>end + 时间 + with + 数字</b> — end June with $X 是财报固定句式：&quot;截至 6 月末持有 X&quot;。同类：closed the year with、entered the quarter with。</li><li><b>account for 的两个意思</b> — 这里 after accounting for＝&quot;在把……计算／扣除在内之后&quot;。account for 另一个高频义是&quot;占（比例）&quot;：Exports account for 30% of revenue。第三个义是&quot;解释&quot;。三个意思全靠语境区分。</li><li><b>名词短语作总结同位语</b> — 句尾的 a 4% decrease from three months earlier 不修饰任何单个名词，而是概括前面整件事，相当于 which was a 4% decrease...。这种&quot;逗号＋名词短语&quot;收尾非常经济，值得主动模仿。</li></ul></div>
+    <div class="drill">
+      <div class="drill-q"><span class="lbl">仿写</span>用「逗号＋名词短语」总结收尾写一句：该行三季度末的坏账余额为 210 亿美元，较去年同期增长 18%。</div>
+      <details><summary>参考答案</summary><p>The bank ended the third quarter with $21 billion in bad loans, an 18% increase from a year earlier.</p></details>
+    </div>
+  </article>
+  <article class="scard">
+    <div class="snum"><span>Sentence 06</span><span class="wc">21 words</span><button class="play" data-text="The company&#x27;s insurance arm reported a drop in underwriting earnings, weighed down by results from car insurer Geico, and investment income." aria-label="朗读">🔊</button></div>
+    <div class="sentence"><span class='ch ch-main'>The company&#x27;s insurance arm reported a drop in underwriting earnings,</span> <span class='ch ch-nonfin'>weighed down by results from car insurer Geico,</span> <span class='ch ch-main'>and investment income.</span></div>
+    <div class='skeleton'><span class='lbl'>句子主干</span>The insurance arm reported a drop in underwriting earnings and investment income.</div>
+    <div class="s-zh"><span class="lbl">参考译文</span><div class="s-zh-body">公司的保险板块报告称，承保利润和投资收益双双下滑，主要受车险公司 Geico 业绩拖累。</div></div>
+    <div class='s-points'><span class='lbl'>语法与写作点</span><ul><li><b>arm＝分部</b> — arm 在公司报道里指&quot;（大集团的）某一业务部门&quot;：its insurance arm、the lending arm、the research arm。同义词：division、unit、segment。</li><li><b>过去分词作后置修饰</b> — weighed down by... 修饰前面的 a drop，说明下滑的原因。weigh down 字面&quot;压得抬不起头&quot;，是财经写作里表达&quot;拖累&quot;的最常用动词，通常用被动：earnings were weighed down by higher costs。</li><li><b>阅读警示：并列成分被切断</b> — 句尾的 and investment income 其实并列的是 underwriting earnings（即 a drop in A and B），中间插入的分词短语把它们分开了，很容易误读成&quot;和投资收益&quot;并列 Geico。遇到句末孤零零的 and + 名词，要往前找它真正的并列对象。</li></ul></div>
+  </article>
+</section>
+
+
+<section id="phrases">
+  <div class="sec-head"><h2>地道表达</h2><span class="en">Phrases &amp; Idioms</span>
+    <span class="count">10 条</span></div>
+  <p class="sec-hint">这些短语在财经和时事写作里复现率极高，值得直接背下来主动使用。</p>
+  <div class="tscroll"><table class="ptable">
+    <thead><tr><th>表达</th><th>含义</th><th>用法提示</th></tr></thead>
+    <tbody><tr><td>put a dent in sth.</td><td>使（大数目）有所减少；削弱</td><td>常搭配 savings / profits / lead：The repairs put a dent in our savings.</td></tr><tr><td>put one&#x27;s stamp on sth.</td><td>在某事物上留下个人印记</td><td>多用于新上任的领导者按自己意图改造组织</td></tr><tr><td>be weighed down by sth.</td><td>被……拖累</td><td>财报报道表达&quot;利润被某项业务拉低&quot;的标准说法</td></tr><tr><td>more than double</td><td>增长一倍以上、翻了不止一番</td><td>动词用法：profit more than doubled；反义是 more than halved</td></tr><tr><td>a net buyer / seller of sth.</td><td>净买入方／净卖出方</td><td>买入量减去卖出量后仍为正即 net buyer</td></tr><tr><td>for now</td><td>眼下、暂时</td><td>放句尾表示&quot;目前如此，但未必长久&quot;，是记者留有余地的常用手法</td></tr><tr><td>as it turns out / it turns out that</td><td>结果表明、事实证明</td><td>引出与预期不同的结论</td></tr><tr><td>be set to do sth.</td><td>预定将、势必将</td><td>The company is set to disclose more next week. 比 will 更书面</td></tr><tr><td>in the same vein</td><td>属于同一类、如出一辙</td><td>衔接相似的例子或观点</td></tr><tr><td>not to be outdone</td><td>不甘示弱</td><td>描述竞争对手互相跟进时的固定表达</td></tr></tbody>
+  </table></div>
+</section>
+
+
+<section id="quiz">
+  <div class="sec-head"><h2>自测</h2><span class="en">Check Yourself</span>
+    <span class="count">6 题</span></div>
+  <p class="sec-hint">凭语感选，不要回看上面 —— 选错的那道题才是真正要复习的。</p>
+  
+  <div class="qcard" data-qid="q1" data-answer="0">
+    <div class="q-stem">1. Berkshire&#x27;s cash declined <span class='blank'></span> for the first time in four years, meaning it fell compared with the previous quarter.</div>
+    <div class="q-opts"><label class="q-opt"><input type="radio" name="q1" value="0">
+        <span class="k">A.</span><span>sequentially</span></label><label class="q-opt"><input type="radio" name="q1" value="1">
+        <span class="k">B.</span><span>year over year</span></label><label class="q-opt"><input type="radio" name="q1" value="2">
+        <span class="k">C.</span><span>unrealized</span></label><label class="q-opt"><input type="radio" name="q1" value="3">
+        <span class="k">D.</span><span>ebullient</span></label></div>
+    <div class='q-exp'><span class='q-zh'>sequentially＝环比，参照上一个季度；year over year 是同比，参照去年同期。原文强调的是&quot;三年多来第一次比上一季度少&quot;，所以只能用 sequentially。</span></div>
+  </div>
+  <div class="qcard" data-qid="q2" data-answer="1">
+    <div class="q-stem">2. The new chief executive is beginning to put his <span class='blank'></span> on the company his predecessor ran for decades.</div>
+    <div class="q-opts"><label class="q-opt"><input type="radio" name="q2" value="0">
+        <span class="k">A.</span><span>mark</span></label><label class="q-opt"><input type="radio" name="q2" value="1">
+        <span class="k">B.</span><span>stamp</span></label><label class="q-opt"><input type="radio" name="q2" value="2">
+        <span class="k">C.</span><span>print</span></label><label class="q-opt"><input type="radio" name="q2" value="3">
+        <span class="k">D.</span><span>sign</span></label></div>
+    <div class='q-exp'><span class='q-zh'>固定搭配是 put one&#x27;s stamp on sth.（留下个人印记）。leave one&#x27;s mark on 也成立，但动词必须换成 leave；put one&#x27;s mark 并非习惯说法。</span></div>
+  </div>
+  <div class="qcard" data-qid="q3" data-answer="2">
+    <div class="q-stem">3. Which pair correctly describes profits that exist only on paper because the shares have not been sold?</div>
+    <div class="q-opts"><label class="q-opt"><input type="radio" name="q3" value="0">
+        <span class="k">A.</span><span>operating earnings</span></label><label class="q-opt"><input type="radio" name="q3" value="1">
+        <span class="k">B.</span><span>underwriting income</span></label><label class="q-opt"><input type="radio" name="q3" value="2">
+        <span class="k">C.</span><span>unrealized gains</span></label><label class="q-opt"><input type="radio" name="q3" value="3">
+        <span class="k">D.</span><span>sequential growth</span></label></div>
+    <div class='q-exp'><span class='q-zh'>unrealized gains＝未实现收益（浮盈），realize 在此意为&quot;变现&quot;而非&quot;意识到&quot;。underwriting income 是保险承保利润，operating earnings 是剔除投资损益的营业利润。</span></div>
+  </div>
+  <div class="qcard" data-qid="q4" data-answer="0">
+    <div class="q-stem">4. &quot;The insurance arm&#x27;s profit was <span class='blank'></span> by weak results at Geico.&quot; Which choice fits the WSJ&#x27;s usual wording?</div>
+    <div class="q-opts"><label class="q-opt"><input type="radio" name="q4" value="0">
+        <span class="k">A.</span><span>weighed down</span></label><label class="q-opt"><input type="radio" name="q4" value="1">
+        <span class="k">B.</span><span>put a dent</span></label><label class="q-opt"><input type="radio" name="q4" value="2">
+        <span class="k">C.</span><span>set to</span></label><label class="q-opt"><input type="radio" name="q4" value="3">
+        <span class="k">D.</span><span>outdone</span></label></div>
+    <div class='q-exp'><span class='q-zh'>be weighed down by sth.＝被……拖累，是描述业绩被某项业务拉低的标准搭配。put a dent in 需要接宾语（put a dent in profits），语法上此处不通。</span></div>
+  </div>
+  <div class="qcard" data-qid="q5" data-answer="0">
+    <div class="q-stem">5. In &quot;a sign that Greg Abel, who succeeded Buffett in January, is beginning to...&quot;, the clause &quot;who succeeded Buffett in January&quot; is:</div>
+    <div class="q-opts"><label class="q-opt"><input type="radio" name="q5" value="0">
+        <span class="k">A.</span><span>a non-restrictive relative clause inserted between subject and verb</span></label><label class="q-opt"><input type="radio" name="q5" value="1">
+        <span class="k">B.</span><span>an appositive clause explaining the noun &#x27;sign&#x27;</span></label><label class="q-opt"><input type="radio" name="q5" value="2">
+        <span class="k">C.</span><span>the main clause of the sentence</span></label><label class="q-opt"><input type="radio" name="q5" value="3">
+        <span class="k">D.</span><span>a participial phrase of result</span></label></div>
+    <div class='q-exp'><span class='q-zh'>who 引导非限制性定语从句，修饰 Greg Abel，被逗号隔开插在主语和谓语 is beginning 之间。解释 sign 内容的是前面的 that 从句（同位语从句），两者要分清。</span></div>
+  </div>
+  <div class="qcard" data-qid="q6" data-answer="1">
+    <div class="q-stem">6. &quot;Profit jumped 24% <span class='blank'></span> $4.47 billion.&quot; Which preposition is correct?</div>
+    <div class="q-opts"><label class="q-opt"><input type="radio" name="q6" value="0">
+        <span class="k">A.</span><span>by</span></label><label class="q-opt"><input type="radio" name="q6" value="1">
+        <span class="k">B.</span><span>to</span></label><label class="q-opt"><input type="radio" name="q6" value="2">
+        <span class="k">C.</span><span>from</span></label><label class="q-opt"><input type="radio" name="q6" value="3">
+        <span class="k">D.</span><span>at</span></label></div>
+    <div class='q-exp'><span class='q-zh'>介词分工固定：by＋变化幅度（jumped by 24%），to＋变化后的水平（to $4.47 billion），from＋变化前的水平。此处 $4.47 billion 是涨完之后的数值，用 to。</span></div>
+  </div>
+  <div class="quiz-foot">
+    <span class="score" id="score">尚未作答</span>
+    <button class="tbtn" id="quiz-reset">重做</button>
+  </div>
+</section>
+
+
+<section id="export">
+  <div class="sec-head"><h2>生词表导出</h2><span class="en">Export</span>
+    <span class="count">20 条</span></div>
+  <p class="sec-hint">制表符分隔，可直接粘贴进 Anki（正面 / 背面 / 例句）或任意生词本。</p>
+  <div class="export">
+    <button class="tbtn" id="copy-btn">复制生词表</button>
+    <pre id="anki">conglomerate	n. （跨行业的）企业集团、综合性大企业 | a large corporation formed by merging separate and diverse firms	The Omaha, Neb.-based conglomerate said Saturday its quarterly profit more than doubled, powered by investment gains and strong results from its industrial and retail businesses.
+haul	n. （大笔的）所得、囤积量；此处 cash haul＝现金储备 | an amount acquired or accumulated, especially a large one	Berkshire Hathaway put a dent in its massive cash haul during the second quarter.
+repurchase	v. / n. 回购（股票） | to buy back one&#x27;s own shares from the market	The company repurchased 478 Class A shares and more than 8 million Class B shares in May and June, for roughly $4.5 billion.
+sequentially	adv. 环比地（与上一季度／上月相比） | compared with the immediately preceding period (quarter or month)	It marked the first time the company&#x27;s cash declined sequentially in four years.
+spree	n. 一阵狂热的行为；spending spree＝大举花钱、疯狂扫货 | a burst of unrestrained activity, especially spending or buying	The spending spree is a sign that Greg Abel is beginning to put his stamp on the conglomerate.
+predecessor	n. 前任；前身（指事物时） | the person who held a job or office before the current holder	Greg Abel is beginning to put his stamp on a conglomerate that his predecessor ran for more than half a century.
+ebullient	adj. （人）兴高采烈的；（市场）亢奋的、过热的 | overflowing with excitement or enthusiasm; (of markets) buoyant and overheated	It&#x27;s very hard to want Greg to be making big deals in an ebullient market like now.
+underwriting	n. 承保（业务）；保险公司靠收保费、赔付理赔赚的那部分利润 | the insurance business of assessing risk and issuing policies (as distinct from investing the premiums)	The company&#x27;s insurance arm reported a drop in underwriting earnings, weighed down by results from car insurer Geico.
+unrealized	adj. 未实现的（浮盈／浮亏，尚未卖出兑现） | (of a gain or loss) existing only on paper because the asset has not been sold	Accounting rules require Berkshire to include unrealized gains and losses from its giant investment portfolio when it reports net income.
+fluctuation	n. 波动、起伏 | an irregular rise and fall in amount or value	Short-term fluctuations in the stock market can cause big swings in quarterly income.
+put a dent in sth.	使（大数目）有所减少；削弱	常搭配 savings / profits / lead：The repairs put a dent in our savings.
+put one&#x27;s stamp on sth.	在某事物上留下个人印记	多用于新上任的领导者按自己意图改造组织
+be weighed down by sth.	被……拖累	财报报道表达&quot;利润被某项业务拉低&quot;的标准说法
+more than double	增长一倍以上、翻了不止一番	动词用法：profit more than doubled；反义是 more than halved
+a net buyer / seller of sth.	净买入方／净卖出方	买入量减去卖出量后仍为正即 net buyer
+for now	眼下、暂时	放句尾表示&quot;目前如此，但未必长久&quot;，是记者留有余地的常用手法
+as it turns out / it turns out that	结果表明、事实证明	引出与预期不同的结论
+be set to do sth.	预定将、势必将	The company is set to disclose more next week. 比 will 更书面
+in the same vein	属于同一类、如出一辙	衔接相似的例子或观点
+not to be outdone	不甘示弱	描述竞争对手互相跟进时的固定表达</pre>
+  </div>
+</section>
+
+<footer>
+  <span>学习材料基于 <a href="https://www.wsj.com/finance/stocks/berkshire-hathaway-earnings-q2-2026-brk-a-stock-e394a0e7" target="_blank" rel="noopener">原文</a>，仅摘引供个人学习使用，版权归 Dow Jones &amp; Co. 所有。</span>
+  <span>·</span><a href="index.html">全部课程</a>
+</footer>
+</div>
+<script>
+(function () {
+  var KEY = "english-study:" + document.body.dataset.slug;
+  var store = {};
+  try { store = JSON.parse(localStorage.getItem(KEY) || "{}"); } catch (e) { store = {}; }
+  function save() { try { localStorage.setItem(KEY, JSON.stringify(store)); } catch (e) {} }
+
+  /* ---- theme ---- */
+  var themeBtn = document.getElementById("theme-btn");
+  function applyTheme(t) {
+    if (t) { document.documentElement.setAttribute("data-theme", t); }
+    else { document.documentElement.removeAttribute("data-theme"); }
+    if (themeBtn) themeBtn.textContent = t === "dark" ? "☀︎ 浅色" : (t === "light" ? "☾ 深色" : "◐ 主题");
+  }
+  try { applyTheme(localStorage.getItem("english-study:theme")); } catch (e) {}
+  if (themeBtn) themeBtn.addEventListener("click", function () {
+    var cur = document.documentElement.getAttribute("data-theme");
+    var next = cur === "dark" ? "light" : (cur === "light" ? null : "dark");
+    applyTheme(next);
+    try { next ? localStorage.setItem("english-study:theme", next) : localStorage.removeItem("english-study:theme"); } catch (e) {}
+  });
+
+  /* ---- hide-Chinese self-test mode ---- */
+  var zhBtn = document.getElementById("zh-btn");
+  function applyZh(on) {
+    document.body.classList.toggle("hide-zh", !!on);
+    if (zhBtn) {
+      zhBtn.setAttribute("aria-pressed", on ? "true" : "false");
+      zhBtn.textContent = on ? "中文：已遮盖" : "中文：显示";
+    }
+    if (!on) {
+      var r = document.querySelectorAll(".revealed");
+      for (var i = 0; i < r.length; i++) r[i].classList.remove("revealed");
+    }
+  }
+  if (zhBtn) {
+    applyZh(store.hideZh);
+    zhBtn.addEventListener("click", function () {
+      store.hideZh = !store.hideZh; save(); applyZh(store.hideZh);
+    });
+    document.addEventListener("click", function (e) {
+      if (!document.body.classList.contains("hide-zh")) return;
+      var t = e.target.closest(".vzh, .s-zh-body, .q-zh");
+      if (t) t.classList.toggle("revealed");
+    });
+  }
+
+  /* ---- vocabulary mastery + progress ---- */
+  var boxes = document.querySelectorAll(".know input");
+  var bar = document.getElementById("progress-bar");
+  var counter = document.getElementById("known-count");
+  store.known = store.known || {};
+  function refresh() {
+    var n = 0;
+    for (var i = 0; i < boxes.length; i++) {
+      var b = boxes[i], card = b.closest(".vcard");
+      if (b.checked) { n++; card.classList.add("known"); } else { card.classList.remove("known"); }
+    }
+    if (bar) bar.style.width = (boxes.length ? (n / boxes.length * 100) : 0) + "%";
+    if (counter) counter.textContent = n + " / " + boxes.length;
+  }
+  for (var i = 0; i < boxes.length; i++) {
+    (function (b) {
+      b.checked = !!store.known[b.dataset.word];
+      b.addEventListener("change", function () {
+        store.known[b.dataset.word] = b.checked; save(); refresh();
+      });
+    })(boxes[i]);
+  }
+  refresh();
+
+  /* ---- quiz ---- */
+  var answered = {};
+  document.querySelectorAll(".qcard").forEach(function (card) {
+    var correct = parseInt(card.dataset.answer, 10);
+    card.querySelectorAll(".q-opt input").forEach(function (input) {
+      input.addEventListener("change", function () {
+        var qid = card.dataset.qid;
+        if (answered[qid]) return;
+        answered[qid] = (parseInt(input.value, 10) === correct);
+        card.querySelectorAll(".q-opt").forEach(function (opt, i) {
+          opt.querySelector("input").disabled = true;
+          if (i === correct) opt.classList.add("correct");
+          else if (opt.contains(input)) opt.classList.add("wrong");
+        });
+        var exp = card.querySelector(".q-exp");
+        if (exp) exp.classList.add("show");
+        var right = 0, total = 0;
+        for (var k in answered) { total++; if (answered[k]) right++; }
+        var s = document.getElementById("score");
+        if (s) s.innerHTML = "已答 " + total + " 题，答对 <b>" + right + "</b>";
+      });
+    });
+  });
+  var reset = document.getElementById("quiz-reset");
+  if (reset) reset.addEventListener("click", function () {
+    answered = {};
+    document.querySelectorAll(".qcard").forEach(function (card) {
+      card.querySelectorAll(".q-opt").forEach(function (opt) {
+        opt.classList.remove("correct", "wrong");
+        var inp = opt.querySelector("input");
+        inp.disabled = false; inp.checked = false;
+      });
+      var exp = card.querySelector(".q-exp");
+      if (exp) exp.classList.remove("show");
+    });
+    var s = document.getElementById("score");
+    if (s) s.textContent = "尚未作答";
+  });
+
+  /* ---- audio playback ----
+     Google's translate_tts caps a request at 200 characters, so longer sentences are
+     split at clause boundaries and the parts played back to back. The page-level
+     <meta name="referrer" content="no-referrer"> is what makes the endpoint answer at
+     all; if audio ever stops working, check that tag first. */
+  var TTS = "https://translate.googleapis.com/translate_tts?client=gtx&ie=UTF-8&tl=en&q=";
+  var TTS_LIMIT = 200;
+  var TTS_STALL_MS = 6000;      // a request that hasn't started playing by now is hung
+  var player = new Audio();
+  player.preload = "none";
+  var activeBtn = null, queue = [], qi = 0, watchdog = null;
+
+  function clearWatch() { if (watchdog) { clearTimeout(watchdog); watchdog = null; } }
+
+  function splitText(t) {
+    t = String(t).replace(/\s+/g, " ").trim();
+    var out = [], seps = ["; ", ", ", " — ", " "];
+    while (t.length > TTS_LIMIT) {
+      var win = t.slice(0, TTS_LIMIT), cut = -1;
+      for (var i = 0; i < seps.length; i++) {
+        cut = win.lastIndexOf(seps[i]);
+        if (cut > TTS_LIMIT * 0.5) { cut += seps[i].length; break; }
+        cut = -1;
+      }
+      if (cut <= 0) cut = TTS_LIMIT;
+      out.push(t.slice(0, cut).trim());
+      t = t.slice(cut).trim();
+    }
+    if (t) out.push(t);
+    return out;
+  }
+
+  function stop() {
+    clearWatch();
+    queue = []; qi = 0;
+    player.pause();
+    if (activeBtn) { activeBtn.classList.remove("playing"); activeBtn = null; }
+    if (window.speechSynthesis) speechSynthesis.cancel();
+  }
+
+  // Endpoint hung, refused, or offline: hand the whole utterance to the browser's
+  // own engine rather than leaving a button stuck spinning.
+  function failover() {
+    var btn = activeBtn;
+    if (!btn) return;
+    clearWatch();
+    queue = [];
+    try { player.pause(); } catch (e) {}
+    speakNative(btn.dataset.text, btn);
+  }
+
+  function speakNative(text, btn) {          // offline / endpoint-down fallback
+    if (!window.speechSynthesis) { btn.classList.add("err"); stop(); return; }
+    var u = new SpeechSynthesisUtterance(text);
+    u.lang = "en-US";
+    u.rate = store.slow ? 0.7 : 1;
+    u.onend = stop;
+    u.onerror = function () { btn.classList.add("err"); stop(); };
+    speechSynthesis.speak(u);
+  }
+
+  function playNext() {
+    if (qi >= queue.length) { stop(); return; }
+    clearWatch();
+    watchdog = setTimeout(failover, TTS_STALL_MS);
+    player.src = queue[qi];
+    player.playbackRate = store.slow ? 0.7 : 1;
+    if ("preservesPitch" in player) player.preservesPitch = true;
+    player.play().catch(failover);
+  }
+
+  player.addEventListener("playing", clearWatch);
+  player.addEventListener("ended", function () { qi++; playNext(); });
+  player.addEventListener("error", failover);
+
+  var rateBtn = document.getElementById("rate-btn");
+  function applyRate(slow) {
+    player.playbackRate = slow ? 0.7 : 1;
+    if ("preservesPitch" in player) player.preservesPitch = true;
+    if (rateBtn) {
+      rateBtn.setAttribute("aria-pressed", slow ? "true" : "false");
+      rateBtn.textContent = slow ? "语速 0.7×" : "语速 1×";
+    }
+  }
+  applyRate(store.slow);
+  if (rateBtn) rateBtn.addEventListener("click", function () {
+    store.slow = !store.slow; save(); applyRate(store.slow);
+  });
+
+  document.addEventListener("click", function (ev) {
+    var btn = ev.target.closest(".play");
+    if (!btn) return;
+    ev.preventDefault();
+    if (btn === activeBtn) { stop(); return; }
+    stop();
+    btn.classList.remove("err");
+    activeBtn = btn;
+    btn.classList.add("playing");
+
+    var text = btn.dataset.text || "";
+    if (btn.dataset.audio) {
+      queue = [btn.dataset.audio];            // prebuilt file, already whole
+    } else {
+      queue = splitText(text).map(function (p) { return TTS + encodeURIComponent(p); });
+    }
+    qi = 0;
+    playNext();
+  });
+
+  /* ---- copy Anki deck ---- */
+  var copy = document.getElementById("copy-btn");
+  if (copy) copy.addEventListener("click", function () {
+    var pre = document.getElementById("anki");
+    navigator.clipboard.writeText(pre.textContent).then(function () {
+      copy.textContent = "✓ 已复制";
+      setTimeout(function () { copy.textContent = "复制生词表"; }, 1800);
+    }).catch(function () { copy.textContent = "复制失败，请手动选择"; });
+  });
+})();
+</script>

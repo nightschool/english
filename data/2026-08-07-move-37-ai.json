@@ -1,0 +1,395 @@
+{
+  "slug": "2026-08-07-move-37-ai",
+  "date": "2026-08-07",
+  "level": "C1",
+  "study_min": 45,
+  "source": {
+    "title_en": "Move 37 Is the Moment AI Changes Everything. It's Suddenly Happening Everywhere.",
+    "title_zh": "\"第37手\"是AI改变一切的瞬间——而它正在到处发生",
+    "url": "https://www.wsj.com/tech/ai/move-37-ai-demis-hassabis-google-deepmind-alphago-ec832a41",
+    "author": "Ben Cohen",
+    "published": "Aug. 7, 2026",
+    "section": "Tech · Science of Success",
+    "read_min": 7
+  },
+  "overview_zh": "十年前，AlphaGo 在与李世石的对局中下出了第 37 手——一步职业棋手绝不会走的棋，DeepMind 团队测算人类走出它的概率是万分之一。评论员起初以为是失误，很快意识到那是妙手。本文以此为线索，讨论\"Move 37 时刻\"（AI 提出人类从未想过、却确实高明的想法）如今正在数学、科研乃至安全领域接连出现。\n体裁是专栏（column），不是消息稿。和上一课的财报快讯相比，这里的语言完全不同：句子长而有节奏、动词生动具体、大量使用破折号和短句制造停顿、作者用第一人称自嘲。这是英语\"高级写作\"最值得模仿的一类文本——读的时候请特别注意作者怎样控制句子长短的交替。",
+  "background": [
+    { "term": "AlphaGo / DeepMind", "zh": "谷歌 DeepMind 开发的围棋 AI；2016 年击败韩国棋手李世石（Lee Sedol），是 AI 史上的标志性事件" },
+    { "term": "Move 37", "zh": "第二局中 AlphaGo 走出的一步反直觉妙手，现已成为\"AI 提出人类想不到的原创解法\"的代称" },
+    { "term": "God's Touch (神之一手)", "zh": "第四局李世石的第 78 手，同样是万分之一概率的天才之着，让 AlphaGo 陷入混乱" },
+    { "term": "reinforcement learning", "zh": "强化学习：通过反复试错并根据结果获得奖励来自我改进的训练方式" },
+    { "term": "centaur chess", "zh": "\"半人马棋\"：人类棋手借助引擎作战的比赛形式，曾一度强于纯 AI；文中用来比喻当下的\"人机协作科研\"阶段" }
+  ],
+  "vocab": [
+    {
+      "word": "glimmer",
+      "ipa": "/ˈɡlɪmə(r)/",
+      "pos": "n. / v.",
+      "en": "a faint or wavering light; a faint sign of something desirable",
+      "zh": "微光；（希望、迹象的）一丝苗头",
+      "sentence": "The first glimmer of our AI future revealed itself a decade ago in the form of a single black stone.",
+      "highlight": "glimmer",
+      "collocations": ["a glimmer of hope", "the first glimmer of", "a glimmer of recognition"],
+      "note": "抽象名词前加一个\"光\"的比喻词是英语开篇的常见手法。强度递增：a glimmer（微光，几乎看不见）→ a flicker（闪动）→ a gleam（亮光）→ a blaze（烈焰）。"
+    },
+    {
+      "word": "counterintuitive",
+      "ipa": "/ˌkaʊntərɪnˈtjuːɪtɪv/",
+      "pos": "adj.",
+      "en": "contrary to what common sense would suggest",
+      "zh": "反直觉的、有悖常理的",
+      "sentence": "The novel move was so unconventional and counterintuitive that nobody could be sure what to make of it.",
+      "highlight": "counterintuitive",
+      "collocations": ["a counterintuitive finding", "counterintuitive but correct", "seem counterintuitive"],
+      "note": "前缀 counter-＝\"反、逆\"，构词能力极强：counterproductive（适得其反）、counterargument（反驳）、counterpart（对应的人／物）、counteroffer（还价）。"
+    },
+    {
+      "word": "blunder",
+      "ipa": "/ˈblʌndə(r)/",
+      "pos": "n. / v.",
+      "en": "a stupid or careless mistake, especially a costly one",
+      "zh": "（因粗心或判断失误造成的）大错、昏招",
+      "sentence": "At first, commentators believed it was a strategic blunder. They soon realized it was a masterstroke.",
+      "highlight": "blunder",
+      "collocations": ["a tactical blunder", "a costly blunder", "blunder into sth."],
+      "note": "blunder 特指\"本不该犯的低级错误\"，语气比 mistake 重得多，常用于政治和体育报道。棋类术语里 blunder 就是\"漏着、昏招\"。"
+    },
+    {
+      "word": "masterstroke",
+      "ipa": "/ˈmɑːstəstrəʊk/",
+      "pos": "n.",
+      "en": "an exceptionally skillful and effective action",
+      "zh": "神来之笔、高招、妙手",
+      "sentence": "At first, commentators believed it was a strategic blunder. They soon realized it was a masterstroke.",
+      "highlight": "masterstroke",
+      "collocations": ["a political masterstroke", "prove to be a masterstroke"],
+      "note": "注意作者把 blunder 和 masterstroke 放进两个长度几乎相同的短句里，形成强烈对照——这种\"对称短句 + 语义反转\"是英文写作制造转折的经典手法，非常值得模仿。"
+    },
+    {
+      "word": "watershed",
+      "ipa": "/ˈwɔːtəʃed/",
+      "pos": "n. (常作定语)",
+      "en": "an event or period marking a turning point in a course of action or state of affairs",
+      "zh": "分水岭、转折点",
+      "sentence": "We thought it was a watershed moment at the time, and I think it really was.",
+      "highlight": "watershed moment",
+      "collocations": ["a watershed moment", "a watershed in history", "mark a watershed"],
+      "note": "原义是地理上的\"分水岭\"。近义词辨析：turning point（中性转折）、milestone（里程碑，强调成就）、watershed（强调此后一切都不同了）、tipping point（临界点，强调量变到质变）。"
+    },
+    {
+      "word": "unorthodox",
+      "ipa": "/ʌnˈɔːθədɒks/",
+      "pos": "adj.",
+      "en": "not conforming to established rules, traditions or beliefs",
+      "zh": "非正统的、不合常规的",
+      "sentence": "Move 37 was the first real example of AI coming up with an original, unorthodox idea in a domain studied by humans for centuries.",
+      "highlight": "unorthodox",
+      "collocations": ["an unorthodox approach", "unorthodox methods", "orthodox thinking"],
+      "note": "本文有一整串\"不寻常\"的近义词，感情色彩不同：novel（新颖，中性偏褒）、unconventional（不落俗套）、unorthodox（不守成规）、eccentric（古怪，偏贬）。作者交替使用它们来避免重复。"
+    },
+    {
+      "word": "unnerving",
+      "ipa": "/ʌnˈnɜːvɪŋ/",
+      "pos": "adj.",
+      "en": "causing one to lose courage or confidence; slightly frightening",
+      "zh": "令人不安的、让人心里发毛的",
+      "sentence": "He called this phenomenon magical and slightly unnerving. I'm starting to understand why.",
+      "highlight": "unnerving",
+      "collocations": ["slightly unnerving", "an unnerving silence", "unnerve sb."],
+      "note": "nerve 作动词是\"给予勇气\"，加 un- 就是\"抽走勇气\"。程度梯度：unsettling（隐隐不安）< unnerving（发毛）< disturbing（不适）< terrifying（恐惧）。作者在文末用了最重的 terrifying。"
+    },
+    {
+      "word": "petrifying",
+      "ipa": "/ˈpetrɪfaɪɪŋ/",
+      "pos": "adj.",
+      "en": "so frightening that one is unable to move or think",
+      "zh": "吓得人僵住的、令人极度恐惧的",
+      "sentence": "The reason I'm so fascinated with a subject I find petrifying is that math has become proof of how AI can warp an entire field.",
+      "highlight": "petrifying",
+      "collocations": ["be petrified of sth.", "petrified with fear"],
+      "note": "词根 petr-＝\"石头\"（对照 petroleum＝石油，字面\"石中之油\"），petrify 字面是\"石化\"，引申为\"吓得动弹不得\"。作者说自己\"怕数学怕到石化\"，是幽默的自嘲。"
+    },
+    {
+      "word": "warp",
+      "ipa": "/wɔːp/",
+      "pos": "v.",
+      "en": "to bend or twist out of shape; to distort something fundamentally",
+      "zh": "使扭曲、使变形；从根本上改变（某个领域的形态）",
+      "sentence": "Math has become proof of how AI can warp an entire field—and how fast it can happen.",
+      "highlight": "warp",
+      "collocations": ["warp the wood", "warp one's judgment", "a warped sense of humor"],
+      "note": "warp 原指木板受潮变形，用于抽象事物时含\"扭曲到不再是原来的样子\"之意，比 change 或 transform 更有力、也更中性偏负面。"
+    },
+    {
+      "word": "supremacy",
+      "ipa": "/suːˈpreməsi/",
+      "pos": "n.",
+      "en": "the state of being superior to all others in authority, power or status",
+      "zh": "霸主地位、至高地位",
+      "sentence": "The leading contenders for AI supremacy have moved beyond high-school math.",
+      "highlight": "AI supremacy",
+      "collocations": ["air supremacy", "quantum supremacy", "vie for supremacy"],
+      "note": "supremacy 强调\"压倒性的第一\"，常见于科技竞赛语境（quantum supremacy＝量子霸权）。contender 是\"争夺者、有力竞争者\"，两个词经常同现。"
+    },
+    {
+      "word": "verifiable",
+      "ipa": "/ˈverɪfaɪəbl/",
+      "pos": "adj.",
+      "en": "able to be checked or proved true",
+      "zh": "可验证的、可核实的",
+      "sentence": "Why is math so vulnerable to AI? Because math is unusually verifiable.",
+      "highlight": "verifiable",
+      "collocations": ["a verifiable claim", "verifiable domains", "verify a result"],
+      "note": "这是全文的论证枢纽：可验证 → AI 能反复试错自我改进 → 该领域最先被 AI 攻破。数学、编程属于 verifiable domains；生物、化学则被作者形容为 messy 和 emergent。"
+    },
+    {
+      "word": "rogue",
+      "ipa": "/rəʊɡ/",
+      "pos": "adj. / n.",
+      "en": "behaving in an aberrant or uncontrolled way; no longer obeying rules or authority",
+      "zh": "失控的、擅自行动的；流氓（国家、程序）",
+      "sentence": "You've seen the increasingly disturbing reports of rogue agents breaking out of their controlled test environments.",
+      "highlight": "rogue agents",
+      "collocations": ["a rogue state", "a rogue trader", "go rogue"],
+      "note": "go rogue 是极高频的动词短语：\"脱离掌控、自行其是\"。在 AI 语境里 agent 指\"能自主执行任务的智能体\"，不是\"代理人\"。"
+    },
+    {
+      "word": "eerie",
+      "ipa": "/ˈɪəri/",
+      "pos": "adj.",
+      "en": "strange and frightening in a way that is hard to explain",
+      "zh": "诡异的、令人毛骨悚然的",
+      "sentence": "In another eerie preview of the future, an Anthropic researcher was sitting in the park eating a sandwich when he checked his phone and nearly choked.",
+      "highlight": "eerie",
+      "collocations": ["an eerie silence", "eerily similar", "an eerie feeling"],
+      "note": "eerie 的\"怪\"带有超自然色彩，和 weird（单纯的怪）、creepy（让人起鸡皮疙瘩）不同。副词 eerily 常修饰 similar／quiet／accurate。"
+    },
+    {
+      "word": "fluster",
+      "ipa": "/ˈflʌstə(r)/",
+      "pos": "v.",
+      "en": "to make someone agitated, confused or nervous",
+      "zh": "使慌乱、使手足无措",
+      "sentence": "He wedged a white stone in the middle of AlphaGo's position and flustered the machine with a placement so divine it became known as \"God's Touch.\"",
+      "highlight": "flustered",
+      "collocations": ["get flustered", "look flustered", "hot and flustered"],
+      "note": "用 fluster 形容一台机器是刻意的拟人化——作者全文都在把 AlphaGo 当成有心理活动的对手写（stunned everyone、flustered the machine），这种手法能让技术报道读起来像故事。"
+    },
+    {
+      "word": "peculiar",
+      "ipa": "/pɪˈkjuːliə(r)/",
+      "pos": "adj.",
+      "en": "strange or odd; (with to) belonging exclusively to",
+      "zh": "奇特的、古怪的；（peculiar to）某某所特有的",
+      "sentence": "The triumph of AlphaGo had a peculiar effect on Go players.",
+      "highlight": "peculiar",
+      "collocations": ["a peculiar effect", "peculiar to this region", "peculiar habits"],
+      "note": "两个意思差别很大，靠介词区分：单独用＝奇怪的；peculiar to sth.＝为……所独有的（＝unique to）。"
+    },
+    {
+      "word": "emergent",
+      "ipa": "/iˈmɜːdʒənt/",
+      "pos": "adj.",
+      "en": "arising as a complex whole from simpler interactions, in ways not predictable from the parts",
+      "zh": "涌现的（整体表现出各部分所没有的性质）；新兴的",
+      "sentence": "Like drug discovery, biology, chemistry—they're very messy, very emergent and you can't verify everything.",
+      "highlight": "emergent",
+      "collocations": ["emergent behavior", "emergent properties", "an emergent economy"],
+      "note": "emergent 在科学语境里是术语\"涌现的\"，指整体行为无法由局部推出——这正是它们难被 AI 攻克的原因。别和 emergency（紧急情况）的形容词 urgent 混淆。"
+    }
+  ],
+  "sentences": [
+    {
+      "chunks": [
+        { "t": "It happened", "role": "main" },
+        { "t": "during a historic match between one of the world's best Go players and AlphaGo,", "role": "prep" },
+        { "t": "a computer program", "role": "appos" },
+        { "t": "developed by Google's DeepMind lab", "role": "nonfin" },
+        { "t": "to conquer this ancient board game.", "role": "nonfin" }
+      ],
+      "skeleton": "It happened during a historic match between a Go player and AlphaGo.",
+      "zh": "那一幕发生在一场历史性的对局中——对阵双方是世界顶尖围棋棋手之一，和 AlphaGo，一个由谷歌 DeepMind 实验室开发、旨在攻克这门古老棋类的计算机程序。",
+      "points": [
+        { "label": "三层后置修饰叠加", "text": "主干只有两个词 It happened，之后全是修饰：介词短语 → 同位语 a computer program → 过去分词 developed by... → 不定式目的状语 to conquer...。英语靠\"后置层层挂载\"扩展信息，中文则习惯前置定语，所以翻译时必须拆成几个短句。" },
+        { "label": "同位语解释专有名词", "text": "英文报道第一次出现读者可能不认识的名字时，紧跟一个逗号 + 名词短语作解释（AlphaGo, a computer program...）。这是最省力的\"随手科普\"结构，写作中应主动使用。" },
+        { "label": "不定式表目的", "text": "to conquer this ancient board game 说明开发这个程序的目的。注意它修饰的是 developed，不是 lab。" }
+      ],
+      "drill": {
+        "prompt_zh": "模仿「同位语 + 分词 + 不定式」三层修饰写一句：这场辩论发生在市长和 Aurora 之间——一家由两名前教师创立、旨在改造公立学校的初创公司。",
+        "answer": "The debate took place between the mayor and Aurora, a startup founded by two former teachers to overhaul public schools."
+      }
+    },
+    {
+      "chunks": [
+        { "t": "In his mind,", "role": "prep" },
+        { "t": "Move 37 was deeply significant", "role": "main" },
+        { "t": "because it was the first real example of AI coming up with an original, unorthodox idea", "role": "sub" },
+        { "t": "in a domain", "role": "prep" },
+        { "t": "studied by humans for centuries.", "role": "nonfin" }
+      ],
+      "skeleton": "Move 37 was significant because it was the first example of AI coming up with an original idea.",
+      "zh": "在他看来，第 37 手意义极为深远，因为那是 AI 首次在一个被人类研究了数百年的领域里，真正提出了一个原创而不落俗套的想法。",
+      "points": [
+        { "label": "of + 逻辑主语 + doing", "text": "example of AI coming up with... 里，AI 是 coming up with 的逻辑主语，这种\"名词 of 某人 doing 某事\"结构在学术和评论写作里极常见：the risk of prices rising、a case of memory failing。中文要译成一个小句。" },
+        { "label": "过去分词后置定语", "text": "studied by humans for centuries 修饰 domain，等价于定语从句 which has been studied by humans for centuries。分词形式更紧凑，是压缩长句的首选手段。" },
+        { "label": "In his mind 的语气作用", "text": "句首的 In his mind＝\"在他看来\"，把后面的判断归属给受访者而非作者本人。同类免责表达：By his account、As he sees it、To his thinking。新闻写作里这类归属标记不可省略。" }
+      ],
+      "drill": {
+        "prompt_zh": "用「the first example of + 逻辑主语 + doing」写一句：这份判决是法院首次要求一家 AI 公司为其模型生成的内容负责。",
+        "answer": "The ruling was the first example of a court holding an AI company responsible for what its model generates."
+      }
+    },
+    {
+      "chunks": [
+        { "t": "The reason", "role": "main" },
+        { "t": "I'm so fascinated with a subject", "role": "rel" },
+        { "t": "I find petrifying", "role": "rel" },
+        { "t": "is that math has become proof of", "role": "main" },
+        { "t": "how AI can warp an entire field—and how fast it can happen.", "role": "sub" }
+      ],
+      "skeleton": "The reason is that math has become proof of how AI can warp a field.",
+      "zh": "我之所以对一门自己怕得要死的学科如此着迷，是因为数学已经成了一个证据——它证明 AI 能把整个领域彻底扭曲，而且速度快得惊人。",
+      "points": [
+        { "label": "两个省略了关系词的定语从句连环嵌套", "text": "完整形式是 The reason (why) I'm so fascinated with a subject (that) I find petrifying is that...。两个关系词都被省略，从句一个套一个，主语 The reason 与系动词 is 相隔 10 个词。判断方法：看到 The reason 就预判后面必有 is that，先把它\"挂\"在心里。" },
+        { "label": "The reason ... is that ...", "text": "标准搭配是 is that，不是 is because（后者虽常见于口语，正式写作视为错误）。" },
+        { "label": "破折号 + 追加成分", "text": "—and how fast it can happen 与前面的 how AI can warp... 并列，都作 proof of 的宾语。破折号让第二个成分像补刀一样砸下来，比直接写 and 更有力度。这是本文最值得学的节奏技巧。" }
+      ],
+      "drill": {
+        "prompt_zh": "用「The reason ... is that ...＋破折号追加」写一句：我一直保留着这些旧笔记，是因为它们记下了我当时的想法——以及我错得有多离谱。",
+        "answer": "The reason I keep these old notebooks is that they record what I thought at the time—and how wrong I was."
+      }
+    },
+    {
+      "chunks": [
+        { "t": "In another eerie preview of the future,", "role": "prep" },
+        { "t": "an Anthropic researcher was sitting in the park eating a sandwich", "role": "main" },
+        { "t": "when he checked his phone and nearly choked:", "role": "sub" },
+        { "t": "He had an email from an AI", "role": "main" },
+        { "t": "that wasn't supposed to have internet access.", "role": "rel" }
+      ],
+      "skeleton": "A researcher was sitting in the park when he checked his phone and nearly choked: he had an email from an AI.",
+      "zh": "另一个诡异的未来预演是：一位 Anthropic 的研究员正坐在公园里吃三明治，一看手机差点噎住——他收到了一封邮件，发件人是一个本不该能上网的 AI。",
+      "points": [
+        { "label": "be doing ... when ... 突发结构", "text": "\"正在做某事，这时突然……\"。when 在这里不译成\"当……时\"，而是\"就在这时\"，且被强调的重点在 when 之后。同类句型：I was about to leave when the phone rang. 这是叙事写作的基本功。" },
+        { "label": "冒号引出解释", "text": "冒号后面完整解释了\"差点噎住\"的原因。英文里冒号可以连接两个完整句子（后句解释前句），比 because 更利落，中文常译成破折号。" },
+        { "label": "wasn't supposed to", "text": "be supposed to＝\"本应、按规定应当\"。否定形式 wasn't supposed to have internet access＝\"按设定根本不该能联网\"——全句的惊悚感全靠这半句撑起来。" }
+      ],
+      "drill": {
+        "prompt_zh": "用「be doing...when...＋冒号解释」写一句：她正在会上做报告，这时手机震了一下，她愣住了：她的账户刚刚被登录，而登录地在另一个国家。",
+        "answer": "She was presenting at the meeting when her phone buzzed and she froze: someone had just logged into her account from another country."
+      }
+    },
+    {
+      "chunks": [
+        { "t": "On Move 78,", "role": "prep" },
+        { "t": "he wedged a white stone in the middle of AlphaGo's position", "role": "main" },
+        { "t": "and flustered the machine with a placement", "role": "main" },
+        { "t": "so divine", "role": "sub" },
+        { "t": "it became known as \"God's Touch.\"", "role": "sub" }
+      ],
+      "skeleton": "He wedged a white stone in AlphaGo's position and flustered the machine with a placement so divine it became known as \"God's Touch.\"",
+      "zh": "在第 78 手，他把一枚白子楔进 AlphaGo 阵形的正中，用一步精妙如神的落子扰乱了这台机器——这一手后来被称为\"神之一手\"。",
+      "points": [
+        { "label": "so ... that 中 that 的省略", "text": "a placement so divine (that) it became known as... —— so...that 结构里 that 在非正式书面语中常被省略。注意这里 so divine 后置修饰 placement（形容词短语作后置定语），而不是常规的 so + adj. 放名词前。" },
+        { "label": "动词选得具体", "text": "wedge（把……楔入）而不是 put，fluster（使慌乱）而不是 confuse。专栏写作与普通新闻最大的差距就在动词：越具体越有画面。积累时请把 wedge / squeeze / slot / lodge 这类\"塞入\"动词成组记。" },
+        { "label": "呼应结构", "text": "本段和开头的 Move 37 形成对称：AI 走出万分之一的妙手，人类也走出万分之一的妙手。文章最后一句 \"The rest of us will have to find our Move 78\" 就是靠这个铺垫才成立。读长文章要留意这种远距离呼应。" }
+      ]
+    },
+    {
+      "chunks": [
+        { "t": "The triumph of AlphaGo had a peculiar effect on Go players.", "role": "main" },
+        { "t": "They became much better,", "role": "main" },
+        { "t": "but they also became more alike—", "role": "main" },
+        { "t": "and some found their intellectual pursuit less interesting.", "role": "main" }
+      ],
+      "skeleton": "AlphaGo had a peculiar effect: players became better, more alike, and some found the pursuit less interesting.",
+      "zh": "AlphaGo 的胜利对棋手产生了一种奇特的影响：他们棋力大涨，但也变得越来越相像——有些人甚至觉得，自己钟爱的这项智力追求变得没那么有意思了。",
+      "points": [
+        { "label": "短句的节奏价值", "text": "这四段全部是简单句，长度依次是 9 / 4 / 7 / 9 词。前面几句都是三四十词的长句，作者在关键论点处突然改用短句——长短交替正是英文\"读起来有力\"的根本原因。写作时请刻意在段落中安排一两个短句。" },
+        { "label": "三级递进 better → alike → less interesting", "text": "用 but 和破折号把三个观察串成\"好事—隐忧—代价\"的递进。破折号后的内容是全文最重的一击，位置和标点都经过设计。" },
+        { "label": "比较级 + 形容词短语", "text": "became much better / more alike / less interesting 三个比较级并列，形式一致而语义反转，读起来有回声效果。alike 只能作表语，不能放在名词前（不能说 alike players）。" }
+      ],
+      "drill": {
+        "prompt_zh": "用「长句铺垫 + 三个短句递进 + 破折号收尾」写两三句：自动翻译工具对学生的影响很奇怪。他们交上来的作业更准确了，但也越来越像——有些人已经不再自己动笔。",
+        "answer": "Machine translation has had a strange effect on students. Their assignments became more accurate, but they also became more alike—and some stopped writing on their own at all."
+      }
+    },
+    {
+      "chunks": [
+        { "t": "This raises all sorts of questions", "role": "main" },
+        { "t": "about how progress will unfold in other fields", "role": "prep" },
+        { "t": "as they are transformed by AI.", "role": "sub" }
+      ],
+      "skeleton": "This raises questions about how progress will unfold in other fields.",
+      "zh": "这就引出了一连串问题：当其他领域也被 AI 改造时，那里的进步将以怎样的方式展开。",
+      "points": [
+        { "label": "raise questions about + 疑问词从句", "text": "英语议论文的万能过渡句式：This raises questions about how / whether / why...。同类动词：raise concerns about、cast doubt on、call into question。" },
+        { "label": "unfold", "text": "unfold 原义\"展开（折叠物）\"，用于事件时＝\"（逐渐）展开、演变\"，比 happen 更强调过程性：as the crisis unfolded、how the story unfolds。" },
+        { "label": "as 引导时间／伴随状语", "text": "as they are transformed by AI 里 as＝\"随着、当……时\"，同时暗含\"两件事同步发生\"。as 还有\"因为\"和\"像\"的意思，靠语境判断，这是英语里最需要小心的多义连词之一。" }
+      ]
+    }
+  ],
+  "phrases": [
+    { "en": "make of sth. (what to make of it)", "zh": "对……作何理解、怎么看待", "note": "常用于否定或疑问：I don't know what to make of his reply." },
+    { "en": "in the same vein", "zh": "属于同一类、如出一辙", "note": "衔接同类例证；vein 原义\"矿脉、纹理\"" },
+    { "en": "not to be outdone", "zh": "不甘示弱", "note": "描述竞争者互相跟进，通常独立成句放句首" },
+    { "en": "as it turns out", "zh": "结果表明、事实证明", "note": "引出与预期相反的事实，插入语位置灵活" },
+    { "en": "a matter of time", "zh": "只是时间问题", "note": "It seems like only a matter of time before they reach that level." },
+    { "en": "much less", "zh": "更不用说（用于否定句后加强）", "note": "unimaginable a year ago, much less a decade ago；肯定句要用 let alone 或 still less" },
+    { "en": "for all + 名词", "zh": "尽管有……", "note": "For all the advances in group theory, AI hasn't gotten far in the less theoretical sciences." },
+    { "en": "break out of sth.", "zh": "冲破、逃出（限制或环境）", "note": "break out of a test environment / a slump / a routine" },
+    { "en": "band together", "zh": "联合起来、抱团", "note": "多个个体为共同目标结盟，略带非正式色彩" },
+    { "en": "might as well", "zh": "倒不如说、干脆就算是", "note": "I might as well be the Journal's algebra correspondent. 自嘲语气" },
+    { "en": "come up with sth.", "zh": "想出、提出（主意、方案）", "note": "宾语是 idea / plan / solution / excuse，是 propose 的口语替代" },
+    { "en": "be supposed to do sth.", "zh": "本应、按规定应当", "note": "否定式常用来点出\"违规\"：wasn't supposed to have internet access" }
+  ],
+  "quiz": [
+    {
+      "q": "\"The move was so unconventional and ____ that nobody could be sure what to make of it.\" Which word means 'contrary to common sense'?",
+      "options": ["counterproductive", "counterintuitive", "counterfeit", "countervailing"],
+      "answer": 1,
+      "explain": "counterintuitive＝反直觉的。counterproductive 是\"适得其反的\"，counterfeit 是\"伪造的\"，countervailing 是\"抵消的\"。四个词共用前缀 counter-（反、逆），但词根完全不同。"
+    },
+    {
+      "q": "In \"a placement so divine it became known as 'God's Touch'\", the omitted word after \"divine\" is:",
+      "options": ["which", "that", "and", "as"],
+      "answer": 1,
+      "explain": "这是 so...that 结构，that 在非正式书面语中可省略。完整形式：a placement so divine that it became known as \"God's Touch\"。"
+    },
+    {
+      "q": "\"The reason I'm fascinated with the subject ____ that math has become proof of AI's speed.\" Which is correct in formal writing?",
+      "options": ["is because", "is that", "because", "is due to"],
+      "answer": 1,
+      "explain": "The reason ... is that ... 是规范搭配。is because 在口语中常见，但正式写作视为冗余（reason 与 because 语义重复），考试和写作中应避免。"
+    },
+    {
+      "q": "Hassabis says biology and chemistry are \"very messy, very ____\" — meaning their behavior arises from complex interactions and can't be predicted from the parts.",
+      "options": ["emergent", "urgent", "eminent", "imminent"],
+      "answer": 0,
+      "explain": "emergent＝涌现的，指整体性质无法由局部推出。urgent 紧急的，eminent 著名的，imminent 即将发生的——四个词发音相近，是听力和拼写的高频陷阱。"
+    },
+    {
+      "q": "\"All of which was unimaginable a year ago, ____ a decade ago.\" Which phrase fits after a negative statement?",
+      "options": ["let alone", "much less", "no less", "even more"],
+      "answer": 1,
+      "explain": "much less 和 let alone 都表示\"更不用说\"，都用在否定语境后。原文用的是 much less；let alone 在此也成立，但选项中 much less 是原文表达，且更书面。"
+    },
+    {
+      "q": "Why does the article argue math was the first field AI transformed?",
+      "options": [
+        "Because mathematicians adopted AI tools earliest",
+        "Because math problems are shorter than scientific experiments",
+        "Because math is unusually verifiable, so AI can test and retry until it works",
+        "Because math requires no human intuition at all"
+      ],
+      "answer": 2,
+      "explain": "文中明确说 math is unusually verifiable —— 规则精确、证明可逐步检验，因此 AI 可以\"试一个想法、检验、学习、再试\"。这也是它与 messy、emergent 的生物化学领域的分界线。"
+    },
+    {
+      "q": "\"The triumph of AlphaGo had a ____ effect on Go players: they got better but more alike.\"",
+      "options": ["peculiar", "peculiar to", "particular", "specific"],
+      "answer": 0,
+      "explain": "单独使用的 peculiar＝奇特的、古怪的。peculiar to sth. 才是\"某某特有的\"，此处不接 to，故不能选 B。particular 和 specific 是\"特定的\"，不含\"奇怪\"之意。"
+    }
+  ]
+}
