@@ -1,0 +1,379 @@
+{
+  "slug": "2026-08-13-luxury-hotel-viral-feud",
+  "date": "2026-08-13",
+  "level": "B2–C1",
+  "study_min": 40,
+
+  "source": {
+    "title_en": "A New Luxury Hotel Canceled a YouTuber’s $4,663 Stay. Then Came the Viral Feud.",
+    "title_zh": "奢华酒店取消了一位 YouTuber 的 4663 美元订房，然后引爆了一场舆论互撕",
+    "url": "https://www.wsj.com/lifestyle/travel/aman-amanvari-ryan-walker-youtube-3cc8284b",
+    "author": "Jessica Flint and Sebastian Modak",
+    "section": "Lifestyle / Travel"
+  },
+
+  "overview_zh": "超奢酒店集团 Aman 在墨西哥的首家度假村 Amanvari 于 8 月 1 日开业，开业第三天，自费测评酒店的 YouTube 博主 Ryan Walker 拿着一晚 4662.82 美元的订单前来入住，却被告知预订已被取消、无法进入。他发布的视频标题是《Amanvari 报警抓我》，播放量迅速冲到 75 万，评论区一边倒地站他。但记者逐帧核对后发现，几乎每一项指控都存在另一个版本：酒店说没有报警，并出示了事故报告；说他走错了员工通道；说提前五天就邮件通知过媒体禁发期，取消通知也发过 WhatsApp。Walker 被追问后修改了时间线，却没有在视频里更正。\n这是一篇典型的 WSJ 特写（feature）——它不下结论，而是把两套互相矛盾的说法并排摆出来，让语言本身承担举证责任。语言上最值得偷师的有三点：一是记者如何用 alleged、according to、says 这类\"甩锅动词\"把每一句话都挂靠到具体信源上，自己不背书；二是同位语、后置分词、with 独立主格这些\"信息压缩\"手段，一句话塞进三层身份和背景；三是结尾那两个短句——长句铺垫之后突然用两个七词以内的句子收尾，这是英文特写最经典的节奏收束，也是中国学生写英文时最缺的一课。",
+
+  "background": [
+    { "term": "Aman / Amanvari", "zh": "Aman（安缦）是 1988 年创立的超奢华酒店集团，以极致私密性著称，忠实客群自称 \"Aman junkies\"（安缦痴）。Amanvari 是其在墨西哥的首家度假村，位于下加利福尼亚南州的 Costa Palmas 私人社区，2026 年 8 月 1 日开业。" },
+    { "term": "media blackout / media exclusivity window", "zh": "媒体禁发期／媒体独家窗口期。奢侈酒店开业时的通行做法：先给指定媒体独家报道权，在窗口期内禁止其他人发布内容。酒店正是以此为由要求 Walker 推迟行程。" },
+    { "term": "comped stays（免费招待）与自费测评", "zh": "旅游内容行业的默认玩法是品牌提供免费住宿（comped / hosted stay）换取正面内容。Walker 的差异化定位就是全部自费（paying full price），以此宣称自己的评价可信——理解这一点才能明白他为什么坚持\"把我当普通客人\"。" },
+    { "term": "Four Seasons Yachts", "zh": "四季酒店的邮轮业务。Walker 曾自费约 2.61 万美元体验并在 5 月发出差评，是文中用来说明他\"敢批\"的前科。" },
+    { "term": "travel adviser 的利益关系", "zh": "文末特意加了一句：奢旅顾问在为客户订房时可能从酒店拿佣金。这是财经媒体的标准做法——引用了利益相关方的观点，就必须披露其利益关系，读者要习惯留意这种\"免责句\"。" }
+  ],
+
+  "vocab": [
+    {
+      "word": "allege",
+      "ipa": "/əˈledʒ/",
+      "pos": "v.",
+      "en": "to state something as a fact without providing proof, typically in an accusation",
+      "zh": "（未经证实地）指称、声称",
+      "sentence": "In a social media video titled “Amanvari Called the Police on Me,” YouTube luxury hotel reviewer Ryan Walker alleged staff at the resort barred him from entering and summoned law enforcement when he tried to check-in for a one-night, $4,662.82 stay on the resort’s third day open.",
+      "highlight": "alleged",
+      "collocations": ["alleged fraud / the alleged victim", "allegedly", "deny the allegations"],
+      "note": "新闻里最重要的\"甩锅动词\"。强度梯度：claim（自称，中性偏疑）< allege（指称，未经证实）< accuse（指控，指向具体的人）< charge（正式起诉）。结构差异是考点：allege + 完整句子（allege that sb did sth），accuse 必须接人再接 of（accuse sb of doing）。记者写 alleged 不是在支持这个说法，恰恰是在与它保持距离。"
+    },
+    {
+      "word": "bar",
+      "ipa": "/bɑːr/",
+      "pos": "v.",
+      "en": "to officially prevent someone from entering a place or doing something",
+      "zh": "阻止、禁止（某人进入或做某事）",
+      "sentence": "In a social media video titled “Amanvari Called the Police on Me,” YouTube luxury hotel reviewer Ryan Walker alleged staff at the resort barred him from entering and summoned law enforcement when he tried to check-in for a one-night, $4,662.82 stay on the resort’s third day open.",
+      "highlight": "barred him from entering",
+      "collocations": ["bar sb. from doing sth.", "be barred from the industry", "bar entry to"],
+      "note": "固定结构是 bar sb. FROM doing，from 不能丢。强度梯度：discourage（劝阻）< block（挡住，可能是临时的）< bar（明令不许进）< ban（长期、正式的全面禁止）。bar 的名词义\"横木、栅栏\"正是它的画面来源，另外还有\"律师界\"（the bar）这个完全不同的义项。"
+    },
+    {
+      "word": "seamless",
+      "ipa": "/ˈsiːmləs/",
+      "pos": "adj.",
+      "en": "smooth and continuous, with no obvious gaps or interruptions",
+      "zh": "无缝的、天衣无缝的、（服务）流畅到让人察觉不到",
+      "sentence": "The travel world was abuzz over the coming Aug. 1 launch of Amanvari, the first Mexican resort from Aman, the multibillion-dollar, ultraluxury hospitality group, whose mythos is built on seamless service, total tranquility and fierce guest confidentiality.",
+      "highlight": "seamless",
+      "collocations": ["a seamless transition", "seamless integration", "a seamless experience"],
+      "note": "seam ＝ 衣服的接缝，-less ＝ 没有，合起来就是\"看不出拼接痕迹\"。这是商业与科技文案的顶配形容词：交接班用 a seamless transition，系统对接用 seamless integration。注意它夸的是\"过程不磕绊\"，不是\"质量高\"，所以不能拿去修饰 quality、product 这类结果性名词。"
+    },
+    {
+      "word": "dueling",
+      "ipa": "/ˈduːəlɪŋ/",
+      "pos": "adj. (作定语)",
+      "en": "competing directly and irreconcilably with each other",
+      "zh": "针锋相对的、各执一词的",
+      "sentence": "Their dueling accounts reflect a new reality where cameras are always rolling, virality can outpace truth and public perception is shaped less by what happened than by who posts first.",
+      "highlight": "dueling accounts",
+      "collocations": ["dueling accounts / narratives", "dueling lawsuits", "dueling press releases"],
+      "note": "duel ＝ 决斗，所以 dueling 强调的是\"一对一、互不相让\"，比 different 尖锐得多。报道双方各说各话时的一整套同义表达要一起记：dueling accounts / competing accounts / conflicting accounts / rival versions of events。注意这里的 account 是\"说法、陈述\"，不是\"账户\"。"
+    },
+    {
+      "word": "outpace",
+      "ipa": "/ˌaʊtˈpeɪs/",
+      "pos": "v.",
+      "en": "to move or grow faster than someone or something else",
+      "zh": "（在速度或增长上）超过、快过",
+      "sentence": "Their dueling accounts reflect a new reality where cameras are always rolling, virality can outpace truth and public perception is shaped less by what happened than by who posts first.",
+      "highlight": "outpace",
+      "collocations": ["demand outpaced supply", "outpace inflation", "outpace rivals"],
+      "note": "out- 是最值得掌握的高产前缀之一：out- + 动词 ＝ 在这个动作上胜过对方。一次记一串：outperform（表现更好）、outnumber（数量上多过）、outlast（比……更持久）、outbid（出价更高）、outsell（卖得更多）。注意 outpace 只比\"快慢\"，不比\"好坏\"。"
+    },
+    {
+      "word": "pan",
+      "ipa": "/pæn/",
+      "pos": "v.",
+      "en": "to criticize a work, performance or venue severely in a review",
+      "zh": "（在评论中）狠批、把……批得一文不值",
+      "sentence": "He had previously paid roughly $26,100 for a Four Seasons Yacht trip that he panned in a May review for sewage-smelling water in his cabin and inattentiveness to his bean allergy.",
+      "highlight": "panned",
+      "collocations": ["critics panned the film", "panned by reviewers", "a critically panned album"],
+      "note": "评论界专用词，宾语只能是作品或消费体验（电影、专辑、餐厅、酒店），不能拿来批评人的品行——那要用 condemn。强度梯度：criticize（批评）< slam / pan（狠批）< savage（往死里批）。注意一词多义：pan 还有\"平底锅\"和\"（镜头）摇摄\"两个常见义，考试爱考。"
+    },
+    {
+      "word": "surge",
+      "ipa": "/sɜːrdʒ/",
+      "pos": "v. / n.",
+      "en": "to increase suddenly and powerfully",
+      "zh": "激增、猛涨",
+      "sentence": "His video, which rapidly surged to more than 750,000 views, shows his vehicle approaching an unfinished wooden guard hut with stud walls still visible on the outside.",
+      "highlight": "surged",
+      "collocations": ["surge to a record", "a surge in demand", "shares surged 12%"],
+      "note": "上涨动词的强度梯度：edge up（微升）< rise / climb（上升）< jump（跳涨）< surge（猛增）< soar / skyrocket（飙升）。surge 的本义是海浪涌起，所以它自带\"来势猛、时间短\"的意味。财经写作里 surge to（涨到某个数）和 surge in（某方面的激增）都是高频搭配。"
+    },
+    {
+      "word": "press",
+      "ipa": "/pres/",
+      "pos": "v.",
+      "en": "to question someone persistently in order to get information they are reluctant to give",
+      "zh": "追问、逼问",
+      "sentence": "When later pressed by the Journal, Walker revised his timeline, saying it arrived the previous morning.",
+      "highlight": "pressed",
+      "collocations": ["press sb. for details", "when pressed on the issue", "press the point"],
+      "note": "记者写作的招牌动词：when pressed（被追问时）几乎是一个固定句式，后面往往跟着当事人改口——本文正是如此。搭配要分清：press sb. FOR sth.（追问以求得某物）、press sb. ON sth.（就某议题追问）。名词 the press ＝ 新闻界，同源但义项完全不同。"
+    },
+    {
+      "word": "amend",
+      "ipa": "/əˈmend/",
+      "pos": "v.",
+      "en": "to make minor changes to a text, document or record in order to correct or improve it",
+      "zh": "（对文件、说法）作出修改、更正",
+      "sentence": "Walker did not amend the timeline in his video or in a subsequent livestream.",
+      "highlight": "amend",
+      "collocations": ["amend a filing", "amend the constitution", "an amended forecast"],
+      "note": "和上一句的 revised 对照着记，这是本文埋的一个精妙对比：Walker 对记者 revised his timeline（口头改了说法），却没有 amend the timeline in his video（在已发布的内容里正式更正）。revise ＝ 重新审视后改动，可大可小；amend ＝ 对已经成文、已经公开的东西做局部订正，正式感最强（宪法修正案就是 amendment）；correct ＝ 单纯改错。"
+    },
+    {
+      "word": "sentiment",
+      "ipa": "/ˈsentɪmənt/",
+      "pos": "n.",
+      "en": "a view or opinion held by a group of people, especially as a prevailing mood",
+      "zh": "（群体性的）看法、情绪倾向",
+      "sentence": "“Will never book another Aman property again,” read one of more than 5,000 comments, many of which expressed similar sentiments.",
+      "highlight": "sentiments",
+      "collocations": ["market sentiment", "consumer sentiment", "echo the sentiment"],
+      "note": "财经新闻里的绝对高频词：market sentiment（市场情绪）、consumer sentiment（消费者信心指数）。注意它不是\"感情\"——个人的喜怒哀乐是 emotion / feeling，sentiment 指的是一群人共同持有的倾向性看法。形容词 sentimental（多愁善感的）是彻头彻尾的贬义假朋友，别从名词直接推。"
+    },
+    {
+      "word": "invoke",
+      "ipa": "/ɪnˈvoʊk/",
+      "pos": "v.",
+      "en": "to cite or appeal to something (a law, a name, an authority) as grounds or as an effect",
+      "zh": "援引、搬出（法条、名义、权威）",
+      "sentence": "Inspect the footage closely, and questions surface—notably, around an absence of the police invoked in the video’s title.",
+      "highlight": "invoked",
+      "collocations": ["invoke a law / a clause", "invoke the Fifth Amendment", "invoke sb.'s name"],
+      "note": "这里用得非常刁：the police invoked in the video's title ＝ 视频标题里\"搬出来\"的那些警察——一个 invoked 就点明了警察只存在于标题的修辞里，而不在画面里。商务与法律语境中的核心义是\"援引条款\"：invoke the force majeure clause（援引不可抗力条款）。别和 evoke（唤起情感、勾起回忆）混，两者只差一个字母：invoke 搬出权威，evoke 唤起感受。"
+    },
+    {
+      "word": "pledge",
+      "ipa": "/pledʒ/",
+      "pos": "v. / n.",
+      "en": "to promise formally and publicly to do or give something",
+      "zh": "郑重承诺、保证；（名词）质押",
+      "sentence": "The Aman spokesperson says the resort refunded Walker’s booking in full, pledged to cover additional travel and cancellation costs and offered to help him rebook his stay.",
+      "highlight": "pledged",
+      "collocations": ["pledge to do sth.", "pledge support / aid", "pledge shares as collateral"],
+      "note": "比 promise 更正式、更公开，因此企业声明和政府表态里几乎全用 pledge：pledged to cut emissions。金融语境里另有一个必须知道的义项——\"质押\"：pledge shares as collateral（以股票作抵押），这时它和\"承诺\"没什么关系了。"
+    },
+    {
+      "word": "highlight",
+      "ipa": "/ˈhaɪlaɪt/",
+      "pos": "v.",
+      "en": "to make a problem or fact stand out so that people notice it",
+      "zh": "凸显、暴露出（问题）",
+      "sentence": "The dispute highlights growing tension between commercial enterprises and content creators looking to record on private property.",
+      "highlight": "highlights",
+      "collocations": ["highlight the risks", "the case highlights a broader trend", "underscore the need for"],
+      "note": "\"个案 → 普遍趋势\"是新闻收尾段的固定动作，这个动作的动词就那么几个，强度递增：highlight（凸显）< underscore / underline（着重强调）< expose / lay bare（暴露、揭开）。写作时把 shows 换成 highlights，句子的分量立刻不一样。"
+    },
+    {
+      "word": "discretion",
+      "ipa": "/dɪˈskreʃn/",
+      "pos": "n.",
+      "en": "(1) the quality of keeping private matters private; (2) the freedom to decide something for oneself",
+      "zh": "（1）谨慎、守口如瓶；（2）自由裁量权",
+      "sentence": "The luxury world may still value discretion.",
+      "highlight": "discretion",
+      "collocations": ["at sb.'s discretion", "use your discretion", "the soul of discretion"],
+      "note": "一词两义，而且两个形容词还分家，是高频陷阱：义项（1）守密 → 形容词 discreet（谨慎的、不张扬的）；义项（2）自由裁量 → 形容词 discretionary（可自由支配的，如 discretionary spending 可选支出）。本文结尾取的是第（1）义，与开头的 fierce guest confidentiality 遥相呼应。"
+    }
+  ],
+
+  "sentences": [
+    {
+      "chunks": [
+        { "t": "The travel world was abuzz", "role": "main" },
+        { "t": "over the coming Aug. 1 launch of Amanvari,", "role": "prep" },
+        { "t": "the first Mexican resort from Aman,", "role": "appos" },
+        { "t": "the multibillion-dollar, ultraluxury hospitality group,", "role": "appos" },
+        { "t": "whose mythos is built on seamless service, total tranquility and fierce guest confidentiality.", "role": "rel" }
+      ],
+      "skeleton": "The travel world was abuzz over the launch of Amanvari.",
+      "zh": "旅游圈都在热议 Amanvari 即将于 8 月 1 日开业——这是身价数十亿美元的超奢酒店集团安缦在墨西哥的第一家度假村，而安缦的江湖地位，正建立在无微不至的服务、绝对的宁静，以及对客人隐私近乎苛刻的保护之上。",
+      "points": [
+        { "label": "同位语套娃：A, the B, the C, whose…", "text": "主句只有五个词，剩下的全是给 Amanvari 加身份：先用一个同位语说它是什么（the first Mexican resort from Aman），再用第二个同位语说 Aman 是什么（the hospitality group），最后用 whose 从句说这家集团凭什么出名。三层信息像套娃一样一层套一层，中间只靠逗号连接。读长句时的口诀是：逗号后面如果直接跟一个名词短语，它十有八九是在解释前面那个名词，而不是新的主语。" },
+        { "label": "中文必须拆句，英文却要塞进一句", "text": "这句话译成中文至少要断成三句（见上）。反过来，中国学生写英文时习惯写成三个 It is… 的短句，读起来像小学生作文。练同位语，就是练把\"次要身份信息\"降格塞进主句的能力——这是中译英水平的分水岭。" },
+        { "label": "三项并列必须同构", "text": "built on 后面挂了三个名词短语：seamless service / total tranquility / fierce guest confidentiality，全都是\"形容词 + 抽象名词\"，字数也接近。英文并列的美感来自结构对称，写作时如果三项里混进一个从句或动词短语，句子立刻塌掉。另外注意 fierce 修饰 confidentiality 的用法——用\"凶猛的\"去修饰一个抽象概念，是特写文章制造质感的常用手法。" }
+      ],
+      "drill": {
+        "prompt_zh": "用「同位语套娃」把下面三句话合成一句：投资者在热议字节跳动的上市计划。字节跳动是中国最大的社交媒体公司。这家公司的声誉建立在算法推荐、极快的迭代速度和对数据的严格保护之上。",
+        "answer": "Investors were abuzz over the coming IPO of ByteDance, the largest social-media company in China, a firm whose reputation is built on algorithmic recommendation, rapid iteration and strict data protection."
+      }
+    },
+    {
+      "chunks": [
+        { "t": "Their dueling accounts reflect a new reality", "role": "main" },
+        { "t": "where cameras are always rolling,", "role": "rel" },
+        { "t": "virality can outpace truth", "role": "rel" },
+        { "t": "and public perception is shaped less by what happened than by who posts first.", "role": "rel" }
+      ],
+      "skeleton": "Their dueling accounts reflect a new reality.",
+      "zh": "双方各执一词的说法，映照出一种新的现实：摄像头永远开着，病毒式传播的速度可以超过真相，而公众怎么看一件事，与其说取决于事情本身，不如说取决于谁先发声。",
+      "points": [
+        { "label": "where 不表示地点", "text": "where 引导定语从句修饰的是 reality（现实）这种抽象名词，而不是地方。这类抽象先行词还有 situation / case / world / economy / stage：a stage where growth slows。判断标准不是\"是不是地方\"，而是\"从句里缺不缺成分\"——这里三个从句都是完整句子，所以 where 只能是关系副词。" },
+        { "label": "一个 where 管三个句子", "text": "where 后面并列了三个完整的主谓结构（cameras are rolling / virality can outpace truth / public perception is shaped），共用同一个 where。这是英文压缩信息的常规操作：不要每句都重复 where。读的时候注意最后一个并列项前的 and，它标志着列举结束。" },
+        { "label": "less by A than by B ＝ 与其说 A 不如说 B", "text": "这是最值得背下来的对比句式，重点是介词必须重复：less BY what happened than BY who posts first。同族句式还有 more a question of X than of Y、not so much A as B。后面的 what happened 和 who posts first 都是名词性从句作介词宾语——英文可以把一整个句子塞进介词后面，中文不行，这是翻译时必须调整语序的地方。" }
+      ],
+      "drill": {
+        "prompt_zh": "用 less by … than by … 写一句：一家初创公司的估值，与其说取决于它今天的收入，不如说取决于投资者相信它三年后会变成什么样。",
+        "answer": "A startup's valuation is determined less by what it earns today than by what investors believe it will become in three years."
+      }
+    },
+    {
+      "chunks": [
+        { "t": "The YouTuber", "role": "main" },
+        { "t": "with more than 150,000 followers", "role": "prep" },
+        { "t": "has built a brand around paying full price for hotel rooms", "role": "main" },
+        { "t": "to guarantee honest reviews,", "role": "nonfin" },
+        { "t": "standing out amid influencers", "role": "nonfin" },
+        { "t": "accepting free trips in exchange for positive content.", "role": "nonfin" }
+      ],
+      "skeleton": "The YouTuber has built a brand around paying full price for hotel rooms.",
+      "zh": "这位拥有超过 15 万粉丝的 YouTube 博主，把自己的品牌立在\"住酒店一律自掏腰包\"上，以此保证测评的诚实——在一众收了免费行程、回报以好评的网红当中，他因此显得与众不同。",
+      "points": [
+        { "label": "build a brand around + 动名词", "text": "around 是介词，后面只能跟名词或动名词，所以是 around PAYING，不是 around pay。同类必须接动名词的高频搭配：be committed to doing、look forward to doing、be used to doing、in addition to doing——这几个的 to 都是介词而非不定式符号，是中国学生最稳定的错误来源之一。" },
+        { "label": "standing out：分词表结果，中文要另起一句", "text": "standing out 不是和 has built 并列的谓语，而是现在分词短语，表示主句动作带来的结果——\"因此显得与众不同\"。中文表达这层意思会另起一句、加上\"从而／因此\"，英文却只用一个逗号加 -ing。写作时把\"A，因此 B\"改写成\"A, doing B\"，句子立刻从学生腔变成报道腔。" },
+        { "label": "名词 + 现在分词 ＝ 省掉的定语从句", "text": "influencers accepting free trips 完整写法是 influencers WHO ACCEPT free trips。名词后面直接挂 -ing，是英文报道压缩信息的主力手段，本文里反复出现（content creators looking to record on private property 也是同一结构）。规律：主动关系用 -ing，被动关系用过去分词（documents provided by Walker ＝ documents that were provided by Walker）。" }
+      ],
+      "drill": {
+        "prompt_zh": "用「主句 + 现在分词表结果 + 名词后置分词定语」写一句：这家公司把品牌建立在从不投放广告上，在一群把大半预算砸向营销的同行中显得格格不入。",
+        "answer": "The company has built its brand around never running ads, standing out among rivals spending most of their budget on marketing."
+      }
+    },
+    {
+      "chunks": [
+        { "t": "His video,", "role": "main" },
+        { "t": "which rapidly surged to more than 750,000 views,", "role": "rel" },
+        { "t": "shows his vehicle approaching an unfinished wooden guard hut", "role": "main" },
+        { "t": "with stud walls still visible on the outside.", "role": "prep" }
+      ],
+      "skeleton": "His video shows his vehicle approaching an unfinished guard hut.",
+      "zh": "他那条播放量迅速冲到 75 万以上的视频显示：他乘坐的车驶近一座尚未完工的木制门卫岗亭，外墙的龙骨立柱还裸露在外。",
+      "points": [
+        { "label": "主语和谓语被从句切断", "text": "主语 His video 和谓语 shows 之间插进了一整个非限制性定语从句。读到 His video, 后面紧跟 which… 时，要先把主语\"挂起\"，跳过两个逗号之间的部分直接找谓语，再回头补充信息。这是长句阅读最常见的绊脚石，也是本课上一篇（伯克希尔）出现过的同一个陷阱——遇到第二次就该形成条件反射了。" },
+        { "label": "show sb./sth. doing：宾语 + 现在分词作宾补", "text": "shows his vehicle approaching…＝显示他的车正在驶近。感官和呈现类动词（show / see / watch / hear / find）后面都能接\"宾语 + doing\"，强调动作正在进行的画面感。对比 show that…（陈述一个事实），前者是画面，后者是结论——本文写的是逐帧看视频，所以必须用画面式的分词。" },
+        { "label": "with + 名词 + 形容词／分词（独立主格）", "text": "with stud walls still visible on the outside ＝ 外墙龙骨还露在外面。这个结构专门用来在句尾追加一个伴随的细节画面，比另起一句省力得多。变体全都值得记：with the door open（形容词）、with time running out（现在分词）、with the deal signed（过去分词）。注意 with 后面的名词和后面的成分之间是主谓关系，但不能用完整的谓语动词。" }
+      ],
+      "drill": {
+        "prompt_zh": "用「主语被定语从句切断 + show sth. doing + with 独立主格」写一句：那段被转发了上百万次的录像显示，工人们正撤离厂房，机器还在轰鸣。",
+        "answer": "The footage, which was shared more than a million times, shows workers leaving the plant with the machines still running."
+      }
+    },
+    {
+      "chunks": [
+        { "t": "Inspect the footage closely,", "role": "main" },
+        { "t": "and questions surface—notably,", "role": "main" },
+        { "t": "around an absence of the police", "role": "prep" },
+        { "t": "invoked in the video’s title.", "role": "nonfin" }
+      ],
+      "skeleton": "Inspect the footage closely, and questions surface.",
+      "zh": "把这段画面仔细过一遍，疑点就浮现出来了——最突出的一点是：视频标题里搬出来的警察，画面里根本没出现。",
+      "points": [
+        { "label": "祈使句 + and ＝ 条件句", "text": "这不是命令读者去做什么，而是一个伪装成祈使句的条件句：Inspect the footage closely, and questions surface ＝ If you inspect the footage closely, questions will surface。配套的还有\"祈使句 + or ＝ 否则\"：Hurry up, or you'll miss it。这个句式在中文教材里几乎不讲，但在英文写作里极常用，因为它比 if 从句短、比 if 从句有力，还能把读者直接拉进现场。" },
+        { "label": "破折号追加的\"事后一刀\"", "text": "破折号后面的 notably… 是补充说明\"具体是哪些疑点\"。英文报道里破折号的作用比括号强得多：括号是\"顺带一提\"，破折号是\"重点在后面\"，往往用来抖包袱。中文的破折号没有这层\"强调\"的默认含义，翻译时通常要改成冒号或者\"最突出的是\"这类明示词。" },
+        { "label": "短句在长句之间制造节奏", "text": "这句只有 21 个词，前后都是三四十词的长句。特写作者会刻意让句长起伏：长句铺陈信息，短句下判断。中国学生写英文最典型的问题是句长齐平——要么全是短句（幼稚），要么全是长句（喘不过气）。有意识地在一段长句后放一个短句，是最容易见效的文体改进。" }
+      ],
+      "drill": {
+        "prompt_zh": "用「祈使句 + and」改写：如果你把这家公司的财报附注读完，就会发现问题——尤其是那笔没人解释过的关联交易。",
+        "answer": "Read the footnotes to the company's filings, and problems surface—notably, a related-party transaction that no one has ever explained."
+      }
+    },
+    {
+      "chunks": [
+        { "t": "Internal documents", "role": "main" },
+        { "t": "provided by Walker", "role": "nonfin" },
+        { "t": "show the resort emailed him five days before his visit,", "role": "sub" },
+        { "t": "telling him it was unable to allow stays involving content coverage until after a month-long media blackout,", "role": "nonfin" },
+        { "t": "and suggested he postpone his travel.", "role": "sub" }
+      ],
+      "skeleton": "Internal documents show the resort emailed him and suggested he postpone his travel.",
+      "zh": "Walker 提供的内部邮件显示，酒店在他到访前五天就发过邮件，告知他在为期一个月的媒体禁发期结束之前，无法接待任何涉及内容拍摄的入住，并建议他推迟行程。",
+      "points": [
+        { "label": "suggested he postpone：虚拟语气，动词用原形", "text": "不是 postpones，也不是 postponed。suggest / recommend / insist / demand / require / propose 后面的宾语从句要用 (should) + 动词原形，should 通常省略，所以第三人称单数也不加 s。反向陷阱同样要记牢：当 suggest 表示\"表明、暗示\"而不是\"建议\"时，从句用正常时态——The data suggests that he IS wrong（数据表明他错了）。判断依据是句子有没有在要求别人做事。" },
+        { "label": "两个 that 都被省略了", "text": "show (that) the resort emailed him… 和 telling him (that) it was unable… 都省掉了 that。省略后从句直接跟在动词后面，容易被误读成宾语名词。破解方法：看到 show / say / tell / find 后面直接跟一个\"名词 + 动词\"的完整结构，就在心里补一个 that 再读。" },
+        { "label": "找准第二个动词的主语（真陷阱）", "text": "结尾的 and suggested 并列的不是 show，而是 emailed——是酒店建议他推迟，不是文件建议他推迟。判断依据有两条：一是逻辑（文件不会提建议），二是时态一致（emailed 和 suggested 都是过去式，而 show 是现在式）。英文长句里并列动词离得很远时，时态往往是判断归属的最可靠线索。" },
+        { "label": "provided by Walker：过去分词作后置定语", "text": "＝ documents THAT WERE provided by Walker。这和上一句的 influencers accepting free trips 是同一套压缩手段的两面：主动关系用 -ing，被动关系用过去分词。顺带注意记者为什么要加这四个词——文件是 Walker 单方面提供的，写明来源就是在提醒读者证据的来路。" }
+      ],
+      "drill": {
+        "prompt_zh": "用「过去分词后置定语 + 省略 that + suggest 虚拟语气」写一句：审计机构提交的文件显示，该公司去年就已收到警告，并建议其立即停止这项业务。",
+        "answer": "Documents submitted by the auditor show the company was warned last year and suggested it halt the business immediately."
+      }
+    },
+    {
+      "chunks": [
+        { "t": "The luxury world may still value discretion.", "role": "main" },
+        { "t": "The internet values whoever speaks first.", "role": "main" }
+      ],
+      "skeleton": "The luxury world values discretion; the internet values whoever speaks first.",
+      "zh": "奢侈品的世界或许依然看重不事张扬。但互联网看重的，是谁先开口。",
+      "points": [
+        { "label": "全文用两个短句收尾（节奏）", "text": "前面全是三四十词的长句，最后突然扔出两个七八词的短句，长短落差本身就制造出\"啪、啪\"两记的力量。这是英文特写最经典的收束手法：不总结、不抒情，只把两件事并排放着，让对比自己说话。中国学生写英文结尾习惯用 In conclusion / All in all，反而把力量泄光了——把结论压缩成两个短句，效果强十倍。" },
+        { "label": "结构平行，主语对立", "text": "两句都是 X values Y 的骨架，动词都用 values，唯一变化的是主语（the luxury world / the internet）和宾语（discretion / whoever speaks first）。结构完全相同才能把注意力全部逼到差异上——这就是排比的原理。注意第一句用了 may still（或许依然），第二句是不加修饰的一般现在时：一个留了余地，一个斩钉截铁，语气强弱也在对立。" },
+        { "label": "whoever ≠ whomever", "text": "whoever speaks first 是名词性从句作 values 的宾语。整个从句作宾语，但 whoever 在从句内部作 speaks 的主语，所以必须用主格 whoever。判断口诀：先看关系词在从句里干什么，别看从句在主句里干什么。对比 The internet rewards whomever it notices first（whomever 在从句里作 notices 的宾语，才用宾格）。" }
+      ],
+      "drill": {
+        "prompt_zh": "模仿这个收尾（两个平行短句 + whoever 从句）写一组：老牌媒体或许依然看重核实。社交平台看重的是谁的标题更耸动。",
+        "answer": "Legacy media may still value verification. The platforms value whoever writes the loudest headline."
+      }
+    }
+  ],
+
+  "phrases": [
+    { "en": "be abuzz over / with sth.", "zh": "对某事议论纷纷、热议", "note": "buzz 是蜜蜂嗡嗡声，画面是\"一屋子人交头接耳\"。主语通常是一个群体：the travel world / Wall Street / the campus was abuzz with rumors." },
+    { "en": "at the center of a controversy", "zh": "处于争议的风口浪尖", "note": "同族说法一起记：at the heart of the dispute（争议的核心）、in the crosshairs（被瞄准、成为众矢之的）。" },
+    { "en": "to hear sb. tell it", "zh": "照某人的说法（言下之意：未必属实）", "note": "插入语，句首用，自带怀疑口吻，是记者不便直接质疑时的委婉刀法：To hear him tell it, the company was never in trouble." },
+    { "en": "scale back sth.", "zh": "缩减（规模、计划、产能）", "note": "本文写 scaled-back capacity（开业期间缩减了接待量）。和 scale down 基本通用，但 scale back 更常用于计划与预期：scale back its expansion plans。反义是 scale up。" },
+    { "en": "stand out amid / among", "zh": "在……当中显得突出", "note": "amid 后接一群人或一片环境（较正式），among 后接可数的一群。stand out 也可接 for/as：stand out for its design（因设计出众）。" },
+    { "en": "in exchange for sth.", "zh": "以换取……", "note": "注意介词组合固定，in 和 for 都不能换。本文语境是网红行业的潜规则：accepting free trips in exchange for positive content。" },
+    { "en": "take sb. up on sth.", "zh": "接受某人的提议／邀约", "note": "专指\"对方提出了，我接受了\"，宾语必须是 offer、invitation、suggestion 一类。本文：he didn't take Aman up on the other reimbursements（他没接受酒店提出的其他补偿）。" },
+    { "en": "maintain / reserve the right to do sth.", "zh": "保留做某事的权利", "note": "合同与条款高频句式，用户协议里满眼都是：We reserve the right to cancel your reservation at any time. 本文用 maintain the right to cancel reservations。" },
+    { "en": "refund sth. in full", "zh": "全额退款", "note": "in full 作状语表示\"足额、不打折扣地\"，可搭配 pay / repay / refund / disclose：The loan was repaid in full." },
+    { "en": "be the guinea pig", "zh": "当小白鼠、当试验品", "note": "guinea pig 本义豚鼠（实验动物）。文中奢旅顾问劝客人别赶开业首月：\"You don't need to be the guinea pig.\" 同义表达：be the test case。" },
+    { "en": "a competing account", "zh": "另一套（相互冲突的）说法", "note": "nearly every claim has a competing account ＝ 几乎每项指控都有另一个版本。与 dueling accounts、conflicting versions 同族，是争议报道的核心词组。" }
+  ],
+
+  "quiz": [
+    {
+      "q": "Their dueling accounts reflect a new reality where virality can ____ truth.",
+      "options": ["outpace", "outnumber", "outlast", "outbid"],
+      "answer": 0,
+      "explain": "out- + 动词表示\"在这个动作上胜过对方\"，选哪个取决于比的是什么。这里比的是速度——谣言传得比真相快，所以用 outpace（pace ＝ 速度）。outnumber 比的是数量（Protesters outnumbered police），outlast 比的是持续时间（The brand outlasted its rivals），outbid 比的是出价（outbid a rival for the asset）。真相和病毒式传播之间是快慢之争，不是多少之争。"
+    },
+    {
+      "q": "Reviewers ____ the hotel for its filthy rooms and rude staff.",
+      "options": ["panned", "blamed", "accused", "condemned"],
+      "answer": 0,
+      "explain": "pan 是评论界专用的\"狠批\"，宾语正是作品或消费体验（电影、专辑、餐厅、酒店），完全对得上。blame 是\"归咎\"，结构须是 blame sb. for sth.，而且被归咎的对象通常是人或原因，不是被评价的对象。accuse 必须接人再接 of（accuse sb. of doing），语法上就接不了 the hotel for。condemn 是道德层面的谴责，用于行为（condemn the attack），拿来批评房间脏则轻重严重失衡。"
+    },
+    {
+      "q": "The reviewer ____ that staff had barred him from entering the resort.",
+      "options": ["alleged", "accused", "blamed", "denied"],
+      "answer": 0,
+      "explain": "先看结构再看词义。allege 后面直接跟 that 从句，结构成立；accuse 和 blame 都不能直接接 that 从句（必须是 accuse sb. of sth. / blame sb. for sth.），所以先出局。denied（否认）会把意思整个反过来——是他自己在指控，不是在否认。深一层：记者选 alleged 而不是 said，是在标明这是单方面说法、尚未证实，自己不为其背书——这正是本文通篇的写法。"
+    },
+    {
+      "q": "The resort suggested he ____ his travel until after the media blackout.",
+      "options": ["postpone", "postpones", "postponed", "will postpone"],
+      "answer": 0,
+      "explain": "suggest / recommend / insist / demand / require / propose 表示\"建议、要求\"时，后面的从句用 (should) + 动词原形，should 通常省略，因此第三人称单数也不加 s——这就是所谓的虚拟语气。反向陷阱要一起记：suggest 表示\"表明、暗示\"时不用虚拟，从句照常变位（The data suggests that he is wrong）。判断标准是这句话有没有在要求别人采取行动。"
+    },
+    {
+      "q": "____ the footage closely, and questions surface.",
+      "options": ["Inspect", "Inspecting", "If inspect", "To inspect"],
+      "answer": 0,
+      "explain": "这是\"祈使句 + and\"的条件句结构，等于 If you inspect the footage closely, questions will surface，所以开头必须是动词原形。Inspecting 会让句子变成动名词主语，但后面接的是 and + 完整句子，接不上。If inspect 缺主语，语法不成立（应为 If you inspect）。To inspect 是不定式，同样无法与 and questions surface 并列。顺带记住配套的\"祈使句 + or ＝ 否则\"：Book early, or you'll miss it."
+    },
+    {
+      "q": "In the closing line “The luxury world may still value discretion,” discretion means the value placed on ____.",
+      "options": ["keeping guests' affairs private", "the freedom to set one's own rules", "spending money carefully", "restricting entry to members"],
+      "answer": 0,
+      "explain": "discretion 有两个常考义项：（1）谨慎、守口如瓶，形容词是 discreet；（2）自由裁量权，形容词是 discretionary（at the manager's discretion ＝ 由经理酌情决定）。判断靠上下文——文章开头就说 Aman 立身之本是 fierce guest confidentiality（对客人隐私的极致保护），结尾这句正是回扣开头，所以取第（1）义。选项 B 是第（2）义的干扰项，C 混淆了 discretion 与 frugality，D 与词义无关。"
+    },
+    {
+      "q": "Which of Walker's claims did Aman dispute by showing the Journal an internal document?",
+      "options": ["That the resort called the police", "That his reservation had been canceled", "That he paid full price for the room", "That the resort opened on Aug. 1"],
+      "answer": 0,
+      "explain": "考的是抓住争议焦点的能力。Aman 出示了一份事故报告（incident report），其中未提及任何执法人员，以此反驳\"酒店报警\"的说法——而这恰恰是视频标题的全部卖点。B、C、D 三项双方并无分歧：取消预订酒店自己承认（还全额退了款），自费订房是 Walker 一贯的人设，8 月 1 日开业是背景事实。读争议报道时的关键动作，就是把\"双方都认可的事实\"和\"各执一词的部分\"分开——本文最后一段用两个问句把这条分界线画得很明白。"
+    }
+  ]
+}

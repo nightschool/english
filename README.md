@@ -11,10 +11,11 @@
 
 ## 课程库
 
-共 **3** 篇 · 词汇 **40** 个 · 长难句 **20** 句
+共 **4** 篇 · 词汇 **54** 个 · 长难句 **27** 句
 
 | 日期 | 标题 | 中文 | 版块 | 词汇 | 长难句 | 难度 |
 |---|---|---|---|---|---|---|
+| 2026-08-13 | [A New Luxury Hotel Canceled a YouTuber’s $4,663 Stay. Then Came the Viral Feud.](https://nightschool.github.io/english/2026-08-13-luxury-hotel-viral-feud.html) | 奢华酒店取消了一位 YouTuber 的 4663 美元订房，然后引爆了一场舆论互撕 | Lifestyle / Travel | 14 | 7 | B2–C1 |
 | 2026-08-08 | [Berkshire Hathaway, Under a New CEO, Starts to Spend Its Cash Pile](https://nightschool.github.io/english/2026-08-08-berkshire-cash-pile.html) | 新任 CEO 掌舵下，伯克希尔开始动用它的现金储备 | Finance | 10 | 6 | B2–C1 |
 | 2026-08-07 | [Move 37 Is the Moment AI Changes Everything. It's Suddenly Happening Everywhere.](https://nightschool.github.io/english/2026-08-07-move-37-ai.html) | "第37手"是AI改变一切的瞬间——而它正在到处发生 | Tech · Science of Success | 16 | 7 | C1 |
 | 2026-08-07 | [China's New Export Engine: Supplying the Factories of the World](https://nightschool.github.io/english/2026-08-07-china-export-engine.html) | 中国新的出口引擎：为全世界的工厂供货 | Economy · Trade | 14 | 7 | B2–C1 |
